@@ -14,6 +14,26 @@ Ships with:
 
 ---
 
+## Downloads
+
+| Asset | What it is | Link |
+|---|---|---|
+| 📦 **Custom model (everything)** | Full repo: code, YOLO weights, LoRA, dataset split, eval outputs, panels, collage | [`git clone https://github.com/Eeman1113/dental_study.git`](https://github.com/Eeman1113/dental_study) |
+| 🎯 **Custom YOLO model** | `best.pt` — YOLO11m, ~81 MB, patient-safe occlusal split, mAP50 = 0.860 | [Download `best.pt`](https://github.com/Eeman1113/dental_study/raw/main/best.pt) |
+| 🦷 **Custom DentaMedGemma (LoRA adapter)** | PEFT adapter on top of `google/medgemma-1.5-4b-it`, ~131 MB | [Download `adapter_model.safetensors`](https://github.com/Eeman1113/dental_study/raw/main/Dataset/model/medgemma_caries_lora/adapter_model.safetensors) |
+| 🦷 **Custom DentaMedGemma (Ollama-ready GGUF)** | Q4_K_M quantized + vision projector, drop into Ollama | [HF: `sdvzdfgfngdfgh/caries-medgemma-gguf`](https://huggingface.co/sdvzdfgfngdfgh/caries-medgemma-gguf) |
+
+**One-liner to pull everything and get the model running:**
+```bash
+git lfs install && git clone https://github.com/Eeman1113/dental_study.git && cd dental_study
+huggingface-cli download sdvzdfgfngdfgh/caries-medgemma-gguf \
+  medgemma_caries-Q4_K_M.gguf mmproj-medgemma_caries-F16.gguf \
+  --local-dir Dataset/model/gguf
+ollama create caries-medgemma -f Modelfile.caries
+```
+
+---
+
 ## Table of contents
 
 - [Headline result](#headline-result)
