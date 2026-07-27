@@ -1,0 +1,33 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1240-01_1732954748387_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.27974769473075867,
+      "box": [
+        182,
+        253,
+        597,
+        660
+      ],
+      "padded_box": [
+        119,
+        191,
+        659,
+        721
+      ],
+      "reasoning": "The image shows close-up views of teeth, specifically the crowns of molars. The teeth appear white and generally healthy. There is no obvious evidence of dental caries (tooth decay) visible in this cropped view. I am not confident that there is any caries present based on this limited view.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0
+  }
+}

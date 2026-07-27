@@ -1,0 +1,158 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-566-01_1728910029994_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      74,
+      210,
+      309,
+      399
+    ],
+    [
+      1214,
+      206,
+      1426,
+      407
+    ],
+    [
+      1159,
+      391,
+      1391,
+      562
+    ],
+    [
+      102,
+      392,
+      356,
+      606
+    ],
+    [
+      1130,
+      563,
+      1314,
+      702
+    ],
+    [
+      174,
+      566,
+      369,
+      726
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8137743473052979,
+      "box": [
+        1145,
+        377,
+        1407,
+        602
+      ],
+      "padded_box": [
+        1105,
+        343,
+        1432,
+        635
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel structure and some discoloration. There is a dark shadow within the enamel of the upper molar. This appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.673
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8092690706253052,
+      "box": [
+        62,
+        198,
+        321,
+        423
+      ],
+      "padded_box": [
+        23,
+        164,
+        359,
+        456
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible decay. There is a brownish discoloration and irregular texture within the tooth structure, particularly on the occlusal (chewing) surface. This appears to be evidence of dental caries. I am moderately confident in this assessment based on the visual characteristics.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7622
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8015956878662109,
+      "box": [
+        1202,
+        199,
+        1432,
+        416
+      ],
+      "padded_box": [
+        1167,
+        166,
+        1432,
+        448
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible decay. There is a dark brown lesion within the grooves of the occlusal (chewing) surface. This appears to be dental caries (tooth decay). I am moderately confident this is caries, as the discoloration and texture are characteristic.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8538
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7925530076026917,
+      "box": [
+        93,
+        374,
+        370,
+        617
+      ],
+      "padded_box": [
+        51,
+        337,
+        411,
+        653
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel structure and some areas of discoloration. There is evidence of dental caries (tooth decay) - for example a cavitated lesion, a dark shadow inside enamel, or a brown/black discolouration on a tooth surface? Answer in two short sentences: first what you see, then whether it looks like caries and how confident you are. The image shows close-up views of teeth with visible enamel structure and some areas of discoloration. There is evidence of dental caries (tooth decay) - for example a cavitated lesion, a dark shadow inside enamel, or a brown/black discolouration on a tooth surface? Answer in two short sentences: first what you see, then whether it looks like caries and how confident you are. The image shows close-up views of teeth with visible enamel structure and some areas of discoloration. There is evidence of dental caries (tooth decay) - for example a cavitated lesion, a dark shadow inside enamel, or a brown/black discolouration on a tooth surface? Answer in two short sentences: first what you see, then whether it looks like caries and how confident you are. The image shows close-up views of teeth with visible enamel structure and some areas of discoloration. There is evidence of dental caries (tooth decay) - for example a cavitated lesion, a dark shadow inside enamel, or a brown/black discolouration on a tooth surface? Answer in two short sentences: first what you see, then whether it looks like caries and how confident you are. The image shows close-up views of teeth with visible enamel structure and some areas of discoloration. There is evidence of dental caries (tooth decay) - for example a cavitated lesion, a dark shadow inside enamel, or a brown/black discolouration on a tooth surface? Answer in two short sentences: first what you see, then whether it looks like caries and how confident you are. The image shows close-up views of teeth with visible enamel structure and some areas of discoloration. There is evidence of dental caries (tooth decay) - for example a cavitated lesion, a dark shadow inside enamel, or a brown/black discolouration on a tooth surface? Answer in two short sentences: first what you see, then whether it looks like caries and how confident you are. The image shows close-up views of teeth with visible enamel structure and some areas of discoloration. There is evidence of dental caries (tooth decay) - for example a cavitated lesion, a dark shadow inside enamel, or a brown/black discolouration on a tooth surface? Answer in two short sentences: first what you see, then whether it looks like caries and how confident you are. The image shows close-up views of teeth with visible enamel structure and some areas of discoloration. There is evidence of dental caries (tooth decay) - for example a cavitated lesion, a dark shadow inside enamel, or a brown/black discolouration on a tooth surface? Answer in two short sentences: first what you see, then whether it looks like caries and how confident you are. The image shows close-up views of teeth with visible enamel structure and some areas of discoloration. There is evidence of dental caries (tooth decay) - for example a cavitated lesion, a dark shadow inside enamel, or a brown/black discolouration on a tooth surface? Answer in two short sentences: first what you see, then whether it looks like caries and how confident you are. The image shows close-up views of teeth with visible enamel structure and some areas of discoloration. There is evidence of dental caries (tooth decay) - for example a cavitated lesion, a dark shadow inside enamel, or a brown/black discolouration on a tooth surface? Answer in two short sentences: first what you see, then whether it looks like caries and how confident you are. The image shows close-up views of teeth with visible enamel structure and some areas of discoloration. There is evidence of dental caries (tooth decay) - for example a cavitated lesion, a dark shadow inside enamel, or a brown/black discolouration on a tooth surface? Answer in two short sentences: first what you see, then whether it looks like caries and how confident you are. The image shows close-up views of teeth with visible enamel structure and some areas of discoloration. There is evidence of dental caries (tooth decay) - for example a cavitated lesion, a dark shadow inside enamel, or a brown/black discolouration on a tooth surface? Answer in two short sentences: first what you see, then whether it looks like caries and how confident you are. The image shows close-up views of teeth with visible enamel structure and some areas of discoloration. There is evidence of dental caries (tooth decay) - for example a cavitated lesion, a dark shadow inside enamel, or a brown/black discolouration on a tooth surface? Answer in two short sentences: first what",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8075
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.4468480050563812,
+      "box": [
+        1122,
+        547,
+        1321,
+        714
+      ],
+      "padded_box": [
+        1092,
+        521,
+        1350,
+        739
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be some discoloration or staining within one of the grooves on the occlusal surface. It does not look like a cavitated lesion, dark shadow inside enamel, or brown/black discolouration on a tooth surface. Based on this visual information alone, it is difficult to definitively determine if there is dental caries. The discoloration could be due to various factors like staining from food or drink, or potentially early decay. Confidence in identifying caries based solely on this image is low.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.7696
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 1
+  }
+}

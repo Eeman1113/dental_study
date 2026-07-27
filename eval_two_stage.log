@@ -1,0 +1,40 @@
+test images with GT: 254 / sampled: 20
+[1/20] anonymous_003-007-1363-00_1733726568839_Mandibular_View.jpg: gt=3 pred=3 tp=3 fp=0 fn=0 | elapsed 0.3m eta 6.1m
+[2/20] anonymous_003-007-1062-00_1731395133625_Mandibular_View.jpg: gt=4 pred=4 tp=4 fp=0 fn=0 | elapsed 0.8m eta 6.8m
+[3/20] anonymous_003-007-608-01_1729061556946_Maxillary_Occlusal_View.jpg: gt=1 pred=1 tp=1 fp=0 fn=0 | elapsed 0.9m eta 4.9m
+[4/20] anonymous_003-007-608-01_1729061556946_Mandibular_View.jpg: gt=4 pred=4 tp=3 fp=1 fn=1 | elapsed 1.3m eta 5.1m
+[5/20] anonymous_003-007-1058-00_1731390028166_Mandibular_View.jpg: gt=4 pred=4 tp=4 fp=0 fn=0 | elapsed 1.7m eta 5.0m
+[6/20] anonymous_003-007-1363-00_1733726568839_Maxillary_Occlusal_View.jpg: gt=4 pred=4 tp=4 fp=0 fn=0 | elapsed 2.2m eta 5.1m
+[7/20] anonymous_003-008-1202-00_1732788831480_Maxillary_Occlusal_View.jpg: gt=1 pred=1 tp=1 fp=0 fn=0 | elapsed 2.3m eta 4.2m
+[8/20] anonymous_003_007_339_01_1728020284845_Mandibular_View.jpg: gt=6 pred=6 tp=6 fp=0 fn=0 | elapsed 2.9m eta 4.3m
+[9/20] anonymous_003-008-686-01_1729259151138_Mandibular_View.jpg: gt=3 pred=4 tp=3 fp=1 fn=0 | elapsed 3.2m eta 3.9m
+[10/20] anonymous_003-008-1253-00_1732971070859_Mandibular_View.jpg: gt=1 pred=2 tp=1 fp=1 fn=0 | elapsed 3.4m eta 3.4m
+[11/20] anonymous_003_007_556_00_1728891607018_Mandibular_View.jpg: gt=4 pred=5 tp=4 fp=1 fn=0 | elapsed 3.9m eta 3.2m
+[12/20] anonymous_003-007-1043-01_1731313150655_Mandibular_View.jpg: gt=4 pred=4 tp=4 fp=0 fn=0 | elapsed 4.3m eta 2.8m
+[13/20] anonymous_003-007-1385-01_1733812781705_Maxillary_Occlusal_View.jpg: gt=6 pred=7 tp=6 fp=1 fn=0 | elapsed 4.9m eta 2.7m
+[14/20] anonymous_003-007-1254-01_1733114052105_Mandibular_View.jpg: gt=3 pred=3 tp=3 fp=0 fn=0 | elapsed 5.3m eta 2.3m
+[15/20] anonymous_003-007-632-00_1729144134892_Mandibular_View.jpg: gt=2 pred=3 tp=2 fp=1 fn=0 | elapsed 5.5m eta 1.8m
+[16/20] anonymous_003_007_502_00_1728708607584_Maxillary_Occlusal_View.jpg: gt=2 pred=4 tp=2 fp=2 fn=0 | elapsed 5.9m eta 1.5m
+[17/20] anonymous_003-008-818-00_1729941374322_Maxillary_Occlusal_View.jpg: gt=1 pred=2 tp=1 fp=1 fn=0 | elapsed 6.1m eta 1.1m
+[18/20] anonymous_003_008_521_00_1728733813051_Mandibular_View.jpg: gt=2 pred=3 tp=2 fp=1 fn=0 | elapsed 6.5m eta 0.7m
+[19/20] anonymous_003-008-1292-01_1733312885543_Maxillary_Occlusal_View.jpg: gt=4 pred=1 tp=1 fp=0 fn=3 | elapsed 6.5m eta 0.3m
+[20/20] anonymous_003_007_423_00_1728457856133_Maxillary_Occlusal_View.jpg: gt=5 pred=4 tp=4 fp=0 fn=1 | elapsed 6.9m eta 0.0m
+
+=== YOLO-alone (all detections at conf>=0.25) ===
+TP=59  FP=10  FN=5  P=0.855  R=0.922
+
+=== cross-tab: MedGemma verdict vs actual TP/FP ===
+verdict        TP     FP  reject_rate_on_FP  keep_rate_on_TP
+confirm        41      5
+uncertain      10      2
+reject          8      3
+
+if we drop MedGemma-rejected detections:
+  FPs removed: 3/10 = 30.0%
+  TPs lost   : 8/59 = 13.6%
+
+=== YOLO + MedGemma-veto (drop 'reject') ===
+TP=51  FP=7  FN=13  P=0.879  R=0.797
+delta vs YOLO alone: P +0.024   R -0.125
+
+report -> eval_two_stage_report.json

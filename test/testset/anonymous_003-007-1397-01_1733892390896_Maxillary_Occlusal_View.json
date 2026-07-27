@@ -1,0 +1,74 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1397-01_1733892390896_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      221,
+      971,
+      656,
+      1403
+    ],
+    [
+      176,
+      1297,
+      608,
+      1714
+    ],
+    [
+      1939,
+      1397,
+      2426,
+      1832
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.9409410357475281,
+      "box": [
+        198,
+        958,
+        688,
+        1409
+      ],
+      "padded_box": [
+        124,
+        890,
+        761,
+        1476
+      ],
+      "reasoning": "The image shows close-up views of teeth, specifically the occlusal (biting) surfaces. There appears to be a small, dark area visible on one of the teeth. This could potentially represent early dental caries or another type of lesion. I am not a medical professional and cannot provide a definitive diagnosis. However, based on visual inspection alone, it does appear suspicious for caries. My confidence in this assessment is moderate.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8504
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.29964596033096313,
+      "box": [
+        1919,
+        1376,
+        2449,
+        1853
+      ],
+      "padded_box": [
+        1839,
+        1304,
+        2528,
+        1912
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is some slight discoloration visible on the occlusal (chewing) surface of the lower right molar. It appears as a small dark spot or shadow within the tooth structure. Yes, it looks like caries and I am moderately confident in this assessment based on the visual appearance of the dark spot.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.838
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 1
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_004-007-1321-00_1733473332768_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      120,
+      383,
+      475,
+      760
+    ],
+    [
+      1564,
+      370,
+      1998,
+      786
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.6710332632064819,
+      "box": [
+        1718,
+        45,
+        2159,
+        462
+      ],
+      "padded_box": [
+        1651,
+        0,
+        2159,
+        524
+      ],
+      "reasoning": "The image shows 5 intact, normal-appearing primary molars visible in the crop. There is no evidence of dental caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0.0761
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.6064321994781494,
+      "box": [
+        1544,
+        343,
+        2030,
+        812
+      ],
+      "padded_box": [
+        1471,
+        272,
+        2102,
+        882
+      ],
+      "reasoning": "The image shows 6 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. Final Answer: The visible dentition appears healthy with no signs of caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7921
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.27932628989219666,
+      "box": [
+        86,
+        366,
+        505,
+        773
+      ],
+      "padded_box": [
+        23,
+        304,
+        567,
+        834
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;No;Not Caries",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7848
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  }
+}

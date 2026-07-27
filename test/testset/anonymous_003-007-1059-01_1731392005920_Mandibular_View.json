@@ -1,0 +1,90 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1059-01_1731392005920_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      145,
+      468,
+      637,
+      795
+    ],
+    [
+      2229,
+      483,
+      2768,
+      976
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7899163365364075,
+      "box": [
+        2202,
+        466,
+        2793,
+        1041
+      ],
+      "padded_box": [
+        2113,
+        379,
+        2881,
+        1127
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with significant discoloration and textural changes on its occlusal (chewing) surface. There appears to be a brownish-yellowish area within the tooth structure. Yes, this looks highly suggestive of dental caries (tooth decay). The discoloration and texture change are characteristic features of a cavitated lesion. My confidence in this assessment is high.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.782
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7834992408752441,
+      "box": [
+        125,
+        442,
+        661,
+        909
+      ],
+      "padded_box": [
+        44,
+        371,
+        741,
+        979
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interdental spaces. There is a small, slightly darker area on the occlusal (chewing) surface of the lower right molar. Yes, there appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment due to the visible discoloration.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.6427
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.6836556792259216,
+      "box": [
+        61,
+        70,
+        566,
+        577
+      ],
+      "padded_box": [
+        0,
+        0,
+        641,
+        653
+      ],
+      "reasoning": "The image shows a close-up view of several teeth within the mouth. The teeth appear white and relatively healthy, though some minor variations in shade and texture are visible. There is no obvious sign of dental caries (tooth decay). I am not confident that there is evidence of caries in this image.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  }
+}

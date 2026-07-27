@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1062-00_1731395133625_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      261,
+      870,
+      786,
+      1299
+    ],
+    [
+      65,
+      1424,
+      619,
+      1874
+    ],
+    [
+      2627,
+      1449,
+      3177,
+      1820
+    ],
+    [
+      2615,
+      1740,
+      3081,
+      1986
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7713780999183655,
+      "box": [
+        205,
+        873,
+        822,
+        1303
+      ],
+      "padded_box": [
+        112,
+        808,
+        914,
+        1367
+      ],
+      "reasoning": "The image shows close-up views of teeth, specifically the occlusal surfaces (chewing surfaces) of premolars or molars. The enamel appears generally intact with visible cusps and grooves. There is a small dark spot visible on one of the teeth, possibly representing a minor abrasion or early caries. There is a small dark spot visible on one of the teeth, potentially indicating early caries. Confidence: Low to Moderate.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.838
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.6965537071228027,
+      "box": [
+        15,
+        1389,
+        649,
+        1916
+      ],
+      "padded_box": [
+        0,
+        1309,
+        744,
+        1995
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is some discoloration present on the occlusal (chewing) surfaces of several teeth, appearing as dark brown or blackish patches. Yes, there appears to be evidence of dental caries (tooth decay). The dark discolourations are highly suggestive of cavitated lesions within the tooth structure. My confidence in this assessment is high based on the visual characteristics.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7461
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.6962031126022339,
+      "box": [
+        2589,
+        1682,
+        3106,
+        2024
+      ],
+      "padded_box": [
+        2511,
+        1630,
+        3183,
+        2075
+      ],
+      "reasoning": "The image shows the occlusal surfaces of maxillary molars with visible crowns. There is no clear evidence of dental caries. I am not confident in this assessment as the resolution is limited.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.6483
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.45551151037216187,
+      "box": [
+        2612,
+        1158,
+        3132,
+        1488
+      ],
+      "padded_box": [
+        2534,
+        1108,
+        3210,
+        1537
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, dark spot visible on the occlusal (chewing) surface of one of the lower molars. This appears to be a potential area of concern. Yes, it looks like caries and I am moderately confident based on the visual appearance of the dark spot.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0.0553
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 1,
+    "fn": 1
+  }
+}

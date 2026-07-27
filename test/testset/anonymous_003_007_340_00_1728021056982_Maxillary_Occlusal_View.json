@@ -1,0 +1,158 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_340_00_1728021056982_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      289,
+      805,
+      587,
+      1019
+    ],
+    [
+      1745,
+      830,
+      2084,
+      1016
+    ],
+    [
+      181,
+      969,
+      551,
+      1253
+    ],
+    [
+      1773,
+      994,
+      2162,
+      1280
+    ],
+    [
+      1812,
+      1236,
+      2114,
+      1480
+    ],
+    [
+      148,
+      1197,
+      514,
+      1450
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7641300559043884,
+      "box": [
+        274,
+        787,
+        593,
+        1016
+      ],
+      "padded_box": [
+        226,
+        752,
+        640,
+        1050
+      ],
+      "reasoning": "The image shows close-up views of teeth, likely premolars or molars, with visible enamel structure and some plaque or calculus buildup near the gumline. There is a small dark spot on the occlusal (chewing) surface of one tooth. Yes, it appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment due to the distinct dark spot visible within the tooth's structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8503
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.6940894722938538,
+      "box": [
+        1792,
+        1220,
+        2140,
+        1489
+      ],
+      "padded_box": [
+        1739,
+        1179,
+        2180,
+        1529
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible enamel structure and some yellowish discoloration near the gum line. There is no clear evidence of dental caries such as cavitation or dark decay. I am not confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.7872
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.5605384707450867,
+      "box": [
+        160,
+        930,
+        562,
+        1280
+      ],
+      "padded_box": [
+        99,
+        877,
+        622,
+        1332
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interdental spaces. There is a dark spot visible on the occlusal (chewing) surface of the upper right premolar. Yes, there appears to be evidence of dental caries (tooth decay). The dark spot suggests a cavitated lesion or an area of demineralization. My confidence in this assessment is high based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7468
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.5526666641235352,
+      "box": [
+        1745,
+        801,
+        2100,
+        1042
+      ],
+      "padded_box": [
+        1691,
+        764,
+        2153,
+        1078
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interproximal areas. There is a noticeable dark discoloration on the occlusal (chewing) surface of the lower right second molar. This appears to be a cavitated lesion, indicative of dental caries. I am confident this represents caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.737
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.3252852261066437,
+      "box": [
+        178,
+        1182,
+        529,
+        1476
+      ],
+      "padded_box": [
+        125,
+        1137,
+        581,
+        1520
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including molars and premolars, with visible enamel surfaces and some interdental spaces. The gums appear pinkish. There is no obvious sign of dental caries (tooth decay) in the visible portions of these teeth. I am not confident that there are no hidden areas of decay.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 5,
+      "iou_with_gt": 0.7673
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 1
+  }
+}

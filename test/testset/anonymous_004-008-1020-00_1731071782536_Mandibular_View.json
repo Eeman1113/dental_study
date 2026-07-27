@@ -1,0 +1,29 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_004-008-1020-00_1731071782536_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      39,
+      34,
+      233,
+      193
+    ],
+    [
+      122,
+      186,
+      302,
+      333
+    ],
+    [
+      192,
+      308,
+      344,
+      444
+    ]
+  ],
+  "detections": [],
+  "matched": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 3
+  }
+}

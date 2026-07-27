@@ -1,0 +1,62 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-009-1197-01_1732783016757_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      2472,
+      291,
+      3041,
+      811
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8039577603340149,
+      "box": [
+        2427,
+        255,
+        3076,
+        826
+      ],
+      "padded_box": [
+        2329,
+        169,
+        3173,
+        911
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be some discoloration or shadowing within the grooves of the tooth's surface. It does not look like there is a distinct cavitated lesion, dark shadow inside enamel, or brown/black discolouration on a tooth surface. Based on this visual inspection, it does not appear to show clear evidence of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7984
+    },
+    {
+      "index": 1,
+      "cls": "D",
+      "confidence": 0.5422030091285706,
+      "box": [
+        197,
+        832,
+        860,
+        1452
+      ],
+      "padded_box": [
+        97,
+        739,
+        959,
+        1545
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There appear to be small, light-colored spots visible on the surfaces of the teeth. It is difficult to determine definitively if these spots represent dental caries (tooth decay) without further information or clinical examination. The resolution and angle make it challenging to assess subtle details like cavitation.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  }
+}

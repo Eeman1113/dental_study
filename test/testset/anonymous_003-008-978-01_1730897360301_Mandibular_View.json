@@ -1,0 +1,68 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-978-01_1730897360301_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      265,
+      209,
+      505,
+      409
+    ],
+    [
+      1217,
+      269,
+      1431,
+      484
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8069847226142883,
+      "box": [
+        1200,
+        261,
+        1434,
+        491
+      ],
+      "padded_box": [
+        1164,
+        226,
+        1469,
+        525
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible decay. There is a dark brown discoloration within the grooves of the tooth's occlusal (chewing) surface. This appears to be dental caries (tooth decay). I am moderately confident this is caries, as the discoloration is localized and consistent with decay.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8549
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7995555996894836,
+      "box": [
+        265,
+        199,
+        496,
+        415
+      ],
+      "padded_box": [
+        230,
+        166,
+        530,
+        447
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps. There is a dark brown discoloration within the grooves of one of the occlusal surfaces. This appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8937
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 0
+  }
+}

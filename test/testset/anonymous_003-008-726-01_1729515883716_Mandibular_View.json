@@ -1,0 +1,84 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-726-01_1729515883716_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      70,
+      432,
+      237,
+      616
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8383252620697021,
+      "box": [
+        864,
+        125,
+        1073,
+        303
+      ],
+      "padded_box": [
+        832,
+        98,
+        1104,
+        329
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel structure and some slight variations in translucency. There is no obvious evidence of dental caries such as cavitated lesions, dark shadows within the enamel, or brown/black discoloration on the tooth surfaces shown. Based on this visual inspection, it does not appear to show signs of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 1,
+      "cls": "D",
+      "confidence": 0.7845519185066223,
+      "box": [
+        64,
+        423,
+        249,
+        617
+      ],
+      "padded_box": [
+        36,
+        393,
+        276,
+        646
+      ],
+      "reasoning": "The image shows a large, irregular, yellowish-white mass attached to the root of a molar tooth. It appears to be an odontogenic cyst or tumor. There is no clear evidence of dental caries (tooth decay) visible in this specific cropped view. I am not confident in identifying caries from this single image.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8562
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.2657459080219269,
+      "box": [
+        829,
+        423,
+        997,
+        559
+      ],
+      "padded_box": [
+        803,
+        402,
+        1022,
+        579
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There appears to be a small, lighter line running vertically down the center of one of the cusps. It does not look like a cavity. I am moderately confident this is not caries.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 2,
+    "fn": 0
+  }
+}

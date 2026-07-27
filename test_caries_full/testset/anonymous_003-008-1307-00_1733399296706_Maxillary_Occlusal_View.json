@@ -1,0 +1,90 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1307-00_1733399296706_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1125,
+      546,
+      1392,
+      806
+    ],
+    [
+      51,
+      642,
+      324,
+      882
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8247969150543213,
+      "box": [
+        27,
+        635,
+        330,
+        896
+      ],
+      "padded_box": [
+        0,
+        595,
+        375,
+        935
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8285
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8166664242744446,
+      "box": [
+        1110,
+        546,
+        1411,
+        823
+      ],
+      "padded_box": [
+        1064,
+        504,
+        1456,
+        864
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8326
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.28254711627960205,
+      "box": [
+        98,
+        532,
+        336,
+        694
+      ],
+      "padded_box": [
+        62,
+        507,
+        371,
+        718
+      ],
+      "reasoning": "The image shows two primary caries lesions in the mid right region of the image. I am moderately confident that these are primary caries lesions.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  }
+}

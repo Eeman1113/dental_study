@@ -1,0 +1,55 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1176-01_1732700821121_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.3941357135772705,
+      "box": [
+        96,
+        927,
+        392,
+        1167
+      ],
+      "padded_box": [
+        51,
+        891,
+        436,
+        1203
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.32586026191711426,
+      "box": [
+        128,
+        553,
+        392,
+        729
+      ],
+      "padded_box": [
+        88,
+        526,
+        431,
+        755
+      ],
+      "reasoning": "The image shows 2 permanent upper central incisors with normal morphology and color. I can identify no carious lesions. Final Answer: The visible dentition appears normal with no signs of decay.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 2,
+    "fn": 0
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1059-01_1731392005920_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      145,
+      468,
+      637,
+      795
+    ],
+    [
+      2229,
+      483,
+      2768,
+      976
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7899163365364075,
+      "box": [
+        2202,
+        466,
+        2793,
+        1041
+      ],
+      "padded_box": [
+        2113,
+        379,
+        2881,
+        1127
+      ],
+      "reasoning": "The image shows a permanent caries lesion in the mid right region of the primary caries. I can identify this damage with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.782
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7834992408752441,
+      "box": [
+        125,
+        442,
+        661,
+        909
+      ],
+      "padded_box": [
+        44,
+        371,
+        741,
+        979
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.6427
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.6836556792259216,
+      "box": [
+        61,
+        70,
+        566,
+        577
+      ],
+      "padded_box": [
+        0,
+        0,
+        641,
+        653
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the upper right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  }
+}

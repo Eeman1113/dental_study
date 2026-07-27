@@ -1,0 +1,118 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_473_01_1728630705947_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1620,
+      6,
+      1887,
+      291
+    ],
+    [
+      1487,
+      218,
+      1832,
+      544
+    ],
+    [
+      51,
+      42,
+      344,
+      294
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7795852422714233,
+      "box": [
+        54,
+        32,
+        339,
+        318
+      ],
+      "padded_box": [
+        11,
+        0,
+        381,
+        360
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible plaque and calculus buildup. There is a dark shadow within the enamel of one tooth, suggesting potential early decay. Yes, there appears to be evidence of dental caries (tooth decay). The dark shadow within the enamel is highly suggestive of a cavitated lesion. My confidence in this assessment is high based on the visual evidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8599
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7592758536338806,
+      "box": [
+        1600,
+        0,
+        1887,
+        286
+      ],
+      "padded_box": [
+        1556,
+        0,
+        1930,
+        328
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible plaque buildup and some discoloration on the surfaces. There is also a white lesion visible on one of the teeth. It appears there might be evidence of dental caries (tooth decay), specifically a cavitated lesion, although it's difficult to determine the exact extent from this crop. Confidence in identifying caries is moderate.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8962
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.5647684335708618,
+      "box": [
+        1466,
+        215,
+        1836,
+        538
+      ],
+      "padded_box": [
+        1410,
+        166,
+        1891,
+        586
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including molars and premolars. The surfaces appear somewhat irregular, with some areas showing yellowish discoloration or potential plaque buildup. There is a noticeable dark shadow within the occlusal (chewing) surface of one of the upper molars, suggesting possible caries. Yes, it appears there might be dental caries on the upper molar shown. I am moderately confident in this assessment based on the visible dark shadow.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.908
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.288692831993103,
+      "box": [
+        82,
+        267,
+        432,
+        589
+      ],
+      "padded_box": [
+        29,
+        218,
+        484,
+        637
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including molars and premolars. There appears to be some discoloration and possibly plaque buildup visible on the surfaces of the teeth. Yes, there is evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visible dark shadows within the enamel structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 1,
+    "fn": 0
+  }
+}

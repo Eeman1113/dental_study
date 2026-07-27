@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1018-00_1731069917933_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      41,
+      81,
+      210,
+      225
+    ],
+    [
+      70,
+      208,
+      263,
+      364
+    ],
+    [
+      930,
+      108,
+      1097,
+      247
+    ],
+    [
+      900,
+      232,
+      1087,
+      395
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8057286143302917,
+      "box": [
+        30,
+        77,
+        221,
+        242
+      ],
+      "padded_box": [
+        1,
+        52,
+        249,
+        266
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a noticeable dark discoloration on the occlusal (chewing) surface of the upper right molar. This appears to be a cavitated lesion or decay. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7722
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7390113472938538,
+      "box": [
+        883,
+        223,
+        1088,
+        409
+      ],
+      "padded_box": [
+        852,
+        195,
+        1118,
+        436
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is a small, slightly darker area visible on the mesial aspect of the second molar from the left. This could potentially represent early caries or staining. Based on this single view, it is difficult to definitively determine if there is dental caries. The darker area could be due to various factors like staining or early demineralization. Confidence in identifying caries is low based solely on this image.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.7994
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7273840308189392,
+      "box": [
+        53,
+        197,
+        275,
+        389
+      ],
+      "padded_box": [
+        19,
+        168,
+        308,
+        417
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interproximal areas. There is a noticeable brownish discoloration on the occlusal (chewing) surface of the upper right molar. This discoloration appears to be located within the tooth structure, possibly representing early caries or staining. Yes, it looks like there might be dental caries present. I am moderately confident in this assessment due to the visible discoloration suggesting demineralization.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7064
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.3278137743473053,
+      "box": [
+        915,
+        98,
+        1100,
+        259
+      ],
+      "padded_box": [
+        887,
+        73,
+        1121,
+        283
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is a small, slightly darker area visible on the occlusal (chewing) surface of the upper right molar. This could potentially be early decay or staining. Based on this single view, it's difficult to definitively say if there is caries. The darker spot could be due to various factors like staining or very early demineralization. Confidence in identifying definite caries from this image alone is low.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7794
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

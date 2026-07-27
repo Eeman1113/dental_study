@@ -1,0 +1,102 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-609-00_1729062135762_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      259,
+      409,
+      615,
+      753
+    ],
+    [
+      1559,
+      202,
+      1832,
+      457
+    ],
+    [
+      1517,
+      443,
+      1809,
+      737
+    ],
+    [
+      180,
+      142,
+      480,
+      453
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8191402554512024,
+      "box": [
+        1509,
+        445,
+        1811,
+        737
+      ],
+      "padded_box": [
+        1463,
+        401,
+        1856,
+        780
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be some slight discoloration or shadowing within the grooves of the tooth's surface. It does not look like there is evidence of active dental caries (tooth decay). I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.9605
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8057340383529663,
+      "box": [
+        248,
+        404,
+        623,
+        759
+      ],
+      "padded_box": [
+        191,
+        350,
+        679,
+        812
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible decay. There is a dark area within the enamel, suggesting a cavitated lesion. Yes, there appears to be evidence of dental caries (tooth decay). The dark shadow inside the enamel strongly suggests a cavitated lesion. I am confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9199
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8009169697761536,
+      "box": [
+        1556,
+        195,
+        1841,
+        466
+      ],
+      "padded_box": [
+        1513,
+        154,
+        1883,
+        506
+      ],
+      "reasoning": "The image shows a close-up view of teeth within the mouth. There is a small dark spot visible on one of the teeth. This appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the dark spot.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9013
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 1
+  }
+}

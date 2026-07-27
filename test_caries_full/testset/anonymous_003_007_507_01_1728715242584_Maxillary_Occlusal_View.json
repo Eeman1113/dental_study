@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_507_01_1728715242584_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      350,
+      745,
+      671,
+      1018
+    ],
+    [
+      171,
+      888,
+      604,
+      1351
+    ],
+    [
+      1965,
+      848,
+      2341,
+      1063
+    ],
+    [
+      2041,
+      1021,
+      2450,
+      1406
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7699317336082458,
+      "box": [
+        350,
+        737,
+        665,
+        1016
+      ],
+      "padded_box": [
+        302,
+        695,
+        712,
+        1057
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9469
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7526377439498901,
+      "box": [
+        1965,
+        827,
+        2336,
+        1075
+      ],
+      "padded_box": [
+        1909,
+        789,
+        2391,
+        1112
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. One permanent caries lesion is identified; it appears as a primary caries lesion with a brown discoloration in the mid right region of the image. I am moderately confident this is primary caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8569
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7225498557090759,
+      "box": [
+        1976,
+        1009,
+        2455,
+        1421
+      ],
+      "padded_box": [
+        1904,
+        947,
+        2526,
+        1482
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.7979
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.49329882860183716,
+      "box": [
+        160,
+        901,
+        599,
+        1357
+      ],
+      "padded_box": [
+        94,
+        832,
+        664,
+        1425
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9257
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

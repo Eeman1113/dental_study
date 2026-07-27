@@ -1,0 +1,152 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1428-00_1733988334630_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      261,
+      312,
+      730,
+      754
+    ],
+    [
+      340,
+      651,
+      814,
+      1117
+    ],
+    [
+      2243,
+      67,
+      2706,
+      488
+    ],
+    [
+      2164,
+      449,
+      2698,
+      880
+    ],
+    [
+      2158,
+      796,
+      2603,
+      1138
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8294109106063843,
+      "box": [
+        2144,
+        405,
+        2714,
+        887
+      ],
+      "padded_box": [
+        2058,
+        332,
+        2799,
+        959
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame with normal appearance. There is no evidence of dental caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8377
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8069361448287964,
+      "box": [
+        304,
+        614,
+        837,
+        1088
+      ],
+      "padded_box": [
+        224,
+        542,
+        916,
+        1159
+      ],
+      "reasoning": "The image shows 6 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;0;0",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7776
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8052276968955994,
+      "box": [
+        2204,
+        24,
+        2720,
+        495
+      ],
+      "padded_box": [
+        2126,
+        0,
+        2797,
+        565
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame with normal appearance. There is one primary caries lesion visible in the mid left region of the frame which appears to be a primary caries lesion. I am moderately confident this is primary caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.802
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7473087310791016,
+      "box": [
+        2148,
+        770,
+        2616,
+        1126
+      ],
+      "padded_box": [
+        2077,
+        716,
+        2686,
+        1179
+      ],
+      "reasoning": "The image shows a primary caries lesion in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.854
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.707923948764801,
+      "box": [
+        234,
+        278,
+        735,
+        735
+      ],
+      "padded_box": [
+        158,
+        209,
+        810,
+        803
+      ],
+      "reasoning": "A permanent caries lesion is visible in the mid right region of the image. I am moderately confident this represents primary caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.834
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_004-007-1320-01_1733472660011_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      149,
+      572,
+      573,
+      1010
+    ],
+    [
+      41,
+      247,
+      432,
+      661
+    ],
+    [
+      1904,
+      102,
+      2328,
+      566
+    ],
+    [
+      1747,
+      447,
+      2194,
+      923
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7749747037887573,
+      "box": [
+        1714,
+        426,
+        2238,
+        934
+      ],
+      "padded_box": [
+        1635,
+        349,
+        2316,
+        1010
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interdental spaces. There appears to be a small dark spot or shadow on the mesial aspect of the lower right second molar. Yes, there is evidence of potential dental caries (tooth decay) on the lower right second molar. I am moderately confident in this assessment due to the presence of a distinct dark area within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.7993
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7547202706336975,
+      "box": [
+        1879,
+        92,
+        2347,
+        540
+      ],
+      "padded_box": [
+        1808,
+        24,
+        2376,
+        607
+      ],
+      "reasoning": "The image shows a close-up view of teeth within the mouth. The upper tooth is prominent, with visible enamel structure and some minor variations in color or texture. The lower tooth is partially visible below it. There is no clear evidence of dental caries (tooth decay) visible in this specific cropped section. I am not confident in identifying caries from this image alone.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8415
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7383171319961548,
+      "box": [
+        20,
+        217,
+        454,
+        652
+      ],
+      "padded_box": [
+        0,
+        151,
+        519,
+        717
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, likely premolars or molars, with visible enamel structure and some plaque/calculus buildup on the surfaces. There is no obvious evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows within the enamel, or brown/black discoloration on the tooth surfaces shown in this specific crop. Based on this image alone, it does not appear to show signs of active dental caries. Confidence level: Low (limited view).",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8234
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.6829796433448792,
+      "box": [
+        126,
+        559,
+        601,
+        1021
+      ],
+      "padded_box": [
+        54,
+        489,
+        672,
+        1090
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including the upper molars and premolars. The enamel appears generally intact, though some minor surface irregularities or staining might be present. There is a noticeable dark shadow within the grooves of the upper right molar, which could represent caries. Yes, it looks like there may be evidence of dental caries on the upper right molar. I am moderately confident in this assessment based on the visible shadow within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8463
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

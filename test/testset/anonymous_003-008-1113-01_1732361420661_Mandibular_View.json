@@ -1,0 +1,146 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1113-01_1732361420661_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      64,
+      151,
+      298,
+      362
+    ],
+    [
+      103,
+      341,
+      353,
+      574
+    ],
+    [
+      1076,
+      176,
+      1293,
+      370
+    ],
+    [
+      1006,
+      353,
+      1235,
+      578
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8422048687934875,
+      "box": [
+        1063,
+        165,
+        1303,
+        383
+      ],
+      "padded_box": [
+        1027,
+        132,
+        1327,
+        415
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some internal structures. There is a noticeable dark brown discoloration within the occlusal (chewing) surface of the upper tooth, appearing as a shadow or lesion. Yes, this appears to be evidence of dental caries (tooth decay). I am confident in this assessment based on the visual characteristics of the dark discoloration.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8046
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8310778141021729,
+      "box": [
+        53,
+        145,
+        303,
+        369
+      ],
+      "padded_box": [
+        15,
+        111,
+        340,
+        402
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, likely molars, with visible cusps and grooves. There is some slight discoloration or shadowing within the grooves of the upper tooth. No, there is no clear evidence of dental caries (tooth decay) in this specific cropped image. I am not confident in identifying caries from this limited view.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8817
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.806768536567688,
+      "box": [
+        102,
+        336,
+        353,
+        584
+      ],
+      "padded_box": [
+        64,
+        298,
+        390,
+        621
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a noticeable brownish discoloration within the grooves of some teeth, particularly the upper ones. This appears to be staining or possibly early decay. Yes, there is evidence of potential dental caries (tooth decay). The brownish discoloration in the grooves suggests possible demineralization and bacterial activity. My confidence level is moderate as it could also be extrinsic staining.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9358
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.8006592392921448,
+      "box": [
+        1001,
+        343,
+        1244,
+        580
+      ],
+      "padded_box": [
+        964,
+        307,
+        1280,
+        615
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including crowns and parts of the roots. There is a visible dark discoloration within the grooves of one of the upper molars. This appears to be a cavitated lesion or decay. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8947
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.25587788224220276,
+      "box": [
+        990,
+        526,
+        1170,
+        697
+      ],
+      "padded_box": [
+        963,
+        500,
+        1197,
+        722
+      ],
+      "reasoning": "The image shows close-ups of several teeth with white fillings. There is also some yellowish discoloration visible on the surfaces of the teeth. No clear evidence of active dental caries such as cavitated lesions or dark shadows inside enamel is apparent in this specific crop. I am not confident that there are no hidden caries, but based solely on this image, it does not appear to be active decay.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 1,
+    "fn": 0
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1381-01_1733807088132_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      162,
+      1022,
+      528,
+      1286
+    ],
+    [
+      69,
+      1231,
+      535,
+      1611
+    ],
+    [
+      1887,
+      799,
+      2308,
+      1120
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7321138978004456,
+      "box": [
+        131,
+        1013,
+        549,
+        1300
+      ],
+      "padded_box": [
+        68,
+        969,
+        611,
+        1343
+      ],
+      "reasoning": "The image shows close-up views of teeth, likely premolars or molars, with visible cusps and grooves. There appears to be some discoloration on the occlusal (chewing) surface of the lower right tooth. Yes, there is evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visible dark shadow within the enamel structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8054
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 2
+  }
+}

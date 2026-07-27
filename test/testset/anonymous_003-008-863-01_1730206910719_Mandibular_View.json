@@ -1,0 +1,68 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-863-01_1730206910719_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      44,
+      197,
+      295,
+      404
+    ],
+    [
+      914,
+      371,
+      1119,
+      551
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.8919253349304199,
+      "box": [
+        900,
+        362,
+        1133,
+        563
+      ],
+      "padded_box": [
+        865,
+        331,
+        1167,
+        593
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There is a small dark spot visible on the occlusal (chewing) surface of the upper right molar. This could potentially be a sign of dental caries. I am moderately confident this represents a potential early carious lesion, but further evaluation by a dentist is needed for confirmation and diagnosis.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7879
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.6671721339225769,
+      "box": [
+        33,
+        178,
+        303,
+        407
+      ],
+      "padded_box": [
+        0,
+        143,
+        343,
+        441
+      ],
+      "reasoning": "The image shows close-up views of teeth, likely premolars or molars, with visible cusps and grooves. There appears to be some slight discoloration on the surface of one tooth, possibly due to staining or enamel irregularities. There is no clear evidence of active dental caries (tooth decay) in this cropped view. I am not confident in identifying subtle early signs of caries from this image alone.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8403
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 0
+  }
+}

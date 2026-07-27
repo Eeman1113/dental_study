@@ -1,0 +1,118 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1165-00_1732681881529_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      53,
+      121,
+      413,
+      468
+    ],
+    [
+      110,
+      428,
+      493,
+      791
+    ],
+    [
+      1576,
+      370,
+      1951,
+      736
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.786812424659729,
+      "box": [
+        26,
+        110,
+        427,
+        493
+      ],
+      "padded_box": [
+        0,
+        52,
+        487,
+        550
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There appears to be some discoloration or shadowing within the grooves of the upper cusp. Yes, there is evidence of potential dental caries (tooth decay). The shadowing within the grooves suggests possible demineralization or cavitation. My confidence in this assessment is moderate.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8134
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7127496004104614,
+      "box": [
+        1550,
+        365,
+        1976,
+        759
+      ],
+      "padded_box": [
+        1486,
+        305,
+        2039,
+        818
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, darker area within the crown of one of the upper molars. This could potentially represent early caries or staining. Yes, there appears to be evidence of potential dental caries on the upper molar shown. The dark spot suggests possible decay, although it could also be due to staining or other factors. Confidence level is moderate.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8177
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.690426766872406,
+      "box": [
+        87,
+        414,
+        516,
+        816
+      ],
+      "padded_box": [
+        22,
+        353,
+        580,
+        876
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There is a visible dark discoloration within the grooves of one of the upper molars. This appears to be a cavitated lesion or decay. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8062
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.34394359588623047,
+      "box": [
+        1653,
+        74,
+        2065,
+        466
+      ],
+      "padded_box": [
+        1591,
+        15,
+        2073,
+        524
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, including molars. There is a small, light brown spot visible on the occlusal (chewing) surface of one of the upper molars. This appears to be a small area of discoloration or potential decay. Yes, it looks like caries and I am moderately confident in this assessment based on the visual appearance of the spot.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 1,
+    "fn": 0
+  }
+}

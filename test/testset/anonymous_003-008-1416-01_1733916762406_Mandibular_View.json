@@ -1,0 +1,168 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1416-01_1733916762406_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      171,
+      202,
+      358,
+      403
+    ],
+    [
+      913,
+      242,
+      1112,
+      448
+    ],
+    [
+      226,
+      366,
+      370,
+      525
+    ],
+    [
+      844,
+      467,
+      975,
+      572
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.7948580980300903,
+      "box": [
+        168,
+        202,
+        355,
+        401
+      ],
+      "padded_box": [
+        139,
+        172,
+        383,
+        430
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, including one with visible enamel structure and some minor irregularities. There is no clear evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows inside the enamel, or brown/black discolourations on the tooth surface shown. Based on this visual inspection, it does not appear to show signs of active dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9589
+    },
+    {
+      "index": 1,
+      "cls": "D",
+      "confidence": 0.7521641850471497,
+      "box": [
+        908,
+        237,
+        1109,
+        449
+      ],
+      "padded_box": [
+        877,
+        205,
+        1139,
+        480
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. The tooth appears to be healthy, with no obvious signs of decay. No, there is no evidence of dental caries in the image. I am not confident in this assessment as I cannot see the entire tooth structure or surrounding areas.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.934
+    },
+    {
+      "index": 2,
+      "cls": "D",
+      "confidence": 0.5761162042617798,
+      "box": [
+        226,
+        366,
+        370,
+        518
+      ],
+      "padded_box": [
+        204,
+        343,
+        391,
+        540
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be some discoloration or staining within the grooves of the occlusal surface. It does not look like a cavity. I am moderately confident this is not caries.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.956
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.48618584871292114,
+      "box": [
+        115,
+        30,
+        326,
+        229
+      ],
+      "padded_box": [
+        83,
+        0,
+        357,
+        258
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is a small, slightly darker area near the gum line on the lower right side of the tooth's crown. This could potentially be early decay or staining. It appears there might be some evidence of dental caries (tooth decay), specifically a possible early lesion near the gum line. Confidence level: Low to Moderate.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 4,
+      "cls": "D",
+      "confidence": 0.33018606901168823,
+      "box": [
+        839,
+        433,
+        1059,
+        576
+      ],
+      "padded_box": [
+        806,
+        411,
+        1092,
+        597
+      ],
+      "reasoning": "The image shows close-ups of teeth with visible restorations. There is a large filling on the upper right molar and another restoration on the lower left molar. No clear evidence of dental caries (tooth decay) is visible in this cropped view. I am not confident in identifying caries from this limited image.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0.4372
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.2613283395767212,
+      "box": [
+        949,
+        60,
+        1181,
+        268
+      ],
+      "padded_box": [
+        914,
+        28,
+        1215,
+        299
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There is a small dark spot visible within one of the grooves on the occlusal surface. This appears to be a potential area of decay, but it could also be a shadow or artifact. Based on this single image, it is difficult to definitively determine if caries is present. The dark spot could indicate early demineralization, but further evaluation would be needed for confirmation. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 3,
+    "fn": 1
+  }
+}

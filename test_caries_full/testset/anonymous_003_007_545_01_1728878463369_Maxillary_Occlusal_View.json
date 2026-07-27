@@ -1,0 +1,33 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_545_01_1728878463369_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.47523656487464905,
+      "box": [
+        381,
+        793,
+        771,
+        1063
+      ],
+      "padded_box": [
+        322,
+        752,
+        829,
+        1103
+      ],
+      "reasoning": "The image shows 4 permanent upper teeth with normal appearance. I can identify no carious lesions. Final Answer: The visible dentition appears healthy with no signs of decay.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0
+  }
+}

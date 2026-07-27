@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1004-00_1731042060585_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      185,
+      340,
+      517,
+      686
+    ],
+    [
+      249,
+      673,
+      623,
+      1034
+    ],
+    [
+      2117,
+      128,
+      2469,
+      544
+    ],
+    [
+      2023,
+      508,
+      2449,
+      918
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.6948806643486023,
+      "box": [
+        2083,
+        128,
+        2493,
+        576
+      ],
+      "padded_box": [
+        2021,
+        60,
+        2493,
+        643
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is no obvious evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows inside the enamel, or brown/black discolourations on the tooth surfaces. Based on this visual inspection, it does not appear to show signs of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7972
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.4568304717540741,
+      "box": [
+        1989,
+        474,
+        2473,
+        950
+      ],
+      "padded_box": [
+        1916,
+        402,
+        2493,
+        1021
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is no visible evidence of dental caries (tooth decay). I am not confident in this assessment as the image quality is limited.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.7581
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.38717201352119446,
+      "box": [
+        203,
+        642,
+        655,
+        1084
+      ],
+      "padded_box": [
+        135,
+        575,
+        722,
+        1150
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel and some yellowish-brown staining on the surfaces of the lower molars. There is no obvious evidence of cavitated lesions or dark shadows within the enamel. No, there does not appear to be any clear evidence of dental caries in this cropped view. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.6758
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.27553489804267883,
+      "box": [
+        164,
+        317,
+        544,
+        726
+      ],
+      "padded_box": [
+        107,
+        255,
+        601,
+        787
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is a small dark spot visible on the occlusal (chewing) surface of one of the lower molars. This could potentially be early caries, but further evaluation is needed to confirm. I am not confident in this assessment based solely on this image.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7391
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1381-01_1733807088132_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      132,
+      100,
+      537,
+      473
+    ],
+    [
+      117,
+      407,
+      586,
+      880
+    ],
+    [
+      2154,
+      124,
+      2612,
+      539
+    ],
+    [
+      2117,
+      468,
+      2588,
+      951
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8216289281845093,
+      "box": [
+        2135,
+        107,
+        2630,
+        541
+      ],
+      "padded_box": [
+        2060,
+        41,
+        2665,
+        606
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8847
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8215280175209045,
+      "box": [
+        111,
+        83,
+        559,
+        480
+      ],
+      "padded_box": [
+        43,
+        23,
+        626,
+        539
+      ],
+      "reasoning": "The image shows the permanent dentition of a mouth. I can identify 2 regions of concern: 1 permanent caries lesion in the lower right region of the image; 2 primary caries lesion in the lower left region of the image. The permanent caries lesion in the lower right region of the image appears as a dark shadow within enamel. The primary caries lesion in the lower left region of the image appears as a dark shadow within enamel. Final Answer: 2 primary caries lesions; moderately confident",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8494
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8195359110832214,
+      "box": [
+        2086,
+        466,
+        2597,
+        927
+      ],
+      "padded_box": [
+        2009,
+        396,
+        2665,
+        996
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible in the mid right region of the image. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8757
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.8040108680725098,
+      "box": [
+        98,
+        400,
+        601,
+        880
+      ],
+      "padded_box": [
+        22,
+        328,
+        676,
+        952
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9188
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

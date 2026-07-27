@@ -1,0 +1,152 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-793-00_1729852086224_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      51,
+      209,
+      256,
+      375
+    ],
+    [
+      76,
+      373,
+      295,
+      541
+    ],
+    [
+      1083,
+      443,
+      1308,
+      621
+    ],
+    [
+      1076,
+      587,
+      1251,
+      707
+    ],
+    [
+      1125,
+      299,
+      1317,
+      475
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.848273754119873,
+      "box": [
+        65,
+        361,
+        303,
+        561
+      ],
+      "padded_box": [
+        29,
+        331,
+        338,
+        591
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel structure and some internal variations in color and texture. There appears to be a small dark spot or discoloration on the surface of one of the upper teeth. Yes, there is evidence of dental caries (tooth decay). The dark spot suggests a cavitated lesion, although it's difficult to determine the exact extent from this image alone. Confidence level: Moderate.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7729
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8109479546546936,
+      "box": [
+        1077,
+        435,
+        1308,
+        631
+      ],
+      "padded_box": [
+        1042,
+        405,
+        1323,
+        660
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a noticeable dark brown discoloration within the grooves of one of the upper molars. This appears to be a cavitated lesion consistent with dental caries (tooth decay). I am moderately confident in this assessment based on the visual evidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8846
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8084349632263184,
+      "box": [
+        58,
+        204,
+        263,
+        392
+      ],
+      "padded_box": [
+        27,
+        175,
+        293,
+        420
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible enamel structure and some internal variations. There is a dark discoloration within the grooves of one of the upper teeth. This appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8279
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7693969011306763,
+      "box": [
+        1123,
+        291,
+        1321,
+        480
+      ],
+      "padded_box": [
+        1093,
+        262,
+        1323,
+        508
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, dark brown spot on the occlusal (chewing) surface of one of the lower molars. This appears to be a potential area of dental caries. I am moderately confident this represents caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.903
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.6081621646881104,
+      "box": [
+        1075,
+        581,
+        1256,
+        728
+      ],
+      "padded_box": [
+        1047,
+        558,
+        1283,
+        750
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including molars and premolars. The surfaces appear relatively smooth, with some slight variations in translucency. There is a small, slightly darker area visible on the occlusal (chewing) surface of one of the upper molars. Yes, it appears to be evidence of dental caries (tooth decay). I am moderately confident this is caries due to the dark discoloration observed on the tooth surface.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.7893
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+  }
+}

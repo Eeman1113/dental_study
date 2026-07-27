@@ -1,0 +1,130 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-680-01_1729252793946_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1220,
+      645,
+      1487,
+      785
+    ],
+    [
+      1255,
+      756,
+      1512,
+      954
+    ],
+    [
+      145,
+      620,
+      378,
+      791
+    ],
+    [
+      72,
+      731,
+      337,
+      962
+    ],
+    [
+      162,
+      454,
+      422,
+      646
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7537041902542114,
+      "box": [
+        53,
+        699,
+        361,
+        972
+      ],
+      "padded_box": [
+        6,
+        658,
+        407,
+        1012
+      ],
+      "reasoning": "The image shows a close-up view of teeth, likely premolars or canines, with visible enamel structure and some minor staining or texture variations. There is a small, dark spot visible on the occlusal (chewing) surface of one of the upper teeth. Yes, it appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the dark spot.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.728
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7381777167320251,
+      "box": [
+        1238,
+        723,
+        1522,
+        961
+      ],
+      "padded_box": [
+        1195,
+        687,
+        1522,
+        996
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, dark line near the gumline on one of the lower molars. This could potentially be early caries or staining. It appears there might be some evidence of dental caries, but it's difficult to determine definitively from this close-up view alone. The confidence level in identifying caries is low.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7528
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.5892320275306702,
+      "box": [
+        134,
+        609,
+        394,
+        804
+      ],
+      "padded_box": [
+        95,
+        579,
+        433,
+        833
+      ],
+      "reasoning": "The image shows close-up views of teeth, specifically the occlusal surfaces (chewing surfaces) of premolars or molars. There appears to be a small, dark line visible on one of the teeth. This could potentially represent early caries, but it is difficult to determine definitively from this single image without more context or magnification. The image shows close-up views of teeth, specifically the occlusal surfaces (chewing surfaces) of premolars or molars. There appears to be a small, dark line visible on one of the teeth. This could potentially represent early caries, but it is difficult to determine definitively from this single image without more context or magnification.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7859
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.5267719030380249,
+      "box": [
+        1219,
+        620,
+        1477,
+        793
+      ],
+      "padded_box": [
+        1180,
+        594,
+        1515,
+        818
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including crowns that appear to be made of porcelain or composite material. The teeth have a smooth, white appearance. There is no visible evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows inside enamel, or brown/black discolourations on the tooth surfaces shown in this crop. No, I am not confident that there is evidence of dental caries based on this image.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7816
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 1
+  }
+}

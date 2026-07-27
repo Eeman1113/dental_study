@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-913-00_1730374663171_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      52,
+      291,
+      227,
+      458
+    ],
+    [
+      947,
+      310,
+      1125,
+      503
+    ],
+    [
+      995,
+      189,
+      1152,
+      334
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8331943154335022,
+      "box": [
+        937,
+        305,
+        1137,
+        500
+      ],
+      "padded_box": [
+        907,
+        275,
+        1167,
+        529
+      ],
+      "reasoning": "The image shows a primary caries lesion with a permanent caries lesion. I can identify 2 regions of concern. Final Answer: The final answer is \"\\nSurface enamel caries; Reason: A permanent caries lesion is visible in the upper left region of the image.\"",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8555
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7868826389312744,
+      "box": [
+        41,
+        283,
+        235,
+        467
+      ],
+      "padded_box": [
+        11,
+        255,
+        264,
+        494
+      ],
+      "reasoning": "The image shows a permanent tooth with a primary caries lesion (tooth decay) visible as a dark discoloration within the enamel. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8187
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.601729691028595,
+      "box": [
+        985,
+        183,
+        1154,
+        336
+      ],
+      "padded_box": [
+        959,
+        160,
+        1179,
+        358
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. Final Answer: 4 permanent teeth; 0% certain.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8804
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

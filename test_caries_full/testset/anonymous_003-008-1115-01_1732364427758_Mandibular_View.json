@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1115-01_1732364427758_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      32,
+      114,
+      236,
+      328
+    ],
+    [
+      38,
+      317,
+      298,
+      563
+    ],
+    [
+      1125,
+      435,
+      1344,
+      679
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8255952000617981,
+      "box": [
+        46,
+        314,
+        296,
+        563
+      ],
+      "padded_box": [
+        8,
+        276,
+        333,
+        600
+      ],
+      "reasoning": "This is a close-up of a permanent tooth with primary teeth visible above it. There is one region of concern: a primary caries lesion in the lower right region of the image. The lesion appears as a dark brown discoloration within the enamel structure. Yes, this looks like primary caries. I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9504
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8137627243995667,
+      "box": [
+        1118,
+        426,
+        1353,
+        680
+      ],
+      "padded_box": [
+        1082,
+        387,
+        1388,
+        718
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8952
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.754694938659668,
+      "box": [
+        22,
+        108,
+        247,
+        335
+      ],
+      "padded_box": [
+        0,
+        73,
+        280,
+        369
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the lower right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8547
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

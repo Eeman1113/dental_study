@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_103_383_00_1728189994793_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1149,
+      190,
+      1398,
+      407
+    ],
+    [
+      1075,
+      359,
+      1322,
+      605
+    ],
+    [
+      90,
+      200,
+      296,
+      392
+    ],
+    [
+      138,
+      389,
+      362,
+      600
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8202297687530518,
+      "box": [
+        1148,
+        172,
+        1417,
+        422
+      ],
+      "padded_box": [
+        1107,
+        134,
+        1457,
+        459
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8035
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.800387442111969,
+      "box": [
+        1055,
+        346,
+        1352,
+        616
+      ],
+      "padded_box": [
+        1010,
+        305,
+        1396,
+        656
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;No;Not Caries",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7577
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.642203152179718,
+      "box": [
+        83,
+        190,
+        321,
+        429
+      ],
+      "padded_box": [
+        47,
+        154,
+        356,
+        464
+      ],
+      "reasoning": "This is a close-up of a permanent human tooth with normal enamel structure visible. I can identify 2 regions of concern for dental caries (tooth decay). The primary concern is a primary caries lesion in the mid right region of the image. The secondary concern is a primary caries lesion in the lower right region of the image. Final Answer: 2",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.6953
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.4138390123844147,
+      "box": [
+        115,
+        370,
+        387,
+        631
+      ],
+      "padded_box": [
+        74,
+        330,
+        427,
+        670
+      ],
+      "reasoning": "The image shows 6 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;No;Not Caries",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.6658
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

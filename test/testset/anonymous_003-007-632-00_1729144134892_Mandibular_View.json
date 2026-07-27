@@ -1,0 +1,90 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-632-00_1729144134892_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      14,
+      207,
+      375,
+      500
+    ],
+    [
+      1631,
+      221,
+      2033,
+      593
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8041346669197083,
+      "box": [
+        0,
+        207,
+        380,
+        529
+      ],
+      "padded_box": [
+        0,
+        158,
+        437,
+        577
+      ],
+      "reasoning": "The image shows multiple teeth with white deposits on their surfaces. There is also some brownish discoloration visible on the lower right molar. This appears to be dental plaque or calculus buildup. It does not look like active caries. I am moderately confident this is plaque/calculus, not caries.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8644
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7831552028656006,
+      "box": [
+        1629,
+        224,
+        2021,
+        587
+      ],
+      "padded_box": [
+        1570,
+        169,
+        2062,
+        641
+      ],
+      "reasoning": "The image shows a close-up view of teeth within the mouth. There is a visible dark discoloration on the occlusal (chewing) surface of one of the posterior teeth. This appears to be a cavitated lesion or decay. Yes, it looks like caries and I am confident in this assessment based on the visual evidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9421
+    },
+    {
+      "index": 2,
+      "cls": "D",
+      "confidence": 0.3219873309135437,
+      "box": [
+        20,
+        468,
+        412,
+        798
+      ],
+      "padded_box": [
+        0,
+        418,
+        470,
+        847
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a noticeable brownish discoloration on the occlusal (chewing) surface of the upper right molar. This appears to be a dark shadow within the tooth structure. Yes, this looks like dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the discoloration.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  }
+}

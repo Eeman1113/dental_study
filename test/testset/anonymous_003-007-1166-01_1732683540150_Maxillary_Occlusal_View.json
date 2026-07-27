@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1166-01_1732683540150_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      163,
+      1845,
+      663,
+      2150
+    ],
+    [
+      2522,
+      1958,
+      3014,
+      2256
+    ],
+    [
+      149,
+      1485,
+      692,
+      1926
+    ],
+    [
+      2506,
+      1602,
+      3057,
+      2018
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7760010957717896,
+      "box": [
+        125,
+        1452,
+        725,
+        1955
+      ],
+      "padded_box": [
+        35,
+        1376,
+        815,
+        2030
+      ],
+      "reasoning": "The image shows a close-up view of teeth, likely molars, with visible enamel structure and some slight variations in translucency. There is a small, dark brown spot on the surface of one of the upper teeth. This appears to be evidence of dental caries (tooth decay). I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7934
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.6627354025840759,
+      "box": [
+        2455,
+        1539,
+        3086,
+        2061
+      ],
+      "padded_box": [
+        2360,
+        1460,
+        3180,
+        2139
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a noticeable brownish discoloration on the occlusal (chewing) surface of several posterior teeth. This discoloration appears as irregular patches or streaks. Yes, there is evidence of dental caries (tooth decay). I am confident in this assessment due to the distinct brown discoloration observed on the tooth surfaces.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.6959
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.5640207529067993,
+      "box": [
+        2457,
+        1919,
+        3036,
+        2279
+      ],
+      "padded_box": [
+        2370,
+        1865,
+        3122,
+        2333
+      ],
+      "reasoning": "The image shows close-up views of teeth, specifically the occlusal (biting) surfaces. There appears to be some discoloration or staining visible on the surfaces of the teeth. It is difficult to definitively determine if this represents dental caries without additional information like radiographs. Based on the visual evidence alone, it is difficult to confirm the presence of dental caries. The appearance could potentially represent staining or other non-carious lesions. Confidence in identifying caries based solely on this image is low.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7034
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.4195357859134674,
+      "box": [
+        140,
+        1813,
+        690,
+        2186
+      ],
+      "padded_box": [
+        57,
+        1757,
+        772,
+        2241
+      ],
+      "reasoning": "The image shows the occlusal (biting) surfaces of several teeth, including molars and premolars. There is a small, light-colored lesion visible on one of the molar teeth. It appears slightly irregular in shape. Yes, it looks like caries. I am moderately confident this is caries due to its appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7434
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

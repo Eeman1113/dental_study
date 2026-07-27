@@ -1,0 +1,40 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-608-01_1729061556946_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      2484,
+      1260,
+      2937,
+      1565
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.33559226989746094,
+      "box": [
+        2488,
+        1258,
+        2941,
+        1569
+      ],
+      "padded_box": [
+        2420,
+        1211,
+        3008,
+        1615
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There appears to be a small dark spot or shadow within one of the grooves on the occlusal (chewing) surface. This could potentially represent early caries, but it might also be due to staining or shadowing effects. Based on this image alone, it is difficult to definitively determine if the dark spot represents active dental caries. The confidence level in identifying caries from this single view is low.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9637
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  }
+}

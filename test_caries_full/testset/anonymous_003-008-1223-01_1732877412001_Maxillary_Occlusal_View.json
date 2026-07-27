@@ -1,0 +1,80 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1223-01_1732877412001_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      139,
+      665,
+      433,
+      917
+    ],
+    [
+      114,
+      855,
+      424,
+      1098
+    ],
+    [
+      1262,
+      763,
+      1558,
+      1001
+    ],
+    [
+      1291,
+      978,
+      1543,
+      1130
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.8034914135932922,
+      "box": [
+        134,
+        655,
+        445,
+        929
+      ],
+      "padded_box": [
+        87,
+        613,
+        491,
+        970
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion (primary caries) with a permanent caries lesion (permanent caries). I am moderately confident that these are primary caries lesions.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8694
+    },
+    {
+      "index": 1,
+      "cls": "D",
+      "confidence": 0.34405484795570374,
+      "box": [
+        96,
+        841,
+        440,
+        1112
+      ],
+      "padded_box": [
+        44,
+        800,
+        491,
+        1152
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal appearance;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8081
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 2
+  }
+}

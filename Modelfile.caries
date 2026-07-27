@@ -1,0 +1,16 @@
+FROM ./Dataset/model/gguf/medgemma_caries-Q4_K_M.gguf
+FROM ./Dataset/model/gguf/mmproj-medgemma_caries-F16.gguf
+
+TEMPLATE """{{- range $i, $_ := .Messages }}
+{{- $last := eq (len (slice $.Messages $i)) 1 }}
+{{- if eq .Role "user" }}<start_of_turn>user
+{{- if and (eq $i 1) $.System }}{{ printf "%s\n%s" $.System .Content }}{{ else }}{{ .Content }}{{ end }}<end_of_turn>
+{{ else if eq .Role "assistant" }}<start_of_turn>model
+{{ .Content }}<end_of_turn>
+{{ end }}
+{{- if $last }}<start_of_turn>model
+{{ end }}
+{{- end }}"""
+
+PARAMETER stop <end_of_turn>
+PARAMETER temperature 0.1

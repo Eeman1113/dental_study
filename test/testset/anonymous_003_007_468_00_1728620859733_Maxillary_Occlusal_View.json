@@ -1,0 +1,152 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_468_00_1728620859733_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      532,
+      663,
+      915,
+      915
+    ],
+    [
+      2182,
+      689,
+      2506,
+      876
+    ],
+    [
+      2156,
+      865,
+      2543,
+      1146
+    ],
+    [
+      469,
+      859,
+      930,
+      1209
+    ],
+    [
+      2150,
+      526,
+      2493,
+      735
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7377457022666931,
+      "box": [
+        531,
+        658,
+        915,
+        913
+      ],
+      "padded_box": [
+        473,
+        619,
+        972,
+        951
+      ],
+      "reasoning": "The image shows close-up views of teeth. There is a small dark spot visible on the occlusal (chewing) surface of one of the upper molars. This appears to be a cavitated lesion or a brown/black discolouration consistent with dental caries. I am moderately confident this represents caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9702
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.5232614278793335,
+      "box": [
+        2175,
+        695,
+        2518,
+        884
+      ],
+      "padded_box": [
+        2123,
+        666,
+        2569,
+        912
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There is a small, dark spot visible on the surface of one of the teeth. This appears to be a potential area of dental caries (tooth decay). I am moderately confident this represents caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8783
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.4069894552230835,
+      "box": [
+        471,
+        853,
+        928,
+        1207
+      ],
+      "padded_box": [
+        402,
+        799,
+        996,
+        1260
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, dark spot visible on the occlusal (chewing) surface of one of the upper molars. This appears to be a potential area of concern. Yes, it looks like caries and I am moderately confident based on the visual appearance of the dark spot.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.9692
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.31555673480033875,
+      "box": [
+        2146,
+        494,
+        2498,
+        738
+      ],
+      "padded_box": [
+        2093,
+        457,
+        2550,
+        774
+      ],
+      "reasoning": "The image shows a close-up view of two adjacent teeth, likely premolars or canines, with visible enamel surfaces and some interproximal contact area. There appears to be some yellowish discoloration on the surface of the tooth to the left (viewer's right). There is no clear evidence of dental caries in this image. I am not confident in this assessment as the resolution is limited.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.8347
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.26243218779563904,
+      "box": [
+        2146,
+        837,
+        2547,
+        1143
+      ],
+      "padded_box": [
+        2085,
+        791,
+        2607,
+        1188
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some areas of discoloration. There is no clear evidence of cavitated lesions or dark shadows indicative of active caries within the visible portion of the teeth. Based on this limited view, it does not appear to show definite signs of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8686
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+  }
+}

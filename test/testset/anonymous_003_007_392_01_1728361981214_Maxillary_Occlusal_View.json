@@ -1,0 +1,206 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_392_01_1728361981214_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      810,
+      866,
+      1282,
+      1187
+    ],
+    [
+      643,
+      1402,
+      1146,
+      1805
+    ],
+    [
+      2473,
+      1193,
+      2986,
+      1609
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8077525496482849,
+      "box": [
+        2478,
+        1172,
+        2976,
+        1620
+      ],
+      "padded_box": [
+        2403,
+        1104,
+        3050,
+        1687
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel structure and some discoloration. There is a dark shadow within the dentin layer of one molar tooth. This appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.9033
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8026326298713684,
+      "box": [
+        808,
+        859,
+        1269,
+        1207
+      ],
+      "padded_box": [
+        738,
+        806,
+        1338,
+        1259
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is a dark, brownish-black area within the central groove of the occlusal surface. This appears to be a cavitated lesion. Yes, it looks like caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the dark discoloration within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8951
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7948461174964905,
+      "box": [
+        643,
+        1381,
+        1150,
+        1810
+      ],
+      "padded_box": [
+        566,
+        1316,
+        1226,
+        1874
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There is a dark discoloration visible on the occlusal (chewing) surface of one of the posterior teeth. This appears to be a cavitated lesion or decay. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.932
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.5859194397926331,
+      "box": [
+        2341,
+        673,
+        2784,
+        1008
+      ],
+      "padded_box": [
+        2274,
+        622,
+        2850,
+        1058
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There is a visible lesion with a darker central area within the crown of one of the teeth. This appears to be a cavitated lesion. I am moderately confident this represents dental caries (tooth decay).",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.5320465564727783,
+      "box": [
+        731,
+        1157,
+        1168,
+        1462
+      ],
+      "padded_box": [
+        665,
+        1111,
+        1233,
+        1507
+      ],
+      "reasoning": "The image shows close-up views of teeth, specifically the occlusal (biting) surfaces of premolars or molars. The enamel appears generally intact with visible cusps and grooves. There is a small, slightly darker area on the occlusal surface of the lower tooth, possibly representing minor staining or a very early lesion. There is a slight darkening/discoloration visible on the occlusal surface of the upper tooth. It could be due to staining or potentially an early sign of caries, but it's difficult to definitively diagnose without more context or higher resolution imaging. Confidence in identifying definite caries is low based solely on this image.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.4869276285171509,
+      "box": [
+        2440,
+        940,
+        2867,
+        1240
+      ],
+      "padded_box": [
+        2375,
+        895,
+        2931,
+        1285
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel structure and some internal variations in color and texture. There is a noticeable brownish discoloration within the dentin layer of one tooth. This appears to be evidence of dental caries (tooth decay). I am moderately confident this is caries, as the discoloration is localized and consistent with demineralization.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 6,
+      "cls": "d",
+      "confidence": 0.3644968569278717,
+      "box": [
+        2551,
+        1508,
+        2981,
+        1857
+      ],
+      "padded_box": [
+        2486,
+        1455,
+        3045,
+        1909
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is a dark discoloration or shadow present on the occlusal (chewing) surface of the tooth. This appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 7,
+      "cls": "d",
+      "confidence": 0.28202101588249207,
+      "box": [
+        644,
+        1721,
+        1112,
+        2001
+      ],
+      "padded_box": [
+        573,
+        1679,
+        1182,
+        2043
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There is a dark discoloration within one of the grooves or fissures on the occlusal (chewing) surface. This appears to be a cavitated lesion, indicative of dental caries. I am confident this represents caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 5,
+    "fn": 0
+  }
+}

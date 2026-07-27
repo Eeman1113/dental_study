@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-690-01_1729312765724_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      135,
+      176,
+      525,
+      526
+    ],
+    [
+      247,
+      504,
+      610,
+      936
+    ],
+    [
+      1950,
+      48,
+      2269,
+      423
+    ],
+    [
+      1838,
+      373,
+      2238,
+      807
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8124275207519531,
+      "box": [
+        1840,
+        378,
+        2248,
+        799
+      ],
+      "padded_box": [
+        1778,
+        314,
+        2309,
+        862
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.9423
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8124030828475952,
+      "box": [
+        139,
+        163,
+        514,
+        545
+      ],
+      "padded_box": [
+        82,
+        105,
+        570,
+        602
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid left region of the image. I am moderately confident this represents decay.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8838
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8115309476852417,
+      "box": [
+        1924,
+        47,
+        2269,
+        420
+      ],
+      "padded_box": [
+        1872,
+        0,
+        2320,
+        475
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame with normal appearance. I can identify no dental caries. Final Answer: The visible dentition appears normal. No dental caries identified. Reason: Normal enamel structure, color, and contour.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.9154
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7842096090316772,
+      "box": [
+        229,
+        490,
+        596,
+        944
+      ],
+      "padded_box": [
+        173,
+        421,
+        651,
+        1012
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8732
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

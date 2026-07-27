@@ -1,0 +1,26 @@
+# Local llama.cpp clone (get it separately with `git clone https://github.com/ggerganov/llama.cpp`)
+.llama.cpp/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Merged HF model — rebuild from LoRA with merge_lora.py
+Dataset/model/medgemma_caries_merged/
+
+# GGUFs live on Hugging Face Hub — GitHub LFS has a 2GB per-file cap that F16 blows past
+Dataset/model/gguf/
+
+# Ollama logs / tmp
+/tmp/eval_subset.log
+/tmp/eval_full.log
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/

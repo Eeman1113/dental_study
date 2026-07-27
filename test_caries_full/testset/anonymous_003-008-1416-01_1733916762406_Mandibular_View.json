@@ -1,0 +1,168 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1416-01_1733916762406_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      171,
+      202,
+      358,
+      403
+    ],
+    [
+      913,
+      242,
+      1112,
+      448
+    ],
+    [
+      226,
+      366,
+      370,
+      525
+    ],
+    [
+      844,
+      467,
+      975,
+      572
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.7948580980300903,
+      "box": [
+        168,
+        202,
+        355,
+        401
+      ],
+      "padded_box": [
+        139,
+        172,
+        383,
+        430
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9589
+    },
+    {
+      "index": 1,
+      "cls": "D",
+      "confidence": 0.7521641850471497,
+      "box": [
+        908,
+        237,
+        1109,
+        449
+      ],
+      "padded_box": [
+        877,
+        205,
+        1139,
+        480
+      ],
+      "reasoning": "This is a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.934
+    },
+    {
+      "index": 2,
+      "cls": "D",
+      "confidence": 0.5761162042617798,
+      "box": [
+        226,
+        366,
+        370,
+        518
+      ],
+      "padded_box": [
+        204,
+        343,
+        391,
+        540
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the upper central region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.956
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.48618584871292114,
+      "box": [
+        115,
+        30,
+        326,
+        229
+      ],
+      "padded_box": [
+        83,
+        0,
+        357,
+        258
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the lower right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 4,
+      "cls": "D",
+      "confidence": 0.33018606901168823,
+      "box": [
+        839,
+        433,
+        1059,
+        576
+      ],
+      "padded_box": [
+        806,
+        411,
+        1092,
+        597
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0.4372
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.2613283395767212,
+      "box": [
+        949,
+        60,
+        1181,
+        268
+      ],
+      "padded_box": [
+        914,
+        28,
+        1215,
+        299
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. Final Answer: The visible dentition appears healthy with no signs of caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 3,
+    "fn": 1
+  }
+}

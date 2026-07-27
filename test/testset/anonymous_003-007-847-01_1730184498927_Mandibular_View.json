@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-847-01_1730184498927_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      529,
+      927,
+      849,
+      1318
+    ],
+    [
+      2076,
+      613,
+      2454,
+      1000
+    ],
+    [
+      2034,
+      927,
+      2336,
+      1293
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.9364704489707947,
+      "box": [
+        2003,
+        911,
+        2356,
+        1316
+      ],
+      "padded_box": [
+        1950,
+        850,
+        2408,
+        1376
+      ],
+      "reasoning": "The image shows a close-up view of a tooth with a visible cavity. There is a dark, irregular area within the tooth structure, likely representing decay. Yes, this appears to be dental caries (tooth decay). The presence of a distinct dark lesion strongly suggests an active carious process. My confidence in this assessment is high based on the visual evidence.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7731
+    },
+    {
+      "index": 1,
+      "cls": "D",
+      "confidence": 0.9210574626922607,
+      "box": [
+        501,
+        910,
+        871,
+        1337
+      ],
+      "padded_box": [
+        445,
+        845,
+        926,
+        1401
+      ],
+      "reasoning": "The image shows a close-up view of a tooth with a central cavity. The cavity appears dark brown to black within the enamel. Yes, this looks like dental caries (tooth decay). I am moderately confident in this assessment based on the visible discoloration and structural change within the tooth's enamel.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7919
+    },
+    {
+      "index": 2,
+      "cls": "D",
+      "confidence": 0.9052229523658752,
+      "box": [
+        2054,
+        596,
+        2483,
+        1014
+      ],
+      "padded_box": [
+        1989,
+        533,
+        2547,
+        1076
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible enamel structure and some minor discoloration within the grooves of one tooth. There is no obvious cavitated lesion or dark shadow indicative of active decay. No, it does not appear to be dental caries. I am not confident in this assessment as I cannot definitively rule out early stages of decay without a proper clinical examination and potentially further imaging.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8158
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_004-007-1321-00_1733473332768_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      120,
+      383,
+      475,
+      760
+    ],
+    [
+      1564,
+      370,
+      1998,
+      786
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.6710332632064819,
+      "box": [
+        1718,
+        45,
+        2159,
+        462
+      ],
+      "padded_box": [
+        1651,
+        0,
+        2159,
+        524
+      ],
+      "reasoning": "The image shows multiple white, rounded structures resembling dental calculi (tartar) or possibly enlarged pulp chambers within teeth. There is no clear evidence of active dental caries visible in this specific crop. I am not confident in identifying caries from this limited view.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0.0761
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.6064321994781494,
+      "box": [
+        1544,
+        343,
+        2030,
+        812
+      ],
+      "padded_box": [
+        1471,
+        272,
+        2102,
+        882
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interdental spaces. There appears to be a slight yellowish discoloration on the occlusal (chewing) surface of the upper right premolar. There is no clear evidence of dental caries in this cropped view. I am not confident in this assessment as the image quality and angle may obscure subtle signs.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7921
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.27932628989219666,
+      "box": [
+        86,
+        366,
+        505,
+        773
+      ],
+      "padded_box": [
+        23,
+        304,
+        567,
+        834
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interproximal areas. There is a noticeable dark shadow within the grooves of the upper premolars, suggesting potential decay or staining. Yes, there appears to be evidence of dental caries (tooth decay) in the upper premolars, specifically within the grooves. The confidence level is high based on the visual appearance of the dark shadows.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7848
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  }
+}

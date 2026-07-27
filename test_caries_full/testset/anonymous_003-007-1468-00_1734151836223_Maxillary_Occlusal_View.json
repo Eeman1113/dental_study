@@ -1,0 +1,68 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1468-00_1734151836223_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      203,
+      979,
+      634,
+      1384
+    ],
+    [
+      170,
+      1294,
+      647,
+      1679
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.6722228527069092,
+      "box": [
+        178,
+        981,
+        649,
+        1387
+      ],
+      "padded_box": [
+        107,
+        920,
+        719,
+        1447
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal appearance;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9042
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.28737783432006836,
+      "box": [
+        185,
+        1577,
+        647,
+        1866
+      ],
+      "padded_box": [
+        115,
+        1533,
+        716,
+        1909
+      ],
+      "reasoning": "A primary caries lesion with a permanent dentin shadow is visible in the mid right region of the image. I can identify this as dental caries. I am moderately confident in this identification.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0.1745
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 1,
+    "fn": 1
+  }
+}

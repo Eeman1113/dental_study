@@ -1,0 +1,8 @@
+path: /Users/eemanmajumder/code_shit/daath/yolo_split
+train: images/train
+val: images/val
+test: images/test
+nc: 2
+names:
+  0: d
+  1: D

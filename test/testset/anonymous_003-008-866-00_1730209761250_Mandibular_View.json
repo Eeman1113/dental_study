@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-866-00_1730209761250_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1019,
+      212,
+      1184,
+      367
+    ],
+    [
+      956,
+      332,
+      1163,
+      512
+    ],
+    [
+      42,
+      278,
+      233,
+      439
+    ],
+    [
+      22,
+      131,
+      214,
+      298
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8268722891807556,
+      "box": [
+        995,
+        201,
+        1197,
+        384
+      ],
+      "padded_box": [
+        964,
+        173,
+        1226,
+        411
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, likely premolars or molars, with visible enamel structure and some minor staining or texture variations on the surfaces. There is no obvious evidence of active dental caries such as cavitation, dark shadows within the enamel, or significant brown/black discoloration. No, it does not appear to show signs of dental caries. I am not confident in this assessment based solely on this image.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.6919
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7943525910377502,
+      "box": [
+        949,
+        333,
+        1180,
+        530
+      ],
+      "padded_box": [
+        914,
+        303,
+        1214,
+        559
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is some crowding visible between the upper front teeth. I do not see any obvious signs of dental caries (tooth decay) such as cavitated lesions, dark shadows inside enamel, or brown/black discolourations on the tooth surfaces shown in this crop. I am confident that there are no clear signs of caries visible in this specific image.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8105
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.5647414922714233,
+      "box": [
+        6,
+        118,
+        226,
+        310
+      ],
+      "padded_box": [
+        0,
+        89,
+        259,
+        338
+      ],
+      "reasoning": "The image shows a close-up view of two teeth, likely molars, with visible cusps and grooves. The enamel appears relatively smooth and white. There is no obvious sign of dental caries such as cavities or decay. No, there is no evidence of dental caries in the visible portion of these teeth. I am not confident in this assessment based on the limited view.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.7591
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.4730262756347656,
+      "box": [
+        19,
+        265,
+        259,
+        477
+      ],
+      "padded_box": [
+        0,
+        233,
+        295,
+        508
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is a small, slightly darker area visible on the occlusal (chewing) surface of the upper right molar. This could potentially be early decay or staining. It appears there might be some evidence of dental caries, but it's difficult to determine definitively from this image alone. The confidence level is low.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.6044
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

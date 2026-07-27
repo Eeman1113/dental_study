@@ -1,0 +1,1 @@
+<annotation><folder>images</folder><filename>anonymous_003-007-1212-00_1732860958536_Mandibular_View.jpg</filename><size><width>2232</width><height>1673</height><depth>3</depth></size><object><name>D</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>51</xmin><ymin>233</ymin><xmax>380</xmax><ymax>563</ymax></bndbox></object></annotation>

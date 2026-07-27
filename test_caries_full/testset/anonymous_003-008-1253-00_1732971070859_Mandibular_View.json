@@ -1,0 +1,62 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1253-00_1732971070859_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1075,
+      355,
+      1307,
+      585
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.837364912033081,
+      "box": [
+        1051,
+        337,
+        1328,
+        598
+      ],
+      "padded_box": [
+        1009,
+        297,
+        1356,
+        637
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion (primary caries) with a dark shadow within the enamel of the mid left permanent tooth. I can identify 1 affected area. Final Answer: The image displays 4 permanent teeth and one primary caries lesion with a dark shadow within its enamel.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7381
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.36976224184036255,
+      "box": [
+        72,
+        325,
+        345,
+        588
+      ],
+      "padded_box": [
+        31,
+        285,
+        385,
+        627
+      ],
+      "reasoning": "This is a close-up view of 4 permanent teeth visible in the image. I can identify one primary caries lesion. Yes, there is one primary caries lesion; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  }
+}

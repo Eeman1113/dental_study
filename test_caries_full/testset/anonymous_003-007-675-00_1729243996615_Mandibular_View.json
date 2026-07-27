@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-675-00_1729243996615_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      28,
+      143,
+      224,
+      285
+    ],
+    [
+      74,
+      266,
+      258,
+      424
+    ],
+    [
+      889,
+      180,
+      1072,
+      330
+    ],
+    [
+      857,
+      307,
+      1052,
+      473
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8256258368492126,
+      "box": [
+        879,
+        167,
+        1087,
+        345
+      ],
+      "padded_box": [
+        847,
+        140,
+        1118,
+        371
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7414
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7698153257369995,
+      "box": [
+        31,
+        128,
+        222,
+        297
+      ],
+      "padded_box": [
+        2,
+        102,
+        250,
+        322
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8222
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7596535086631775,
+      "box": [
+        57,
+        252,
+        268,
+        430
+      ],
+      "padded_box": [
+        25,
+        225,
+        299,
+        456
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. Final Answer: The visible dentition appears healthy with no signs of caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7741
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.6895965933799744,
+      "box": [
+        852,
+        299,
+        1059,
+        479
+      ],
+      "padded_box": [
+        820,
+        272,
+        1090,
+        506
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. Final Answer: The visible dentition appears healthy with no signs of caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8688
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

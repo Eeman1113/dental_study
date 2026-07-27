@@ -1,0 +1,196 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-656-00_1729174018756_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      186,
+      484,
+      329,
+      630
+    ],
+    [
+      873,
+      503,
+      1009,
+      673
+    ],
+    [
+      101,
+      325,
+      294,
+      503
+    ],
+    [
+      895,
+      355,
+      1082,
+      539
+    ],
+    [
+      942,
+      198,
+      1141,
+      392
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.8359854817390442,
+      "box": [
+        890,
+        347,
+        1101,
+        547
+      ],
+      "padded_box": [
+        858,
+        317,
+        1132,
+        577
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in cross-section with normal enamel structure and color. I can identify no regions of concern such as cavitation or discoloration. Final Answer: The image displays 4 permanent teeth with intact enamel. There is no evidence of dental caries.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8154
+    },
+    {
+      "index": 1,
+      "cls": "D",
+      "confidence": 0.820708692073822,
+      "box": [
+        173,
+        477,
+        340,
+        645
+      ],
+      "padded_box": [
+        147,
+        451,
+        365,
+        670
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7442
+    },
+    {
+      "index": 2,
+      "cls": "D",
+      "confidence": 0.761631429195404,
+      "box": [
+        87,
+        317,
+        305,
+        517
+      ],
+      "padded_box": [
+        54,
+        287,
+        337,
+        547
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7879
+    },
+    {
+      "index": 3,
+      "cls": "D",
+      "confidence": 0.7361074090003967,
+      "box": [
+        859,
+        500,
+        1020,
+        673
+      ],
+      "padded_box": [
+        834,
+        474,
+        1044,
+        698
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8301
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.733450174331665,
+      "box": [
+        927,
+        186,
+        1159,
+        400
+      ],
+      "padded_box": [
+        892,
+        153,
+        1182,
+        432
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.7776
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.44310852885246277,
+      "box": [
+        19,
+        149,
+        265,
+        358
+      ],
+      "padded_box": [
+        0,
+        117,
+        301,
+        389
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. Final Answer: The visible dentition appears normal with no signs of caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 6,
+      "cls": "D",
+      "confidence": 0.27226388454437256,
+      "box": [
+        1109,
+        509,
+        1182,
+        792
+      ],
+      "padded_box": [
+        1098,
+        466,
+        1182,
+        834
+      ],
+      "reasoning": "The image shows the upper right region of a mouth with visible dentin. I can identify one region of concern: 1 affected area(s). The extent of any carious lesion is moderate. Final Answer: The final answer is \"\\n\\n1 affected area(s)\\nModerate extent.\\n\\n\\n\\n\"",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 2,
+    "fn": 0
+  }
+}

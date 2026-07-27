@@ -1,0 +1,62 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_004-007-1321-00_1733473332768_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      199,
+      1060,
+      659,
+      1384
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7349320650100708,
+      "box": [
+        160,
+        1062,
+        682,
+        1401
+      ],
+      "padded_box": [
+        81,
+        1011,
+        760,
+        1451
+      ],
+      "reasoning": "The image shows close-up views of teeth, likely premolars or molars, with visible cusps and grooves. There appears to be a small dark spot on the occlusal surface of one of the upper teeth. This could potentially represent early caries, but it is difficult to determine definitively from this single image without additional context like clinical examination findings or radiographs. The image shows close-up views of teeth with visible cusps and grooves. There appears to be a small dark spot on the occlusal surface of one of the upper teeth. This could potentially represent early caries, but it is difficult to determine definitively from this single image without additional context like clinical examination findings or radiographs.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8327
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.39927464723587036,
+      "box": [
+        2123,
+        999,
+        2665,
+        1354
+      ],
+      "padded_box": [
+        2041,
+        945,
+        2746,
+        1407
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel structure and some internal variations in color and texture. There appears to be a small, slightly darker area on the surface of one tooth. Yes, there is evidence of dental caries (tooth decay). I am moderately confident this is caries due to the dark discoloration observed.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  }
+}

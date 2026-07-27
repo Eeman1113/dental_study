@@ -1,0 +1,55 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1293-00_1733313329181_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8509380221366882,
+      "box": [
+        908,
+        323,
+        1136,
+        515
+      ],
+      "padded_box": [
+        873,
+        294,
+        1170,
+        543
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a dark discoloration within the grooves of one of the upper molars. This appears to be a cavitated lesion consistent with dental caries (tooth decay). I am moderately confident in this assessment based on the visual evidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.45428112149238586,
+      "box": [
+        71,
+        351,
+        295,
+        538
+      ],
+      "padded_box": [
+        37,
+        322,
+        328,
+        566
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is no obvious evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows inside the enamel, or brown/black discolourations on the tooth surfaces. Based on this visual inspection, it does not appear to show signs of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 2,
+    "fn": 0
+  }
+}

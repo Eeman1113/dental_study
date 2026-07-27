@@ -1,0 +1,33 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-009-1194-00_1732775915152_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.6764805912971497,
+      "box": [
+        112,
+        1111,
+        606,
+        1428
+      ],
+      "padded_box": [
+        37,
+        1063,
+        680,
+        1475
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including incisors and canines. The teeth appear generally healthy with white enamel surfaces. There is no obvious evidence of dental caries (tooth decay) visible in this cropped view. I am not confident that there is any caries present based on this limited view.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-883-01_1730282825622_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.375375360250473,
+      "box": [
+        492,
+        1184,
+        937,
+        1271
+      ],
+      "padded_box": [
+        425,
+        1170,
+        1003,
+        1271
+      ],
+      "reasoning": "The image shows the upper right region of a mouth with 4 visible dentition. I can identify one region of concern - a primary caries lesion. Final Answer: The visible dentition appear normal. One primary caries lesion is identified. Reason: 1 primary caries lesion. Reason confidence: High.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0
+  }
+}

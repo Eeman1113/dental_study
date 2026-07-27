@@ -1,0 +1,62 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-902-01_1730356318368_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      305,
+      1636,
+      979,
+      2220
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.7001953721046448,
+      "box": [
+        255,
+        1636,
+        1009,
+        2237
+      ],
+      "padded_box": [
+        141,
+        1545,
+        1122,
+        2327
+      ],
+      "reasoning": "The image shows a primary caries lesion in the lower right region of the image. Yes, it appears to be caries. I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8686
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.3230966627597809,
+      "box": [
+        209,
+        2064,
+        945,
+        2638
+      ],
+      "padded_box": [
+        98,
+        1977,
+        1055,
+        2724
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  }
+}

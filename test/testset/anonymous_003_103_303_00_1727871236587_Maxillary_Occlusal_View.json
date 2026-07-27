@@ -1,0 +1,40 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_103_303_00_1727871236587_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      120,
+      611,
+      377,
+      770
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.3033876419067383,
+      "box": [
+        109,
+        598,
+        392,
+        784
+      ],
+      "padded_box": [
+        66,
+        570,
+        434,
+        811
+      ],
+      "reasoning": "The image shows close-up views of several teeth, likely premolars or molars, with visible enamel surfaces. There is no obvious evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows within the enamel, or brown/black discoloration on the tooth surfaces shown in this crop. Based on the image provided, it does not appear to show any signs of dental caries. Confidence level: High.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7763
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  }
+}

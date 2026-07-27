@@ -1,0 +1,33 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-998-01_1730980715687_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.3938201069831848,
+      "box": [
+        1355,
+        720,
+        1663,
+        962
+      ],
+      "padded_box": [
+        1308,
+        683,
+        1681,
+        998
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interdental spaces. There appears to be some discoloration or staining on the occlusal (chewing) surfaces of several teeth. Yes, there is evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of dark shadows within the enamel structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0
+  }
+}

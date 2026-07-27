@@ -1,0 +1,62 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1329-00_1733490890827_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      68,
+      213,
+      253,
+      378
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.5947313904762268,
+      "box": [
+        50,
+        205,
+        265,
+        397
+      ],
+      "padded_box": [
+        17,
+        176,
+        297,
+        425
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7395
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.41354742646217346,
+      "box": [
+        22,
+        60,
+        217,
+        250
+      ],
+      "padded_box": [
+        0,
+        31,
+        246,
+        278
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the lower right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  }
+}

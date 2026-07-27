@@ -1,0 +1,142 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-653-01_1729171852238_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      109,
+      384,
+      371,
+      576
+    ],
+    [
+      59,
+      530,
+      336,
+      686
+    ],
+    [
+      19,
+      647,
+      305,
+      870
+    ],
+    [
+      26,
+      803,
+      267,
+      968
+    ],
+    [
+      1157,
+      464,
+      1386,
+      632
+    ],
+    [
+      1198,
+      605,
+      1411,
+      743
+    ],
+    [
+      1203,
+      716,
+      1465,
+      928
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7776877880096436,
+      "box": [
+        1206,
+        703,
+        1474,
+        943
+      ],
+      "padded_box": [
+        1165,
+        667,
+        1496,
+        979
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;No;Not Caries",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 6,
+      "iou_with_gt": 0.8453
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.6578202247619629,
+      "box": [
+        67,
+        521,
+        337,
+        687
+      ],
+      "padded_box": [
+        26,
+        496,
+        377,
+        711
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion (primary caries) with a dark shadow within the enamel of the central permanent tooth. I can identify this lesion.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9109
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.6118365526199341,
+      "box": [
+        13,
+        635,
+        314,
+        889
+      ],
+      "padded_box": [
+        0,
+        596,
+        359,
+        927
+      ],
+      "reasoning": "The image shows 6 permanent teeth visible in a close-up view of the upper right region of the mouth. There is one primary caries lesion visible; it appears as a small dark spot within the enamel of a permanent central incisor. I can identify this lesion.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8342
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.5437113642692566,
+      "box": [
+        101,
+        371,
+        372,
+        578
+      ],
+      "padded_box": [
+        60,
+        339,
+        412,
+        609
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion visible in the lower left region of the frame. I can identify 1 dental caries lesion.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8967
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 3
+  }
+}

@@ -1,0 +1,1 @@
+<annotation><folder>images</folder><filename>anonymous_003-007-810-00_1729925219683_Left_Lateral_View.jpg</filename><size><width>1055</width><height>1055</height><depth>3</depth></size><object><name>D</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>722</xmin><ymin>329</ymin><xmax>947</xmax><ymax>463</ymax></bndbox></object></annotation>

@@ -1,0 +1,208 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-857-01_1730199751150_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      183,
+      631,
+      449,
+      825
+    ],
+    [
+      111,
+      767,
+      392,
+      1031
+    ],
+    [
+      80,
+      964,
+      346,
+      1171
+    ],
+    [
+      1252,
+      580,
+      1546,
+      778
+    ],
+    [
+      1318,
+      759,
+      1582,
+      917
+    ],
+    [
+      1349,
+      1092,
+      1627,
+      1255
+    ],
+    [
+      1329,
+      905,
+      1612,
+      1097
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.850477397441864,
+      "box": [
+        1246,
+        565,
+        1556,
+        797
+      ],
+      "padded_box": [
+        1199,
+        530,
+        1602,
+        831
+      ],
+      "reasoning": "The image shows several teeth with visible decay. There is a distinct dark brown lesion on the occlusal (chewing) surface of the upper right molar. This appears to be dental caries. I am moderately confident this is caries, as the lesion has characteristic features.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8094
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8184441924095154,
+      "box": [
+        56,
+        968,
+        355,
+        1193
+      ],
+      "padded_box": [
+        11,
+        934,
+        399,
+        1226
+      ],
+      "reasoning": "The image shows multiple teeth with significant discoloration and structural damage. There is a large, dark lesion visible on the occlusal (chewing) surface of one tooth, appearing as a brown/black area within the enamel structure. Yes, it appears to be dental caries (tooth decay). I am confident in this assessment due to the distinct dark discoloration and apparent structural breakdown visible within the tooth's enamel.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7901
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8180581331253052,
+      "box": [
+        86,
+        759,
+        400,
+        1058
+      ],
+      "padded_box": [
+        38,
+        714,
+        447,
+        1102
+      ],
+      "reasoning": "The image shows multiple teeth with significant discoloration and some appear to have rough surfaces. There is a dark shadow visible within the enamel of one tooth. Yes, there appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the dark shadow within the enamel.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7901
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.8133925795555115,
+      "box": [
+        173,
+        628,
+        456,
+        848
+      ],
+      "padded_box": [
+        130,
+        595,
+        498,
+        881
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel structure and some discoloration. There is a dark area within the dentin layer of one tooth. This appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8288
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.8060799241065979,
+      "box": [
+        1306,
+        737,
+        1595,
+        928
+      ],
+      "padded_box": [
+        1262,
+        708,
+        1638,
+        956
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible decay. There is a dark area within the enamel of one of the upper molars. This appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.7557
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.8003113865852356,
+      "box": [
+        1334,
+        1070,
+        1631,
+        1276
+      ],
+      "padded_box": [
+        1289,
+        1039,
+        1675,
+        1287
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible enamel structure. There is no clear evidence of dental caries such as cavitated lesions or dark shadows within the enamel. No, I am not confident that this image shows dental caries.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 5,
+      "iou_with_gt": 0.7406
+    },
+    {
+      "index": 6,
+      "cls": "d",
+      "confidence": 0.7873693108558655,
+      "box": [
+        1313,
+        866,
+        1639,
+        1144
+      ],
+      "padded_box": [
+        1264,
+        824,
+        1687,
+        1185
+      ],
+      "reasoning": "The image shows multiple teeth with visible crowns. There is a noticeable dark discoloration within the crown of one of the upper teeth. This appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 6,
+      "iou_with_gt": 0.5995
+    }
+  ],
+  "matched": {
+    "tp": 7,
+    "fp": 0,
+    "fn": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_341_01_1728024477624_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      151,
+      802,
+      518,
+      1187
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.9051406383514404,
+      "box": [
+        117,
+        785,
+        540,
+        1199
+      ],
+      "padded_box": [
+        53,
+        722,
+        603,
+        1261
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, including the upper molars. The teeth appear generally white with some slight variations in translucency. There is a small dark spot visible on the occlusal (chewing) surface of one of the lower molars. Yes, it appears to be evidence of dental caries (tooth decay). I am moderately confident this is caries due to the distinct dark spot observed.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8068
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  }
+}

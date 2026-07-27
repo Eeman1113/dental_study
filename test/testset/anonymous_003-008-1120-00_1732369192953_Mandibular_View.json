@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1120-00_1732369192953_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      38,
+      192,
+      235,
+      339
+    ],
+    [
+      68,
+      341,
+      276,
+      513
+    ],
+    [
+      990,
+      235,
+      1176,
+      395
+    ],
+    [
+      967,
+      381,
+      1162,
+      560
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8461062908172607,
+      "box": [
+        50,
+        326,
+        285,
+        529
+      ],
+      "padded_box": [
+        14,
+        295,
+        320,
+        559
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including molars and premolars. The crowns of the teeth appear white and generally healthy. There is no obvious evidence of dental caries (tooth decay) visible in this cropped view. I am not confident that there is no caries present as only a small portion of the teeth are shown.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7499
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8398268818855286,
+      "box": [
+        953,
+        370,
+        1176,
+        573
+      ],
+      "padded_box": [
+        919,
+        339,
+        1201,
+        603
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, including molars and premolars. The enamel appears generally intact with some minor variations in translucency. There is a small, dark shadow visible on the occlusal (chewing) surface of the upper right molar. Yes, it looks like caries. I am moderately confident this is caries due to the distinct dark shadow within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.7711
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8224575519561768,
+      "box": [
+        28,
+        176,
+        246,
+        362
+      ],
+      "padded_box": [
+        0,
+        148,
+        278,
+        389
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, including molars and premolars. The crowns of the teeth appear white and relatively smooth. There is some slight shadowing visible on the occlusal (chewing) surfaces. No clear evidence of dental caries is visible in this cropped image. I am not confident in this assessment as it's a limited view.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7142
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.8126683235168457,
+      "box": [
+        977,
+        224,
+        1190,
+        404
+      ],
+      "padded_box": [
+        945,
+        197,
+        1201,
+        431
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is a visible crack running down the center of the upper molar. No obvious signs of dental caries such as cavities or discoloration are apparent on the visible portions of the teeth. I am not confident in this assessment due to the limited view.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7762
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

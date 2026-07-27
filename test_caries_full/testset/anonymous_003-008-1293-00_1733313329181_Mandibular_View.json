@@ -1,0 +1,55 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1293-00_1733313329181_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8509380221366882,
+      "box": [
+        908,
+        323,
+        1136,
+        515
+      ],
+      "padded_box": [
+        873,
+        294,
+        1170,
+        543
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.45428112149238586,
+      "box": [
+        71,
+        351,
+        295,
+        538
+      ],
+      "padded_box": [
+        37,
+        322,
+        328,
+        566
+      ],
+      "reasoning": "The image shows 6 permanent upper teeth with intact enamel and normal alignment. I can identify no dental caries.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 2,
+    "fn": 0
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1428-00_1733988334630_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      261,
+      312,
+      730,
+      754
+    ],
+    [
+      340,
+      651,
+      814,
+      1117
+    ],
+    [
+      2243,
+      67,
+      2706,
+      488
+    ],
+    [
+      2164,
+      449,
+      2698,
+      880
+    ],
+    [
+      2158,
+      796,
+      2603,
+      1138
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8294109106063843,
+      "box": [
+        2144,
+        405,
+        2714,
+        887
+      ],
+      "padded_box": [
+        2058,
+        332,
+        2799,
+        959
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interdental spaces. There is also a view of the gingival margin (gum line) on the left side. There is no clear evidence of dental caries in this specific cropped view. I am not confident in identifying caries from this single image alone.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8377
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8069361448287964,
+      "box": [
+        304,
+        614,
+        837,
+        1088
+      ],
+      "padded_box": [
+        224,
+        542,
+        916,
+        1159
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There appears to be some slight discoloration or staining on the occlusal (chewing) surfaces of several teeth. There is no clear evidence of active dental caries in this cropped view. I am not confident in identifying subtle early signs of decay from this single image.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7776
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8052276968955994,
+      "box": [
+        2204,
+        24,
+        2720,
+        495
+      ],
+      "padded_box": [
+        2126,
+        0,
+        2797,
+        565
+      ],
+      "reasoning": "The image shows the occlusal (biting) surfaces of several teeth, including molars and premolars. There is a visible dark brown discoloration on the occlusal surface of the right central incisor. This appears to be a cavitated lesion consistent with dental caries. I am confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.802
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7473087310791016,
+      "box": [
+        2148,
+        770,
+        2616,
+        1126
+      ],
+      "padded_box": [
+        2077,
+        716,
+        2686,
+        1179
+      ],
+      "reasoning": "The image shows the occlusal view of a molar tooth with visible cusps and grooves. There is no obvious evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows inside enamel, or brown/black discolourations on the tooth surface. Based on this visual inspection, it does not appear to show signs of dental caries. Confidence level: High.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.854
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.707923948764801,
+      "box": [
+        234,
+        278,
+        735,
+        735
+      ],
+      "padded_box": [
+        158,
+        209,
+        810,
+        803
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There is a visible brownish discoloration on the occlusal (chewing) surface of one of the upper molars. This appears to be a cavitated lesion or decay. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.834
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+  }
+}

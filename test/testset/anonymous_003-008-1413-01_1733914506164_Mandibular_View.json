@@ -1,0 +1,33 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1413-01_1733914506164_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.36293670535087585,
+      "box": [
+        1005,
+        299,
+        1249,
+        517
+      ],
+      "padded_box": [
+        968,
+        266,
+        1285,
+        549
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is no obvious evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows inside the enamel, or brown/black discolourations on the tooth surfaces. Based on this visual inspection, it does not appear to show signs of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0
+  }
+}

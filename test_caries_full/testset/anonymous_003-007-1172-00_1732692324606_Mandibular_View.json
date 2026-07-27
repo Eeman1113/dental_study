@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1172-00_1732692324606_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      91,
+      303,
+      420,
+      648
+    ],
+    [
+      128,
+      572,
+      491,
+      936
+    ],
+    [
+      1661,
+      475,
+      2069,
+      879
+    ],
+    [
+      1749,
+      179,
+      2163,
+      534
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8433550596237183,
+      "box": [
+        1735,
+        164,
+        2171,
+        549
+      ],
+      "padded_box": [
+        1669,
+        106,
+        2194,
+        606
+      ],
+      "reasoning": "The image shows 4 permanent teeth with normal structure and color. I can identify no regions of concern such as cavitation. Final Answer: The visible dentition appears healthy with no signs of decay. Final Answer: 0.98536",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8756
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7895019054412842,
+      "box": [
+        1653,
+        462,
+        2089,
+        872
+      ],
+      "padded_box": [
+        1587,
+        400,
+        2154,
+        933
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8919
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7288799285888672,
+      "box": [
+        118,
+        551,
+        508,
+        935
+      ],
+      "padded_box": [
+        59,
+        493,
+        566,
+        992
+      ],
+      "reasoning": "The image shows 6 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;No;Not Caries",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8777
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.5936336517333984,
+      "box": [
+        77,
+        292,
+        443,
+        642
+      ],
+      "padded_box": [
+        22,
+        239,
+        497,
+        694
+      ],
+      "reasoning": "The image shows 4 permanent teeth with intact enamel and normal morphology. I can identify no carious lesions. Final Answer: The visible dentition appears healthy with no signs of decay. Final Answer: 0.98536",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8574
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

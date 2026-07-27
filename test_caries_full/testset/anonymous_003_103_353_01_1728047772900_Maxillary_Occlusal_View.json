@@ -1,0 +1,74 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_103_353_01_1728047772900_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      251,
+      761,
+      563,
+      958
+    ],
+    [
+      153,
+      1126,
+      403,
+      1378
+    ],
+    [
+      1441,
+      916,
+      1746,
+      1181
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.34073686599731445,
+      "box": [
+        1420,
+        908,
+        1750,
+        1200
+      ],
+      "padded_box": [
+        1370,
+        864,
+        1799,
+        1243
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8388
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.33975595235824585,
+      "box": [
+        252,
+        748,
+        569,
+        977
+      ],
+      "padded_box": [
+        204,
+        713,
+        616,
+        1011
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in cross-section with normal enamel structure and color. I can identify no regions of concern such as cavitation or discoloration. Final Answer: The visible dentition appears healthy with no signs of decay. I am very confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8417
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 1
+  }
+}

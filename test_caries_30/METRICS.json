@@ -1,0 +1,55 @@
+{
+  "test_images": 30,
+  "detector_only_ultralytics_val": {
+    "mAP50": 0.8597305172508399,
+    "mAP50-95": 0.6915564118964388,
+    "precision": 0.8242550353983862,
+    "recall": 0.8445138249534461,
+    "per_class": {
+      "d": {
+        "mAP50": 0.9353103008757254,
+        "mAP50-95": 0.737183987549321,
+        "precision": 0.858039464444922,
+        "recall": 0.8764331210191083
+      },
+      "D": {
+        "mAP50": 0.7841507336259544,
+        "mAP50-95": 0.6459288362435567,
+        "precision": 0.7904706063518505,
+        "recall": 0.8125945288877837
+      }
+    }
+  },
+  "combined_pipeline_at_conf_thr": {
+    "conf_thr": 0.25,
+    "iou_thr": 0.5,
+    "total_detections": 75,
+    "total_gt": 58,
+    "yolo_alone": {
+      "TP": 56,
+      "FP": 19,
+      "FN": 2,
+      "P": 0.7466666666666667,
+      "R": 0.9655172413793104
+    },
+    "cross_tab": {
+      "confirm/TP": 35,
+      "reject/TP": 8,
+      "confirm/FP": 13,
+      "uncertain/TP": 13,
+      "reject/FP": 4,
+      "uncertain/FP": 2
+    },
+    "yolo_medgemma_veto": {
+      "TP": 48,
+      "FP": 15,
+      "FN": 10,
+      "P": 0.7619047619047619,
+      "R": 0.8275862068965517,
+      "delta_P_vs_yolo_alone": 0.015238095238095162,
+      "delta_R_vs_yolo_alone": -0.13793103448275867
+    },
+    "fp_removed_by_veto_fraction": 0.21052631578947367,
+    "tp_lost_by_veto_fraction": 0.14285714285714285
+  }
+}

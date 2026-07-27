@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-711-00_1729486430166_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      39,
+      983,
+      465,
+      1259
+    ],
+    [
+      1657,
+      731,
+      1957,
+      882
+    ],
+    [
+      1631,
+      873,
+      1997,
+      1105
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8389480710029602,
+      "box": [
+        44,
+        973,
+        458,
+        1267
+      ],
+      "padded_box": [
+        0,
+        928,
+        520,
+        1311
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible decay. There is a distinct dark area within the enamel of one tooth, suggesting active dental caries. I am moderately confident this represents caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9139
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8016164898872375,
+      "box": [
+        1608,
+        834,
+        2006,
+        1114
+      ],
+      "padded_box": [
+        1548,
+        792,
+        2065,
+        1156
+      ],
+      "reasoning": "The image shows four teeth with white enamel surfaces and some darker areas within the grooves of the teeth. There is also a small dark spot visible on one of the teeth. Yes, there appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visible dark spots and discoloration within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.762
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.48990076780319214,
+      "box": [
+        1638,
+        691,
+        1966,
+        888
+      ],
+      "padded_box": [
+        1588,
+        661,
+        2015,
+        917
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel structure and some areas of discoloration. There is a noticeable dark brown area within the grooves of one of the teeth. Yes, this appears to be dental caries (tooth decay). I am moderately confident in this assessment based on the visual evidence of the dark discoloration within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7011
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

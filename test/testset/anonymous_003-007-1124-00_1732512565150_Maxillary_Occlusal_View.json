@@ -1,0 +1,33 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1124-00_1732512565150_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.35850009322166443,
+      "box": [
+        2268,
+        1702,
+        2787,
+        2017
+      ],
+      "padded_box": [
+        2190,
+        1654,
+        2864,
+        2064
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible decay. There is a dark, irregular lesion present on the occlusal (chewing) surface. This appears to be dental caries. I am moderately confident in this assessment based on the visual evidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0
+  }
+}

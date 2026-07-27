@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-797-00_1729858198340_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1040,
+      152,
+      1256,
+      319
+    ],
+    [
+      1015,
+      303,
+      1249,
+      492
+    ],
+    [
+      39,
+      280,
+      298,
+      469
+    ],
+    [
+      5,
+      124,
+      233,
+      302
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.856417179107666,
+      "box": [
+        1033,
+        145,
+        1271,
+        343
+      ],
+      "padded_box": [
+        997,
+        115,
+        1294,
+        372
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, brownish discoloration on the occlusal (chewing) surface of one of the lower molars. This appears to be a cavitated lesion or decay. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7655
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8265067338943481,
+      "box": [
+        1001,
+        289,
+        1256,
+        501
+      ],
+      "padded_box": [
+        962,
+        257,
+        1294,
+        532
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, dark spot visible on the occlusal (chewing) surface of one of the posterior teeth. This could potentially be early caries or another type of lesion. I am moderately confident this represents some form of dental pathology.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8181
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8177546858787537,
+      "box": [
+        3,
+        117,
+        247,
+        318
+      ],
+      "padded_box": [
+        0,
+        86,
+        283,
+        348
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is a small, darker area visible on the occlusal (chewing) surface of one of the upper molars. This could potentially be early decay or staining. Yes, there appears to be evidence of dental caries (tooth decay). The dark spot suggests potential demineralization within the tooth structure. Confidence level: Moderate.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8275
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7210637331008911,
+      "box": [
+        38,
+        269,
+        306,
+        483
+      ],
+      "padded_box": [
+        0,
+        236,
+        346,
+        515
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is a small, slightly darker area visible on the occlusal (chewing) surface of one of the upper molars. This could potentially be early decay or staining. It appears there might be a small lesion present. Confidence: Low to Moderate.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8535
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

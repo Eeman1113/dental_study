@@ -1,0 +1,174 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_103_334_00_1727967004094_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      158,
+      348,
+      377,
+      534
+    ],
+    [
+      170,
+      498,
+      402,
+      725
+    ],
+    [
+      241,
+      656,
+      422,
+      819
+    ],
+    [
+      1184,
+      706,
+      1362,
+      884
+    ],
+    [
+      1227,
+      531,
+      1469,
+      798
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8123984932899475,
+      "box": [
+        162,
+        487,
+        411,
+        716
+      ],
+      "padded_box": [
+        124,
+        452,
+        448,
+        750
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in cross-section with normal enamel structure. I can identify one region of concern which is a primary caries lesion. Final Answer: The image displays 4 permanent teeth with intact enamel. One primary caries lesion is identified. Reasoning: 1 primary caries lesion identified.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8556
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7995386123657227,
+      "box": [
+        145,
+        331,
+        384,
+        536
+      ],
+      "padded_box": [
+        109,
+        300,
+        419,
+        566
+      ],
+      "reasoning": "The image shows 4 permanent teeth in the upper right region of the mouth. I can identify 2 primary caries lesions (primary caries) with moderate confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8314
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7817779779434204,
+      "box": [
+        1208,
+        530,
+        1485,
+        786
+      ],
+      "padded_box": [
+        1166,
+        491,
+        1526,
+        824
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;No;Not Caries",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.836
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.6739842891693115,
+      "box": [
+        1283,
+        367,
+        1519,
+        583
+      ],
+      "padded_box": [
+        1247,
+        334,
+        1554,
+        615
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.6713775992393494,
+      "box": [
+        233,
+        647,
+        437,
+        821
+      ],
+      "padded_box": [
+        202,
+        620,
+        467,
+        847
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8312
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.42364174127578735,
+      "box": [
+        1160,
+        698,
+        1365,
+        871
+      ],
+      "padded_box": [
+        1129,
+        672,
+        1395,
+        896
+      ],
+      "reasoning": "The image shows 3 permanent teeth visible in the upper right region of the frame. There is no evidence of dental caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.7774
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 1,
+    "fn": 0
+  }
+}

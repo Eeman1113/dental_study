@@ -1,0 +1,80 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1223-01_1732877412001_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      139,
+      665,
+      433,
+      917
+    ],
+    [
+      114,
+      855,
+      424,
+      1098
+    ],
+    [
+      1262,
+      763,
+      1558,
+      1001
+    ],
+    [
+      1291,
+      978,
+      1543,
+      1130
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.8034914135932922,
+      "box": [
+        134,
+        655,
+        445,
+        929
+      ],
+      "padded_box": [
+        87,
+        613,
+        491,
+        970
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There appears to be a small, slightly darker area on the occlusal (chewing) surface of one of the upper premolars. Yes, there is evidence of dental caries (tooth decay). I am moderately confident in this assessment due to the visible discoloration and potential structural change within the tooth's enamel.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8694
+    },
+    {
+      "index": 1,
+      "cls": "D",
+      "confidence": 0.34405484795570374,
+      "box": [
+        96,
+        841,
+        440,
+        1112
+      ],
+      "padded_box": [
+        44,
+        800,
+        491,
+        1152
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a noticeable dark discoloration on the occlusal (chewing) surface of the lower right molar. This appears to be a cavitated lesion or decay. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8081
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 2
+  }
+}

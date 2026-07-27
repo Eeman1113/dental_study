@@ -1,0 +1,152 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-719-00_1729496830754_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      54,
+      132,
+      296,
+      351
+    ],
+    [
+      62,
+      338,
+      364,
+      589
+    ],
+    [
+      139,
+      566,
+      364,
+      738
+    ],
+    [
+      1356,
+      98,
+      1628,
+      319
+    ],
+    [
+      1279,
+      304,
+      1588,
+      581
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8508040308952332,
+      "box": [
+        1245,
+        284,
+        1601,
+        622
+      ],
+      "padded_box": [
+        1191,
+        233,
+        1654,
+        672
+      ],
+      "reasoning": "The image shows a close-up view of teeth with a visible dark discoloration on one tooth. This appears to be a cavitated lesion or decay. I am moderately confident this is dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.7113
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8435564637184143,
+      "box": [
+        47,
+        324,
+        374,
+        633
+      ],
+      "padded_box": [
+        0,
+        277,
+        423,
+        679
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, including molars and premolars. The enamel appears generally intact, though some minor variations in translucency are visible. There is no obvious evidence of active dental caries such as cavitation or significant discoloration within the tooth structure shown. No, it does not appear to show evidence of dental caries. I am not confident in this assessment based solely on this image crop.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7502
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8331440687179565,
+      "box": [
+        42,
+        123,
+        315,
+        369
+      ],
+      "padded_box": [
+        1,
+        86,
+        355,
+        405
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible decay. There is a dark brown discoloration within the grooves of the tooth's occlusal (chewing) surface. This appears to be dental caries (tooth decay). I am moderately confident this is caries, as the discoloration is localized and within the enamel structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7892
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.827103853225708,
+      "box": [
+        1330,
+        81,
+        1647,
+        354
+      ],
+      "padded_box": [
+        1282,
+        40,
+        1670,
+        394
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be some discoloration or shadowing within the grooves of the tooth's surface. It does not look like a typical cavity lesion, but rather potentially staining or enamel hypoplasia. Based on this visual information alone, it is difficult to definitively diagnose caries. The appearance could represent various conditions including staining, developmental defects, or early decay. Confidence in identifying definite caries is low based solely on this image.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.6946
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.7802819013595581,
+      "box": [
+        127,
+        555,
+        380,
+        785
+      ],
+      "padded_box": [
+        89,
+        520,
+        417,
+        819
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some areas of discoloration. There is no clear evidence of cavitated lesions or dark shadows indicative of active caries within the visible portion of the teeth. Based on this limited view, there is no obvious sign of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.6651
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+  }
+}

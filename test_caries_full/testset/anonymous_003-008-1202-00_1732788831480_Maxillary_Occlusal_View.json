@@ -1,0 +1,40 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1202-00_1732788831480_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1351,
+      649,
+      1607,
+      830
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.5633150935173035,
+      "box": [
+        1336,
+        637,
+        1627,
+        846
+      ],
+      "padded_box": [
+        1292,
+        605,
+        1670,
+        877
+      ],
+      "reasoning": "The image shows 4 permanent teeth with intact enamel surfaces. I can identify no regions of concern. No; I am not confident that this represents dental caries.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7619
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  }
+}

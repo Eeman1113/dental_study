@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1105-01_1732274761826_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      54,
+      194,
+      296,
+      420
+    ],
+    [
+      1078,
+      162,
+      1295,
+      373
+    ],
+    [
+      1033,
+      348,
+      1256,
+      564
+    ],
+    [
+      107,
+      386,
+      353,
+      595
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8171687126159668,
+      "box": [
+        1066,
+        151,
+        1305,
+        378
+      ],
+      "padded_box": [
+        1030,
+        116,
+        1340,
+        412
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is a small, slightly darker area within one of the grooves on the occlusal surface. This could potentially represent early caries or staining. Based on this single image, it is difficult to definitively determine if there is dental caries. The appearance could be due to various factors like enamel hypoplasia, staining, or very early demineralization. Confidence in identifying caries is low based solely on this visual information.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.844
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8012998104095459,
+      "box": [
+        106,
+        375,
+        359,
+        598
+      ],
+      "padded_box": [
+        68,
+        341,
+        396,
+        631
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be some minor discoloration or texture variation on the occlusal surface. It does not show obvious signs of active dental caries such as cavitation, dark shadows within enamel, or significant brown/black decay. Based on this visual inspection, it does not appear to show evidence of active dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.9113
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7998493313789368,
+      "box": [
+        1027,
+        344,
+        1264,
+        554
+      ],
+      "padded_box": [
+        991,
+        312,
+        1299,
+        585
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, including the upper molars. The crowns of the teeth appear intact with visible enamel structure. There is no obvious evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows within the enamel, or brown/black discoloration on the tooth surfaces shown in this crop. Based on this limited view, it does not appear to show signs of active dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8834
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7852293252944946,
+      "box": [
+        52,
+        191,
+        298,
+        413
+      ],
+      "padded_box": [
+        15,
+        157,
+        334,
+        446
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is a small, slightly darker area near the gum line on the mesial (left) side of the tooth. This could potentially be early decay or staining. It appears there might be some evidence of caries, but it's difficult to determine definitively from this single image. The confidence level is low.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9412
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

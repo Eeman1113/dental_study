@@ -1,0 +1,146 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_363_01_1728112740981_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      40,
+      7,
+      321,
+      247
+    ],
+    [
+      88,
+      200,
+      400,
+      430
+    ],
+    [
+      1385,
+      77,
+      1653,
+      335
+    ],
+    [
+      1295,
+      255,
+      1561,
+      473
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8052526116371155,
+      "box": [
+        41,
+        10,
+        322,
+        255
+      ],
+      "padded_box": [
+        0,
+        0,
+        364,
+        291
+      ],
+      "reasoning": "The image shows multiple white, irregular structures within the oral cavity, likely representing food debris or possibly impacted calculus (tartar). There is no clear evidence of dental caries visible in this specific crop. I am not confident in identifying caries from this limited view.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.949
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7955197691917419,
+      "box": [
+        1286,
+        254,
+        1587,
+        523
+      ],
+      "padded_box": [
+        1240,
+        213,
+        1632,
+        563
+      ],
+      "reasoning": "The image shows multiple teeth with white restorations, likely crowns or veneers, visible from the occlusal (biting) view. The restorations appear intact and uniform in color. There is no obvious evidence of dental caries such as cavitation, dark shadows within enamel, or brown/black discoloration on the visible tooth surfaces. No, it does not look like caries. I am confident in this assessment based on the visual information provided.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.7162
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7780963182449341,
+      "box": [
+        1389,
+        72,
+        1685,
+        341
+      ],
+      "padded_box": [
+        1344,
+        31,
+        1729,
+        381
+      ],
+      "reasoning": "The image shows multiple teeth with white, opaque surfaces. There is some discoloration visible on the occlusal (chewing) surfaces of the posterior teeth. It appears there might be a dark shadow or area within the enamel structure. Yes, it looks like caries and I am moderately confident in this assessment based on the visual evidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8445
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7453446388244629,
+      "box": [
+        91,
+        187,
+        404,
+        452
+      ],
+      "padded_box": [
+        44,
+        147,
+        450,
+        491
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is some slight discoloration visible on the lower right molar. It does not appear to have a cavitated lesion or dark shadow. No, it does not look like caries. I am moderately confident in this assessment based on the limited view.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8498
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.30020463466644287,
+      "box": [
+        1243,
+        451,
+        1473,
+        651
+      ],
+      "padded_box": [
+        1208,
+        421,
+        1507,
+        681
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including molars with visible cusps and grooves. There appears to be some slight discoloration or shadowing within the grooves of the upper molar on the left. Based on this limited view, there is a slight possibility of early caries, but it's difficult to confirm definitively without more context or higher resolution imaging. The confidence level is low.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 1,
+    "fn": 0
+  }
+}

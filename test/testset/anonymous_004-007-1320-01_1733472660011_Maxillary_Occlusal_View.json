@@ -1,0 +1,62 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_004-007-1320-01_1733472660011_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      249,
+      1019,
+      670,
+      1312
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7094825506210327,
+      "box": [
+        215,
+        1012,
+        683,
+        1322
+      ],
+      "padded_box": [
+        144,
+        965,
+        753,
+        1368
+      ],
+      "reasoning": "The image shows close-up views of teeth, likely premolars or molars, with visible enamel structure and some slight variations in translucency. There is no obvious evidence of dental caries such as cavitated lesions, dark shadows within the enamel, or significant brown/black discoloration on the surfaces shown. No, it does not appear to show signs of dental caries. I am not confident in this assessment based solely on this image crop.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8502
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.3184470534324646,
+      "box": [
+        1959,
+        948,
+        2439,
+        1265
+      ],
+      "padded_box": [
+        1887,
+        900,
+        2511,
+        1312
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel structure and some internal variations in color and texture. There is a noticeable lighter area within the central part of one tooth, possibly representing dentin or enamel variation. There is evidence of dental caries (tooth decay). I am moderately confident this is caries due to the presence of a lighter area within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  }
+}

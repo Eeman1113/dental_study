@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-686-01_1729259151138_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      77,
+      203,
+      295,
+      392
+    ],
+    [
+      928,
+      274,
+      1172,
+      479
+    ],
+    [
+      78,
+      43,
+      264,
+      220
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8410605788230896,
+      "box": [
+        916,
+        263,
+        1180,
+        500
+      ],
+      "padded_box": [
+        876,
+        227,
+        1213,
+        535
+      ],
+      "reasoning": "The image shows multiple teeth with visible decay. There is a dark brown discoloration within the grooves of the upper molars, suggesting cavitated lesions. Yes, there appears to be evidence of dental caries (tooth decay). The dark brown discoloration within the tooth structure strongly suggests active decay. Confidence level: High.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7995
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8111683130264282,
+      "box": [
+        52,
+        193,
+        310,
+        419
+      ],
+      "padded_box": [
+        13,
+        159,
+        348,
+        452
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel structure. There is a noticeable dark brown discoloration within the grooves of one of the upper molars. This appears to be a cavitated lesion consistent with dental caries (tooth decay). I am moderately confident in this assessment based on the visual evidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7066
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.3929244875907898,
+      "box": [
+        65,
+        45,
+        275,
+        234
+      ],
+      "padded_box": [
+        33,
+        16,
+        306,
+        262
+      ],
+      "reasoning": "The image shows multiple teeth with visible white and brownish-yellow deposits on their surfaces. There is also some discoloration within the enamel of lower teeth. Yes, there appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visible discolouration and deposits.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8125
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

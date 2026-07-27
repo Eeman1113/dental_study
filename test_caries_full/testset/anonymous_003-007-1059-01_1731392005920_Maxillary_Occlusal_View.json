@@ -1,0 +1,90 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1059-01_1731392005920_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      42,
+      1532,
+      594,
+      2003
+    ],
+    [
+      2306,
+      1540,
+      2850,
+      1960
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7595112919807434,
+      "box": [
+        20,
+        1521,
+        624,
+        2041
+      ],
+      "padded_box": [
+        0,
+        1443,
+        714,
+        2119
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8278
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.41118383407592773,
+      "box": [
+        98,
+        1263,
+        612,
+        1607
+      ],
+      "padded_box": [
+        20,
+        1211,
+        689,
+        1658
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.29515618085861206,
+      "box": [
+        2254,
+        1506,
+        2869,
+        1993
+      ],
+      "padded_box": [
+        2161,
+        1432,
+        2961,
+        2066
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion (primary caries) with a permanent caries lesion (permanent caries) in the lower left region of the frame. I can identify 2 regions of concern. Final Answer: The final answer is \"\\nSurface marking: 1\\nLocation: Lower left\\nLesion type: Primary caries\\nConfidence: High\"",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7629
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1276-01_1733288260917_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      309,
+      1176,
+      743,
+      1465
+    ],
+    [
+      268,
+      1415,
+      743,
+      1801
+    ],
+    [
+      343,
+      1721,
+      768,
+      2004
+    ],
+    [
+      2387,
+      1265,
+      2882,
+      1685
+    ],
+    [
+      2373,
+      1585,
+      2823,
+      1915
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.6905517578125,
+      "box": [
+        2367,
+        1590,
+        2844,
+        1928
+      ],
+      "padded_box": [
+        2295,
+        1539,
+        2915,
+        1978
+      ],
+      "reasoning": "The image shows multiple teeth with visible crowns, including some that appear to be restorations. There is a noticeable dark discoloration within the crown of one of the posterior teeth on the left side. This appears to be a cavitated lesion or decay. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.8946
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.663849413394928,
+      "box": [
+        301,
+        1176,
+        751,
+        1482
+      ],
+      "padded_box": [
+        233,
+        1130,
+        818,
+        1527
+      ],
+      "reasoning": "The image shows close-up views of teeth, specifically the occlusal surfaces (chewing surfaces) of premolars or molars. The crowns of the teeth appear generally intact with a bright white enamel surface. There is some slight discoloration visible on the lower right tooth's occlusal surface, appearing as a small dark spot or shadow. Yes, there appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment due to the presence of a distinct dark spot/shadow on the occlusal surface of one of the teeth shown.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9109
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.6186028122901917,
+      "box": [
+        2373,
+        1264,
+        2918,
+        1722
+      ],
+      "padded_box": [
+        2291,
+        1195,
+        2999,
+        1790
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a noticeable brownish discoloration on the occlusal (chewing) surface of the lower right second molar. This appears to be a dark shadow within the tooth structure. Yes, this looks like dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the discoloration.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8329
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.296540230512619,
+      "box": [
+        252,
+        1401,
+        760,
+        1831
+      ],
+      "padded_box": [
+        175,
+        1336,
+        836,
+        1895
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is some discoloration present on the occlusal (chewing) surfaces of several teeth, appearing as brownish-yellow patches. Yes, there appears to be evidence of dental caries (tooth decay). The discoloration suggests demineralization within the tooth structure. I am moderately confident in this assessment based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8394
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.2646990120410919,
+      "box": [
+        336,
+        1703,
+        775,
+        2020
+      ],
+      "padded_box": [
+        270,
+        1655,
+        840,
+        2067
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a noticeable brownish discoloration on the occlusal (chewing) surface of one of the posterior teeth. This discoloration appears to be within the tooth structure itself rather than just on the outer surface. Yes, it looks like caries and I am moderately confident in this assessment based on the visual appearance of the discoloration.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8643
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+  }
+}

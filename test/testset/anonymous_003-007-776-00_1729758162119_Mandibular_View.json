@@ -1,0 +1,140 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-776-00_1729758162119_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      43,
+      94,
+      352,
+      349
+    ],
+    [
+      105,
+      330,
+      430,
+      618
+    ],
+    [
+      1465,
+      216,
+      1761,
+      450
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.782172679901123,
+      "box": [
+        96,
+        316,
+        435,
+        633
+      ],
+      "padded_box": [
+        45,
+        268,
+        485,
+        680
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel structure and some staining or discoloration on the surfaces. There is no clear evidence of cavitated lesions, dark shadows within the enamel, or brown/black discolourations indicative of active caries in this specific view. Based on this single image, it does not appear to show definite signs of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.871
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7817103266716003,
+      "box": [
+        43,
+        85,
+        359,
+        386
+      ],
+      "padded_box": [
+        0,
+        39,
+        406,
+        431
+      ],
+      "reasoning": "The image shows multiple teeth with visible decay. There is evidence of cavitated lesions and dark shadows within the enamel structure. This appears to be dental caries (tooth decay). I am moderately confident in this assessment based on the visual features present.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8284
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.778666615486145,
+      "box": [
+        1449,
+        210,
+        1747,
+        475
+      ],
+      "padded_box": [
+        1404,
+        170,
+        1791,
+        514
+      ],
+      "reasoning": "The image shows a close-up view of the occlusal (biting) surface of a molar tooth. The tooth appears to have some brown discoloration on its surface. There is also a darker area within the grooves of the tooth, possibly representing decay or staining. Yes, it looks like there might be dental caries present. I am moderately confident in this assessment based on the visible discoloration and dark shadow within the grooves.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8023
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.6761494874954224,
+      "box": [
+        1391,
+        427,
+        1717,
+        717
+      ],
+      "padded_box": [
+        1342,
+        383,
+        1765,
+        760
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, dark spot on the occlusal (chewing) surface of one of the upper molars. This appears to be a potential area of concern. Yes, there is evidence of a possible cavity. The dark spot suggests demineralization, which is characteristic of caries. My confidence in this assessment is moderate due to the limited view and resolution.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.32921257615089417,
+      "box": [
+        208,
+        553,
+        470,
+        785
+      ],
+      "padded_box": [
+        168,
+        518,
+        509,
+        819
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel structure and some yellowish discoloration on the surfaces. There is no clear evidence of cavitated lesions or dark shadows indicative of active caries in this specific crop. Based on this limited view, it does not appear to show definite signs of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 2,
+    "fn": 0
+  }
+}

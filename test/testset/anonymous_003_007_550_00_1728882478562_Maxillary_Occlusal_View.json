@@ -1,0 +1,152 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_550_00_1728882478562_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      2263,
+      1228,
+      2698,
+      1492
+    ],
+    [
+      2229,
+      1448,
+      2734,
+      1805
+    ],
+    [
+      2242,
+      1779,
+      2642,
+      2002
+    ],
+    [
+      191,
+      1051,
+      734,
+      1566
+    ],
+    [
+      375,
+      846,
+      842,
+      1192
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7544389367103577,
+      "box": [
+        2273,
+        1224,
+        2706,
+        1503
+      ],
+      "padded_box": [
+        2208,
+        1182,
+        2770,
+        1544
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There is a visible lesion within the crown of one of the upper molars. This lesion appears as a dark brown/black area with some lighter areas suggesting pulp exposure or decay progression. Yes, it looks like caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the lesion.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9089
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.6936956644058228,
+      "box": [
+        350,
+        860,
+        818,
+        1196
+      ],
+      "padded_box": [
+        279,
+        809,
+        888,
+        1246
+      ],
+      "reasoning": "The image shows close-up views of teeth crowns. There appears to be some discoloration visible on the occlusal (biting) surfaces of the lower molars. This could potentially indicate early caries or staining. Based on the visual evidence, it is difficult to definitively determine if this represents active dental caries. The appearance could also be due to extrinsic staining or other factors. Confidence in identifying caries based solely on this image is low.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.8563
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.5409582853317261,
+      "box": [
+        2234,
+        1743,
+        2647,
+        1984
+      ],
+      "padded_box": [
+        2172,
+        1706,
+        2708,
+        2020
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible enamel structure and some darker areas within the grooves. There is also a small, dark spot on one of the teeth. Yes, there appears to be evidence of dental caries (tooth decay). The dark spots suggest demineralization, which is characteristic of caries. I am moderately confident in this assessment based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7683
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.46731504797935486,
+      "box": [
+        182,
+        1055,
+        746,
+        1568
+      ],
+      "padded_box": [
+        97,
+        978,
+        830,
+        1644
+      ],
+      "reasoning": "The image shows a close-up view of teeth, likely molars, with visible cusps and grooves. There appears to be some discoloration or staining on the surfaces of the teeth. Yes, there is evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of dark spots within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.9519
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.3122120797634125,
+      "box": [
+        2235,
+        1450,
+        2741,
+        1814
+      ],
+      "padded_box": [
+        2159,
+        1395,
+        2816,
+        1868
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel structure and some yellowish discoloration on the surfaces. There is no clear evidence of cavitated lesions or dark shadows indicative of active caries within the depicted area. Based on this visual inspection, there is no obvious sign of dental caries in the specific area shown. Confidence level: Low (limited view).",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9457
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+  }
+}

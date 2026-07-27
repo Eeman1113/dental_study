@@ -1,0 +1,99 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1365-00_1733730834809_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.758087158203125,
+      "box": [
+        58,
+        276,
+        515,
+        603
+      ],
+      "padded_box": [
+        0,
+        226,
+        583,
+        652
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, likely molars, with visible cusps and grooves. There is some yellowish discoloration on the occlusal (chewing) surfaces of the upper teeth. No clear evidence of dental caries is visible in this cropped image. I am not confident in identifying caries from this single image.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.729529082775116,
+      "box": [
+        2039,
+        108,
+        2539,
+        502
+      ],
+      "padded_box": [
+        1964,
+        48,
+        2554,
+        561
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is no obvious evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows within the enamel, or brown/black discoloration on the tooth surface. Based on this visual inspection, it does not appear to show signs of active dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.6772359013557434,
+      "box": [
+        86,
+        500,
+        593,
+        915
+      ],
+      "padded_box": [
+        9,
+        437,
+        669,
+        977
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interdental spaces. There is a small dark spot visible on the occlusal (chewing) surface of one of the lower molars. This could potentially be early caries, but it's difficult to determine definitively from this single image without more context or magnification. The image shows multiple teeth with visible enamel surfaces and some interdental spaces. There is a small dark spot visible on the occlusal (chewing) surface of one of the lower molars. This could potentially be early caries, but it's difficult to determine definitively from this single image without more context or magnification.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.5270906686782837,
+      "box": [
+        171,
+        788,
+        610,
+        1127
+      ],
+      "padded_box": [
+        105,
+        737,
+        675,
+        1177
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There appears to be some slight discoloration or staining visible on the surfaces of the teeth. It is difficult to definitively determine if this represents dental caries (tooth decay) without further clinical examination and potentially radiographic imaging. Based on the visual information alone, it does not appear to show obvious cavitated lesions or dark shadows indicative of active caries. However, subtle signs can be missed in a photograph. Confidence: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 4,
+    "fn": 0
+  }
+}

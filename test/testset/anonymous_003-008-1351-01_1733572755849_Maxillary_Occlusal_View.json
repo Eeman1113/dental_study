@@ -1,0 +1,74 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1351-01_1733572755849_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      184,
+      720,
+      419,
+      845
+    ],
+    [
+      1249,
+      546,
+      1532,
+      752
+    ],
+    [
+      1224,
+      470,
+      1451,
+      626
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.4948708415031433,
+      "box": [
+        182,
+        704,
+        417,
+        846
+      ],
+      "padded_box": [
+        146,
+        682,
+        452,
+        867
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be a small dark area within one of the grooves or fissures on the occlusal surface. This could potentially represent early caries, but it might also just be staining or a shadow. Based on this visual information alone, it is difficult to definitively determine if there is dental caries. The appearance could be consistent with early decay, but further evaluation would be needed for confirmation. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8663
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.49271297454833984,
+      "box": [
+        1252,
+        549,
+        1529,
+        766
+      ],
+      "padded_box": [
+        1210,
+        516,
+        1570,
+        798
+      ],
+      "reasoning": "The image shows close-up views of teeth, specifically the occlusal (biting) surfaces of premolars or molars. The enamel appears generally intact with visible cusps and grooves. There is a small area on the left side that looks slightly darker than the surrounding tooth structure, potentially due to shadowing or minor staining. There is no clear evidence of active dental caries in this cropped view. I am not confident in identifying subtle early lesions from this image alone.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9044
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 1
+  }
+}

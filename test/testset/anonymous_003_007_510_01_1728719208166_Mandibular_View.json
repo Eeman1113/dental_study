@@ -1,0 +1,180 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_510_01_1728719208166_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      31,
+      91,
+      350,
+      403
+    ],
+    [
+      115,
+      343,
+      471,
+      655
+    ],
+    [
+      300,
+      616,
+      584,
+      855
+    ],
+    [
+      1802,
+      55,
+      2096,
+      359
+    ],
+    [
+      1759,
+      322,
+      2117,
+      647
+    ],
+    [
+      1744,
+      574,
+      2040,
+      818
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8112191557884216,
+      "box": [
+        26,
+        79,
+        371,
+        424
+      ],
+      "padded_box": [
+        0,
+        27,
+        422,
+        475
+      ],
+      "reasoning": "The image shows multiple teeth with significant brownish-black discoloration and some areas appearing darker than others. There is also evidence of pooling saliva or liquid on the surfaces. Yes, there appears to be evidence of dental caries (tooth decay). The dark brown/black discoloration strongly suggests cavitated lesions within the tooth structure. My confidence in this assessment is high based on the visual evidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8362
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7990530133247375,
+      "box": [
+        1790,
+        43,
+        2100,
+        354
+      ],
+      "padded_box": [
+        1743,
+        0,
+        2146,
+        400
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with significant brownish discoloration and some darker areas within the grooves. There is also a small dark spot on the occlusal surface near the center. Yes, this appears to be evidence of dental caries (tooth decay). I am confident in this assessment based on the visible discoloration and potential cavitated lesion.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8981
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7784174680709839,
+      "box": [
+        1745,
+        315,
+        2108,
+        651
+      ],
+      "padded_box": [
+        1690,
+        264,
+        2162,
+        701
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a noticeable brownish discoloration on the occlusal (chewing) surface of the upper right premolar. This appears to be a dark shadow within the tooth structure. Yes, this looks like dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the discoloration.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.9082
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7507745027542114,
+      "box": [
+        118,
+        342,
+        488,
+        698
+      ],
+      "padded_box": [
+        62,
+        288,
+        543,
+        751
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some areas of discoloration. There is a noticeable dark brown area on the occlusal (chewing) surface of the upper right molar. Yes, there appears to be evidence of dental caries (tooth decay). The dark brown discoloration strongly suggests a cavitated lesion or active decay. My confidence in this assessment is high based on the visual characteristics.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8302
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.5570306777954102,
+      "box": [
+        291,
+        610,
+        584,
+        875
+      ],
+      "padded_box": [
+        247,
+        570,
+        627,
+        914
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible decay. There is a dark brown discoloration on the occlusal (chewing) surface, suggesting caries. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8742
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.5169895887374878,
+      "box": [
+        1736,
+        571,
+        2032,
+        833
+      ],
+      "padded_box": [
+        1691,
+        531,
+        2076,
+        872
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and surrounding gum tissue. There is a noticeable dark brown discoloration on the occlusal (chewing) surface of the upper molar. This discoloration appears to be located within the enamel structure, possibly representing a cavitated lesion or deep staining. Yes, it looks like caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the dark discoloration.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 5,
+      "iou_with_gt": 0.8839
+    }
+  ],
+  "matched": {
+    "tp": 6,
+    "fp": 0,
+    "fn": 0
+  }
+}

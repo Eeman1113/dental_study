@@ -1,0 +1,24 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/tooth.png",
+  "detections": [
+    {
+      "index": 0,
+      "yolo_class": "d",
+      "yolo_confidence": 0.3225,
+      "box_xyxy": [
+        3623,
+        502,
+        4031,
+        1375
+      ],
+      "padded_box_xyxy": [
+        3561,
+        371,
+        4032,
+        1505
+      ],
+      "medgemma_thinking": "",
+      "medgemma_answer": "The image shows a close-up view of teeth with visible enamel structure and some fine hairs. There is no clear evidence of dental caries (tooth decay) visible in this cropped section. I am not confident in identifying caries from this limited view."
+    }
+  ]
+}

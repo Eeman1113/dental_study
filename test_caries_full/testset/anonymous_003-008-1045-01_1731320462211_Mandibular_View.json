@@ -1,0 +1,68 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1045-01_1731320462211_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      132,
+      248,
+      392,
+      441
+    ],
+    [
+      1250,
+      227,
+      1464,
+      438
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.748352587223053,
+      "box": [
+        1232,
+        222,
+        1515,
+        454
+      ],
+      "padded_box": [
+        1189,
+        187,
+        1557,
+        488
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion visible; it appears as a small dark spot within the enamel of a permanent tooth. I can identify this lesion.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.6877
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7383148074150085,
+      "box": [
+        126,
+        233,
+        408,
+        479
+      ],
+      "padded_box": [
+        83,
+        196,
+        450,
+        515
+      ],
+      "reasoning": "The image shows 6 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. Final Answer: The visible dentition appears healthy with no signs of caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7233
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 0
+  }
+}

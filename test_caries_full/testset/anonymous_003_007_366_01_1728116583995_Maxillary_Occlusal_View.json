@@ -1,0 +1,186 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_366_01_1728116583995_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      2434,
+      861,
+      2910,
+      1151
+    ],
+    [
+      2493,
+      1109,
+      2927,
+      1396
+    ],
+    [
+      2455,
+      1351,
+      2941,
+      1730
+    ],
+    [
+      2507,
+      1658,
+      2938,
+      1909
+    ],
+    [
+      613,
+      985,
+      996,
+      1275
+    ],
+    [
+      634,
+      658,
+      1110,
+      1006
+    ],
+    [
+      472,
+      1230,
+      969,
+      1665
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7917320132255554,
+      "box": [
+        2417,
+        839,
+        2898,
+        1154
+      ],
+      "padded_box": [
+        2344,
+        791,
+        2970,
+        1201
+      ],
+      "reasoning": "A permanent caries lesion is visible in the mid right region of the image. I am moderately confident this represents primary caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8682
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7902197241783142,
+      "box": [
+        577,
+        967,
+        1004,
+        1282
+      ],
+      "padded_box": [
+        512,
+        919,
+        1068,
+        1329
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion (primary caries) with a permanent caries lesion (permanent caries) that appears to be affected by decay. I can identify 2 regions of concern. \u05e7\u05d0\u05e8\u05d9\u05d6\u094d\u092e: 2 \u05d1\u05d9\u05d8\u05d7\u05d5\u05df: 60%",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.8258
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7899256348609924,
+      "box": [
+        2439,
+        1357,
+        2930,
+        1746
+      ],
+      "padded_box": [
+        2365,
+        1298,
+        3003,
+        1804
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8947
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7826654314994812,
+      "box": [
+        2471,
+        1112,
+        2915,
+        1397
+      ],
+      "padded_box": [
+        2404,
+        1069,
+        2981,
+        1439
+      ],
+      "reasoning": "The image shows two carious lesions (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9131
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.7606343030929565,
+      "box": [
+        484,
+        1233,
+        1014,
+        1669
+      ],
+      "padded_box": [
+        404,
+        1167,
+        1093,
+        1734
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 6,
+      "iou_with_gt": 0.8812
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.3287239670753479,
+      "box": [
+        2511,
+        1668,
+        2908,
+        1910
+      ],
+      "padded_box": [
+        2451,
+        1631,
+        2967,
+        1946
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8812
+    }
+  ],
+  "matched": {
+    "tp": 6,
+    "fp": 0,
+    "fn": 1
+  }
+}

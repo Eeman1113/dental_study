@@ -1,0 +1,90 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_502_00_1728708607584_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      54,
+      975,
+      386,
+      1241
+    ],
+    [
+      104,
+      733,
+      456,
+      1091
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.6131358742713928,
+      "box": [
+        70,
+        695,
+        483,
+        1094
+      ],
+      "padded_box": [
+        8,
+        635,
+        544,
+        1153
+      ],
+      "reasoning": "The image shows 6 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;No;Not Caries",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7647
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.57523512840271,
+      "box": [
+        1734,
+        762,
+        2067,
+        968
+      ],
+      "padded_box": [
+        1684,
+        731,
+        2116,
+        998
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.5325672030448914,
+      "box": [
+        29,
+        983,
+        399,
+        1245
+      ],
+      "padded_box": [
+        0,
+        943,
+        454,
+        1284
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.86
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  }
+}

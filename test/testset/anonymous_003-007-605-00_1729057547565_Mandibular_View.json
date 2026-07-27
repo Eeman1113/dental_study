@@ -1,0 +1,40 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-605-00_1729057547565_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      232,
+      344,
+      588,
+      623
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7648895978927612,
+      "box": [
+        227,
+        323,
+        592,
+        630
+      ],
+      "padded_box": [
+        172,
+        276,
+        646,
+        676
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel structure and some yellowish staining on the surfaces. There is a dark area within the crown of one of the upper teeth, possibly representing a cavity or decay. Yes, there appears to be evidence of dental caries (tooth decay) in the upper tooth shown, characterized by a dark shadow within the enamel. The confidence level is high based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8864
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  }
+}

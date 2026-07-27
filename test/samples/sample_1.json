@@ -1,0 +1,77 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/Dataset/Images/retractors/Mandibular/anonymous_003-008-1306-01_1733398824537_Mandibular_View.jpg",
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8060319423675537,
+      "box": [
+        9,
+        57,
+        257,
+        308
+      ],
+      "padded_box": [
+        0,
+        19,
+        294,
+        345
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible decay. There is a dark, brownish area within the grooves of the tooth's crown. This appears to be dental caries (tooth decay). I am moderately confident this is caries based on the visual evidence."
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8028125762939453,
+      "box": [
+        63,
+        261,
+        307,
+        484
+      ],
+      "padded_box": [
+        26,
+        227,
+        343,
+        517
+      ],
+      "reasoning": "The image shows a close-up view of a tooth with a large, dark, irregular lesion visible within the crown. There is also a clear dental restoration (likely a filling or crown) surrounding the lesion. Yes, this appears to be evidence of dental caries (tooth decay). I am confident in this assessment based on the distinct dark discoloration and irregular shape within the tooth structure."
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7995211482048035,
+      "box": [
+        971,
+        263,
+        1210,
+        460
+      ],
+      "padded_box": [
+        935,
+        233,
+        1245,
+        489
+      ],
+      "reasoning": "The image shows a close-up view of a tooth with a visible lesion within its crown. The lesion appears dark brown to blackish in color and has an irregular shape. There is also some yellowish discoloration surrounding the lesion. Yes, this appears to be evidence of dental caries (tooth decay). I am confident in this assessment based on the visual characteristics of the lesion."
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7967848777770996,
+      "box": [
+        1039,
+        53,
+        1276,
+        304
+      ],
+      "padded_box": [
+        1003,
+        15,
+        1285,
+        341
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be some discoloration or shadowing within the grooves of the occlusal surface. Yes, there is evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the shadowed areas within the tooth structure."
+    }
+  ]
+}

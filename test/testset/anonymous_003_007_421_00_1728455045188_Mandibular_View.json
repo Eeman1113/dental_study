@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_421_00_1728455045188_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      72,
+      23,
+      326,
+      258
+    ],
+    [
+      122,
+      255,
+      437,
+      511
+    ],
+    [
+      1482,
+      68,
+      1670,
+      296
+    ],
+    [
+      1411,
+      291,
+      1685,
+      535
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8224676847457886,
+      "box": [
+        109,
+        239,
+        444,
+        537
+      ],
+      "padded_box": [
+        58,
+        194,
+        494,
+        581
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is some slight discoloration on the occlusal (chewing) surfaces of several teeth. It appears there might be a small dark spot or shadow on one of the upper teeth, but it's difficult to definitively determine if this represents caries or something else like an artifact or stain. Based on the image alone, it is difficult to definitively confirm the presence of dental caries. The discoloration could potentially represent early caries, but further evaluation would be needed for a definitive diagnosis. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8078
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7853198051452637,
+      "box": [
+        1463,
+        64,
+        1685,
+        301
+      ],
+      "padded_box": [
+        1429,
+        28,
+        1718,
+        336
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, likely molars, with visible cusps and fissures. There appears to be some discoloration or shadowing within the grooves of the teeth. Yes, there is evidence that could suggest dental caries (tooth decay). The shadowed areas within the tooth structure are concerning for potential decay, although further examination would be needed for a definitive diagnosis. Confidence level: Moderate.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8147
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7848321199417114,
+      "box": [
+        1397,
+        272,
+        1698,
+        547
+      ],
+      "padded_box": [
+        1351,
+        230,
+        1743,
+        588
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There appears to be some slight discoloration or shadowing within the grooves of the occlusal (biting) surfaces of the posterior teeth. There is no clear evidence of active dental caries in this cropped view. I am not confident in identifying subtle signs of early decay from this single image alone.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8077
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7022212743759155,
+      "box": [
+        58,
+        13,
+        331,
+        282
+      ],
+      "padded_box": [
+        17,
+        0,
+        371,
+        322
+      ],
+      "reasoning": "The image shows a close-up view of teeth within the mouth. There appears to be some yellowish discoloration visible on the surfaces of the teeth. It is difficult to definitively determine if this represents dental caries (tooth decay) without further information or clinical examination. The appearance could potentially indicate early demineralization, but it could also be due to other factors like staining or restorations. Therefore, based solely on this image, I cannot confidently confirm the presence of active dental caries.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8128
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

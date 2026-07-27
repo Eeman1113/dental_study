@@ -1,0 +1,146 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1113-01_1732361420661_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      64,
+      151,
+      298,
+      362
+    ],
+    [
+      103,
+      341,
+      353,
+      574
+    ],
+    [
+      1076,
+      176,
+      1293,
+      370
+    ],
+    [
+      1006,
+      353,
+      1235,
+      578
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8422048687934875,
+      "box": [
+        1063,
+        165,
+        1303,
+        383
+      ],
+      "padded_box": [
+        1027,
+        132,
+        1327,
+        415
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8046
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8310778141021729,
+      "box": [
+        53,
+        145,
+        303,
+        369
+      ],
+      "padded_box": [
+        15,
+        111,
+        340,
+        402
+      ],
+      "reasoning": "The image shows a primary caries lesion in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8817
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.806768536567688,
+      "box": [
+        102,
+        336,
+        353,
+        584
+      ],
+      "padded_box": [
+        64,
+        298,
+        390,
+        621
+      ],
+      "reasoning": "The image shows 4 permanent teeth with intact enamel surfaces. There is no evidence of dental caries visible in this cropped region. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9358
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.8006592392921448,
+      "box": [
+        1001,
+        343,
+        1244,
+        580
+      ],
+      "padded_box": [
+        964,
+        307,
+        1280,
+        615
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in cross-section with some shadowing within the dentin structure of the upper central region of the image. There is no evidence of dental caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8947
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.25587788224220276,
+      "box": [
+        990,
+        526,
+        1170,
+        697
+      ],
+      "padded_box": [
+        963,
+        500,
+        1197,
+        722
+      ],
+      "reasoning": "The image shows 3 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. Final Answer: 2 primary cenes.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 1,
+    "fn": 0
+  }
+}

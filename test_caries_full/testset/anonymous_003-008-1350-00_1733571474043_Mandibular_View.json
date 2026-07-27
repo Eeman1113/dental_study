@@ -1,0 +1,10 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1350-00_1733571474043_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [],
+  "matched": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 0
+  }
+}

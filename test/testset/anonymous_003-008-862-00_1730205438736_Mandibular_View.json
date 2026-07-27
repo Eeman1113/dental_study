@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-862-00_1730205438736_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      34,
+      83,
+      248,
+      250
+    ],
+    [
+      61,
+      236,
+      287,
+      406
+    ],
+    [
+      923,
+      250,
+      1143,
+      436
+    ],
+    [
+      943,
+      101,
+      1163,
+      266
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7917984127998352,
+      "box": [
+        909,
+        235,
+        1146,
+        455
+      ],
+      "padded_box": [
+        873,
+        202,
+        1181,
+        488
+      ],
+      "reasoning": "The image shows multiple teeth with visible surfaces. There is a noticeable dark brown discoloration on the occlusal (chewing) surface of the lower molar. This appears to be a lesion within the tooth structure. Yes, this looks like dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the dark discoloration.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7848
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.785825788974762,
+      "box": [
+        937,
+        91,
+        1165,
+        276
+      ],
+      "padded_box": [
+        902,
+        63,
+        1193,
+        303
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There appear to be some small, dark specks visible on the surfaces of the upper teeth. It is difficult to determine if these are actual caries or just debris. Based on this limited view, it is difficult to definitively say whether there is evidence of dental caries. The dark specks could potentially indicate early caries, but they might also be extrinsic staining or other factors. Confidence in identifying caries is low based solely on this image.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8606
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7762769460678101,
+      "box": [
+        32,
+        74,
+        252,
+        269
+      ],
+      "padded_box": [
+        0,
+        44,
+        285,
+        298
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There appears to be some slight discoloration or texture variation on the occlusal (chewing) surfaces of the lower molars. There is no clear evidence of active dental caries in this cropped view. I am not confident in identifying subtle early signs of decay from this single image alone.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8331
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7666815519332886,
+      "box": [
+        44,
+        218,
+        301,
+        428
+      ],
+      "padded_box": [
+        5,
+        186,
+        339,
+        459
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There appears to be some slight discoloration or staining on the surfaces of the teeth. It is difficult to definitively determine if this represents dental caries (tooth decay) without further clinical examination and potentially radiographic imaging. Based on the visual information alone, it is not possible to confirm the presence of active caries lesions like cavitation or significant dark shadows within the enamel.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7119
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

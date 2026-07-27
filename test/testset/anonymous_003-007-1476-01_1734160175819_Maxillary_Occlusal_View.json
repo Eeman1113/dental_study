@@ -1,0 +1,52 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1476-01_1734160175819_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      81,
+      1219,
+      438,
+      1421
+    ],
+    [
+      1749,
+      1005,
+      2176,
+      1292
+    ],
+    [
+      1933,
+      1430,
+      2401,
+      1658
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.38121291995048523,
+      "box": [
+        47,
+        1199,
+        458,
+        1439
+      ],
+      "padded_box": [
+        0,
+        1163,
+        519,
+        1475
+      ],
+      "reasoning": "The image shows multiple teeth with visible crowns and roots. There appears to be some discoloration and possibly erosion on the surfaces of the teeth. There is evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the tooth surfaces.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7311
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 2
+  }
+}

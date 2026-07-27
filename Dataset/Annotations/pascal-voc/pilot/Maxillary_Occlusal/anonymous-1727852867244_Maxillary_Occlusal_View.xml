@@ -1,0 +1,1 @@
+<annotation><folder>images</folder><filename>anonymous-1727852867244_Maxillary_Occlusal_View.jpg</filename><size><width>2991</width><height>1680</height><depth>3</depth></size><object><name>D</name><pose>Unspecified</pose><truncated>0</truncated><difficult>0</difficult><bndbox><xmin>2193</xmin><ymin>1049</ymin><xmax>2666</xmax><ymax>1394</ymax></bndbox></object></annotation>

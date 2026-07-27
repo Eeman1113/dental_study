@@ -1,0 +1,119 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/Dataset/Images/no_retractors/Mandibular/anonymous_003-008-816-00_1729939059509_Mandibular_View.jpg",
+  "detections": [
+    {
+      "index": 0,
+      "yolo_class": "d",
+      "yolo_confidence": 0.7569,
+      "box_xyxy": [
+        67,
+        33,
+        298,
+        243
+      ],
+      "padded_box_xyxy": [
+        32,
+        1,
+        332,
+        274
+      ],
+      "medgemma_thinking": "",
+      "medgemma_answer": "The image shows a close-up view of several teeth, including molars. The crowns of the teeth appear white and relatively intact. There is some slight discoloration visible on the occlusal (chewing) surface of the upper molar.\n\nThere is evidence of potential caries on the upper molar. I am moderately confident in this assessment due to the visible discoloration."
+    },
+    {
+      "index": 1,
+      "yolo_class": "D",
+      "yolo_confidence": 0.7548,
+      "box_xyxy": [
+        125,
+        225,
+        320,
+        421
+      ],
+      "padded_box_xyxy": [
+        95,
+        195,
+        349,
+        450
+      ],
+      "medgemma_thinking": "",
+      "medgemma_answer": "The image shows a close-up view of a molar tooth with visible decay. There is a dark, irregular lesion present on the occlusal (chewing) surface of the tooth. This appears to be evidence of dental caries. I am moderately confident this is caries."
+    },
+    {
+      "index": 2,
+      "yolo_class": "d",
+      "yolo_confidence": 0.5262,
+      "box_xyxy": [
+        997,
+        222,
+        1225,
+        437
+      ],
+      "padded_box_xyxy": [
+        962,
+        189,
+        1259,
+        469
+      ],
+      "medgemma_thinking": "",
+      "medgemma_answer": "The image shows multiple teeth with visible enamel surfaces. There is a small, slightly darker area within the grooves of one of the upper molars. This could potentially be early decay or just staining/enamel variation.\n\nIt appears there might be a small area of discoloration or irregularity on one of the teeth, possibly indicating early caries. However, it's difficult to determine definitively from this image alone."
+    },
+    {
+      "index": 3,
+      "yolo_class": "D",
+      "yolo_confidence": 0.4294,
+      "box_xyxy": [
+        877,
+        490,
+        1030,
+        670
+      ],
+      "padded_box_xyxy": [
+        854,
+        463,
+        1052,
+        697
+      ],
+      "medgemma_thinking": "",
+      "medgemma_answer": "The image shows close-up views of several teeth, including crowns and parts of the roots. There appears to be some discoloration or staining on the surfaces of the teeth visible. It is difficult to definitively determine if this represents dental caries (tooth decay) without more information or a higher resolution image. However, the presence of dark spots or shadows within the enamel could potentially indicate early carious lesions. Confidence in identifying caries based solely on this image is low."
+    },
+    {
+      "index": 4,
+      "yolo_class": "D",
+      "yolo_confidence": 0.3472,
+      "box_xyxy": [
+        156,
+        382,
+        322,
+        522
+      ],
+      "padded_box_xyxy": [
+        131,
+        361,
+        346,
+        543
+      ],
+      "medgemma_thinking": "",
+      "medgemma_answer": "The image shows a close-up view of a tooth with a visible lesion on its surface. The lesion appears irregular and has a brownish discoloration. It looks like there is evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the lesion."
+    },
+    {
+      "index": 5,
+      "yolo_class": "D",
+      "yolo_confidence": 0.2989,
+      "box_xyxy": [
+        932,
+        375,
+        1126,
+        572
+      ],
+      "padded_box_xyxy": [
+        902,
+        345,
+        1155,
+        601
+      ],
+      "medgemma_thinking": "",
+      "medgemma_answer": "The image shows close-up views of several teeth with visible enamel structure and some minor staining or texture variations. There is no clear evidence of active dental caries such as a cavitated lesion, dark shadow within the enamel, or significant brown/black discoloration on the surfaces shown.\n\nBased on this visual inspection, it does not appear to show definitive signs of dental caries. Confidence level: Low."
+    }
+  ]
+}

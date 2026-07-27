@@ -1,0 +1,152 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1244-01_1732962596526_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      12,
+      183,
+      204,
+      392
+    ],
+    [
+      47,
+      333,
+      299,
+      571
+    ],
+    [
+      150,
+      501,
+      332,
+      685
+    ],
+    [
+      1124,
+      323,
+      1352,
+      544
+    ],
+    [
+      1198,
+      174,
+      1377,
+      359
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.814525842666626,
+      "box": [
+        1123,
+        326,
+        1355,
+        543
+      ],
+      "padded_box": [
+        1088,
+        293,
+        1389,
+        575
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible enamel structure and some discoloration. There is a dark spot within the grooves of one of the upper teeth. This appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.9653
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8065828680992126,
+      "box": [
+        46,
+        333,
+        295,
+        566
+      ],
+      "padded_box": [
+        8,
+        298,
+        332,
+        600
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interproximal areas. There is a noticeable dark shadow within the occlusal (chewing) surface of the upper right molar. Yes, there appears to be evidence of dental caries on the upper right molar. I am moderately confident in this assessment based on the visual appearance of the dark shadow.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9597
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8026800155639648,
+      "box": [
+        8,
+        176,
+        197,
+        388
+      ],
+      "padded_box": [
+        0,
+        144,
+        225,
+        419
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There is a visible dark discoloration within the grooves of one of the upper molars. This appears to be a cavitated lesion consistent with dental caries (tooth decay). I am moderately confident in this assessment based on the visual evidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8972
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7949925661087036,
+      "box": [
+        1185,
+        166,
+        1378,
+        359
+      ],
+      "padded_box": [
+        1156,
+        137,
+        1399,
+        387
+      ],
+      "reasoning": "The image shows a close-up view of teeth with white deposits on their surfaces. There is also a dark spot visible on one of the lower teeth. This appears to be dental plaque or calculus buildup, possibly mixed with some staining. It does not definitively show cavitated decay, but the dark spot could indicate early caries. Confidence level: Moderate.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.889
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.49192845821380615,
+      "box": [
+        142,
+        502,
+        334,
+        674
+      ],
+      "padded_box": [
+        113,
+        476,
+        362,
+        699
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel surfaces and some internal structures. There is a noticeable dark discoloration or shadow within the grooves of one of the upper teeth. Yes, this appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the dark area within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8891
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+  }
+}

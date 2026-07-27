@@ -1,0 +1,140 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1078-00_1731473228593_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1934,
+      71,
+      2309,
+      399
+    ],
+    [
+      1887,
+      412,
+      2274,
+      781
+    ],
+    [
+      1934,
+      771,
+      2234,
+      1006
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8281455636024475,
+      "box": [
+        1843,
+        379,
+        2294,
+        813
+      ],
+      "padded_box": [
+        1775,
+        313,
+        2361,
+        878
+      ],
+      "reasoning": "The image shows the occlusal surfaces of several teeth, including molars. There appears to be a small dark spot or shadow visible on the occlusal surface of the upper right molar. This could potentially represent early caries, but further evaluation is needed for confirmation. I am not confident in this assessment based solely on this image.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7296
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8195595741271973,
+      "box": [
+        217,
+        469,
+        652,
+        882
+      ],
+      "padded_box": [
+        151,
+        407,
+        717,
+        943
+      ],
+      "reasoning": "The image shows the occlusal (biting) surfaces of two teeth, likely premolars or canines, with visible cusps and grooves. There is a noticeable brownish discoloration within one of the central cusps on the upper tooth. Yes, it appears to be dental caries (tooth decay). I am moderately confident in this assessment based on the visual evidence of discoloration within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8172995448112488,
+      "box": [
+        1907,
+        43,
+        2319,
+        447
+      ],
+      "padded_box": [
+        1845,
+        0,
+        2380,
+        507
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, dark spot visible on the occlusal (chewing) surface of the lower right molar. This appears to be a potential area of concern. Yes, there is evidence of dental caries (tooth decay). The dark spot on the lower right molar strongly suggests active decay. My confidence in this assessment is high based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.739
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.553084671497345,
+      "box": [
+        1887,
+        745,
+        2243,
+        1053
+      ],
+      "padded_box": [
+        1833,
+        698,
+        2296,
+        1099
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is a small, slightly darker area near the center of the occlusal surface. It appears to be a shadow or possibly a very early stage of decay. Yes, it looks like there might be caries present, although it's difficult to determine definitively from this image alone. The darkening could be due to shadowing or an early lesion. Confidence is moderate.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.643
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.5451290607452393,
+      "box": [
+        141,
+        159,
+        544,
+        544
+      ],
+      "padded_box": [
+        80,
+        101,
+        604,
+        601
+      ],
+      "reasoning": "The image shows close-up views of the occlusal surfaces of several teeth. The upper teeth appear to have multiple rounded cusps. The lower tooth visible has a more flattened surface with some minor irregularities. There is no obvious evidence of dental caries such as cavitated lesions, dark shadows within enamel, or brown/black discoloration on the visible surfaces. No, it does not look like caries. I am not confident in this assessment based solely on this image.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 2,
+    "fn": 0
+  }
+}

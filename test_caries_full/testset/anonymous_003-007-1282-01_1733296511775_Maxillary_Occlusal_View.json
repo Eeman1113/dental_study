@@ -1,0 +1,17 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1282-01_1733296511775_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      147,
+      1298,
+      630,
+      1689
+    ]
+  ],
+  "detections": [],
+  "matched": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 1
+  }
+}

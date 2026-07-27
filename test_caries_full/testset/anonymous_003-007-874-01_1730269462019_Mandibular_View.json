@@ -1,0 +1,180 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-874-01_1730269462019_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      67,
+      144,
+      495,
+      558
+    ],
+    [
+      156,
+      522,
+      550,
+      928
+    ],
+    [
+      359,
+      853,
+      653,
+      1244
+    ],
+    [
+      1803,
+      519,
+      2195,
+      881
+    ],
+    [
+      1742,
+      833,
+      2050,
+      1139
+    ],
+    [
+      1986,
+      147,
+      2322,
+      605
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.9094609618186951,
+      "box": [
+        171,
+        518,
+        572,
+        930
+      ],
+      "padded_box": [
+        110,
+        456,
+        632,
+        991
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8983
+    },
+    {
+      "index": 1,
+      "cls": "D",
+      "confidence": 0.8713971376419067,
+      "box": [
+        356,
+        852,
+        658,
+        1235
+      ],
+      "padded_box": [
+        310,
+        794,
+        703,
+        1292
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.9493
+    },
+    {
+      "index": 2,
+      "cls": "D",
+      "confidence": 0.7810912728309631,
+      "box": [
+        1793,
+        512,
+        2200,
+        914
+      ],
+      "padded_box": [
+        1731,
+        451,
+        2261,
+        974
+      ],
+      "reasoning": "The image shows 6 permanent teeth visible with normal enamel structure and color. I can identify no regions of concern such as cavitation or discoloration. Final Answer: The image displays 6 permanent teeth with intact enamel. There is no evidence of dental caries.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8673
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.6987459659576416,
+      "box": [
+        52,
+        140,
+        488,
+        576
+      ],
+      "padded_box": [
+        0,
+        74,
+        553,
+        641
+      ],
+      "reasoning": "The image shows 4 permanent teeth with intact enamel surfaces. I can identify no regions of concern such as cavitation or discoloration. Final Answer: The visible dentition appears healthy with no signs of decay. Final Answer: 2",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9031
+    },
+    {
+      "index": 4,
+      "cls": "D",
+      "confidence": 0.6837120056152344,
+      "box": [
+        1739,
+        831,
+        2038,
+        1143
+      ],
+      "padded_box": [
+        1694,
+        784,
+        2082,
+        1189
+      ],
+      "reasoning": "The image shows primary caries lesions (tooth decay) in the upper right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.9342
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.6621898412704468,
+      "box": [
+        1979,
+        159,
+        2333,
+        582
+      ],
+      "padded_box": [
+        1925,
+        95,
+        2386,
+        645
+      ],
+      "reasoning": "The image shows 6 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 5,
+      "iou_with_gt": 0.88
+    }
+  ],
+  "matched": {
+    "tp": 6,
+    "fp": 0,
+    "fn": 0
+  }
+}

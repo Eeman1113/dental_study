@@ -1,0 +1,62 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1021-01_1731212419570_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      412,
+      1296,
+      941,
+      1763
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.6499203443527222,
+      "box": [
+        374,
+        1249,
+        948,
+        1791
+      ],
+      "padded_box": [
+        287,
+        1167,
+        1034,
+        1872
+      ],
+      "reasoning": "The image shows 4 permanent teeth in the upper right region of the mouth. There is one primary caries lesion visible in the mid left region of the image. I can identify 1 affected area. Final Answer: The final answer is \"\\nSurface caries; Moderately Confident\"",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7941
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.3668745458126068,
+      "box": [
+        2582,
+        1970,
+        2987,
+        2276
+      ],
+      "padded_box": [
+        2521,
+        1924,
+        3047,
+        2321
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  }
+}

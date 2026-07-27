@@ -1,0 +1,41 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/Dataset/Images/retractors/Mandibular/anonymous_003-007-945-01_1730785777076_Mandibular_View.jpg",
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.771847665309906,
+      "box": [
+        2219,
+        273,
+        2848,
+        832
+      ],
+      "padded_box": [
+        2124,
+        189,
+        2930,
+        915
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is a dark brownish discoloration within one of the grooves on the occlusal (chewing) surface. This appears to be a cavitated lesion, indicative of dental caries. I am confident this represents caries."
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7649772763252258,
+      "box": [
+        186,
+        365,
+        800,
+        937
+      ],
+      "padded_box": [
+        93,
+        279,
+        892,
+        1022
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be some discoloration or shadowing within the grooves of the occlusal surface. It is difficult to definitively determine if this represents dental caries without further information or clinical examination. I am not confident in identifying caries from this single image alone."
+    }
+  ]
+}

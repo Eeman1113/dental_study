@@ -1,0 +1,77 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1176-01_1732700821121_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.6435166001319885,
+      "box": [
+        36,
+        139,
+        292,
+        363
+      ],
+      "padded_box": [
+        0,
+        105,
+        330,
+        396
+      ],
+      "reasoning": "The image shows close-ups of several teeth, including molars with visible cusps and grooves. The enamel appears generally intact, though some minor staining or texture variations might be present on the surfaces. There is no obvious evidence of active dental caries such as cavitation, dark shadows within the enamel, or significant brown/black discoloration on the visible tooth surfaces. Based on this visual inspection, it does not appear to show clear signs of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.583621621131897,
+      "box": [
+        76,
+        295,
+        353,
+        538
+      ],
+      "padded_box": [
+        34,
+        258,
+        394,
+        574
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel structure and some minor variations in translucency. There is no obvious evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows within the enamel, or brown/black discolourations on the tooth surfaces shown. No, it does not appear to show any signs of dental caries. I am confident in this assessment based on the visual information provided.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.5576328635215759,
+      "box": [
+        996,
+        314,
+        1249,
+        539
+      ],
+      "padded_box": [
+        958,
+        280,
+        1285,
+        572
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some gum tissue. There is no obvious evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows inside the enamel, or brown/black discolourations on the tooth surfaces shown in this close-up view. Based on this limited view, it does not appear to show signs of active dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 3,
+    "fn": 0
+  }
+}

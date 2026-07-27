@@ -1,0 +1,46 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1467-01_1734151211266_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      267,
+      953,
+      693,
+      1335
+    ],
+    [
+      230,
+      1256,
+      695,
+      1616
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.45095255970954895,
+      "box": [
+        247,
+        957,
+        690,
+        1336
+      ],
+      "padded_box": [
+        180,
+        900,
+        756,
+        1392
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including the crowns of molars and premolars. The enamel appears generally intact, though some minor variations in translucency or texture are visible. There is a small, dark spot on the occlusal surface of one of the lower molars. Yes, it looks like caries (tooth decay). I am moderately confident this is caries due to the distinct dark spot on the tooth surface.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9365
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 1
+  }
+}

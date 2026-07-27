@@ -1,0 +1,55 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1176-01_1732700821121_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.3941357135772705,
+      "box": [
+        96,
+        927,
+        392,
+        1167
+      ],
+      "padded_box": [
+        51,
+        891,
+        436,
+        1203
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There is a small, yellowish discoloration near the gum line on the buccal (cheek) surface. This appears to be a potential area of concern. Yes, it looks like caries, and I am moderately confident based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.32586026191711426,
+      "box": [
+        128,
+        553,
+        392,
+        729
+      ],
+      "padded_box": [
+        88,
+        526,
+        431,
+        755
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is a distinct, lighter-colored area within one of the grooves on the occlusal surface. This appears to be a restoration or a developmental defect. Based on the visual evidence, it does look like there might be caries present in the groove. The lighter color could indicate demineralization or a filling material. However, without clinical context or higher resolution imaging, it's difficult to definitively confirm if it is active decay or something else entirely (like a restoration). Confidence level: Moderate.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 2,
+    "fn": 0
+  }
+}

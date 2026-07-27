@@ -1,0 +1,68 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1329-00_1733490890827_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      104,
+      446,
+      294,
+      620
+    ],
+    [
+      59,
+      566,
+      287,
+      756
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.9070319533348083,
+      "box": [
+        88,
+        436,
+        310,
+        631
+      ],
+      "padded_box": [
+        54,
+        406,
+        343,
+        660
+      ],
+      "reasoning": "The image shows 4 permanent teeth with normal appearing enamel. There is one primary caries lesion visible in the mid right region of the image. I am moderately confident this represents a primary caries lesion.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7637
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.3044988512992859,
+      "box": [
+        44,
+        564,
+        296,
+        765
+      ],
+      "padded_box": [
+        6,
+        533,
+        333,
+        795
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8552
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 0
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-802-01_1729916116649_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      2130,
+      898,
+      2516,
+      1310
+    ],
+    [
+      2159,
+      438,
+      2692,
+      976
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7721787691116333,
+      "box": [
+        2149,
+        409,
+        2716,
+        986
+      ],
+      "padded_box": [
+        2063,
+        322,
+        2785,
+        1072
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible plaque and calculus (tartar) buildup. There is also some discoloration on the surfaces of the teeth. Yes, there appears to be evidence of dental caries (tooth decay). The dark shadow inside the upper tooth suggests a cavitated lesion, indicating active decay. I am moderately confident in this assessment based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8765
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7259760499000549,
+      "box": [
+        2102,
+        874,
+        2537,
+        1275
+      ],
+      "padded_box": [
+        2036,
+        813,
+        2602,
+        1335
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There appears to be a small dark spot or shadow within one of the grooves on the occlusal (chewing) surface. This could potentially represent early caries, but it might also just be shadowing or staining. Based on this image alone, it is difficult to definitively determine if there is dental caries. The feature looks like a shadow or stain rather than a distinct cavitated lesion. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7743
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.25633126497268677,
+      "box": [
+        2380,
+        120,
+        2769,
+        515
+      ],
+      "padded_box": [
+        2321,
+        60,
+        2785,
+        574
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible plaque and calculus (tartar) buildup, particularly along the gumline. There is also some white discoloration on the tooth surface. There is evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the lesion.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  }
+}

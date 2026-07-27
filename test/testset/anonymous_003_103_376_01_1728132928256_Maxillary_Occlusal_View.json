@@ -1,0 +1,62 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_103_376_01_1728132928256_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      88,
+      668,
+      380,
+      928
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7270591259002686,
+      "box": [
+        77,
+        662,
+        390,
+        936
+      ],
+      "padded_box": [
+        30,
+        620,
+        436,
+        977
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interdental spaces. There is a small dark spot visible on the occlusal (chewing) surface of one of the upper molars. This could potentially represent early caries, but further evaluation would be needed to confirm. I am not confident in this assessment based solely on this image.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8852
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.29121336340904236,
+      "box": [
+        154,
+        572,
+        402,
+        743
+      ],
+      "padded_box": [
+        116,
+        546,
+        439,
+        768
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is a small, dark brown lesion visible on the occlusal (chewing) surface of one of the lower molars. This appears to be a cavitated lesion. Yes, it looks like caries and I am confident in this assessment based on the visual evidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  }
+}

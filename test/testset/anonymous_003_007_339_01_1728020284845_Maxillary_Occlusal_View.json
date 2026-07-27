@@ -1,0 +1,62 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_339_01_1728020284845_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      157,
+      1180,
+      594,
+      1502
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7818378210067749,
+      "box": [
+        159,
+        1174,
+        608,
+        1511
+      ],
+      "padded_box": [
+        91,
+        1123,
+        675,
+        1561
+      ],
+      "reasoning": "The image shows close-up views of teeth, including crowns and parts of the roots. There is a dark spot visible within the crown of one of the teeth. This appears to be a cavitated lesion or decay. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9218
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.25735384225845337,
+      "box": [
+        2054,
+        1923,
+        2469,
+        2191
+      ],
+      "padded_box": [
+        1991,
+        1882,
+        2531,
+        2191
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible decay. There is a distinct dark area on the occlusal (chewing) surface of one tooth, appearing as a brown/black discoloration. This suggests the presence of dental caries. I am moderately confident this represents caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_425_00_1728461756319_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1617,
+      665,
+      1950,
+      879
+    ],
+    [
+      1693,
+      991,
+      2065,
+      1298
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7699925303459167,
+      "box": [
+        1611,
+        643,
+        1972,
+        890
+      ],
+      "padded_box": [
+        1556,
+        605,
+        2026,
+        927
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7992
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7156184911727905,
+      "box": [
+        1679,
+        981,
+        2078,
+        1321
+      ],
+      "padded_box": [
+        1619,
+        930,
+        2078,
+        1372
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion (primary caries) with a dark shadow within the enamel of a permanent tooth. I can identify this lesion.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8418
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.39860156178474426,
+      "box": [
+        1671,
+        842,
+        2015,
+        1047
+      ],
+      "padded_box": [
+        1619,
+        811,
+        2066,
+        1077
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion visible in the lower right region of the frame. I can identify 1 affected area. Final Answer: The final answer is \"\\nSurface caries; Moderately confident.\"",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  }
+}

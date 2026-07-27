@@ -1,0 +1,68 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_008_521_00_1728733813051_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      55,
+      210,
+      240,
+      380
+    ],
+    [
+      1047,
+      282,
+      1248,
+      450
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7991006970405579,
+      "box": [
+        1037,
+        275,
+        1260,
+        466
+      ],
+      "padded_box": [
+        1003,
+        246,
+        1293,
+        494
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, slightly darker area on the occlusal (chewing) surface of the upper right premolar. This could potentially represent early caries or an artifact. Based on this single view, it is difficult to definitively determine if there is dental caries. The appearance could be due to various factors including enamel hypoplasia, erosion, or simply a shadow. Confidence in identifying caries is low based solely on this image.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7928
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7756869196891785,
+      "box": [
+        50,
+        201,
+        254,
+        399
+      ],
+      "padded_box": [
+        19,
+        171,
+        284,
+        428
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including molars and premolars, with visible enamel surfaces and some interproximal areas where teeth touch. There appears to be some plaque or calculus accumulation near the gumline on the lower right tooth. There is no clear evidence of dental caries (tooth decay) in this specific cropped view. I am not confident in identifying caries from this image alone.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7786
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 0
+  }
+}

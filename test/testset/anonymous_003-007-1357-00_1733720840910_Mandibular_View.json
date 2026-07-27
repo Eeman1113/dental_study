@@ -1,0 +1,40 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1357-00_1733720840910_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      80,
+      714,
+      551,
+      1197
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.2503865361213684,
+      "box": [
+        41,
+        675,
+        567,
+        1159
+      ],
+      "padded_box": [
+        0,
+        602,
+        645,
+        1231
+      ],
+      "reasoning": "The image shows several teeth with visible enamel surfaces and some interdental spaces. There appears to be a dark line or shadow within the grooves of the upper premolars on the left side of the image. Yes, there is evidence of dental caries (tooth decay). I am moderately confident in this assessment due to the distinct dark line observed within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7692
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  }
+}

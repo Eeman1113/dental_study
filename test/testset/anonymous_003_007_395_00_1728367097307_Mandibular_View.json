@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_395_00_1728367097307_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      111,
+      250,
+      386,
+      499
+    ],
+    [
+      1252,
+      37,
+      1446,
+      248
+    ],
+    [
+      1236,
+      229,
+      1460,
+      484
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8225023150444031,
+      "box": [
+        1247,
+        43,
+        1449,
+        241
+      ],
+      "padded_box": [
+        1216,
+        13,
+        1479,
+        270
+      ],
+      "reasoning": "The image shows a close-up view of several teeth with visible plaque buildup and some discoloration on the surfaces. There is no clear evidence of active dental caries (tooth decay) such as cavitated lesions or dark shadows within the enamel in this specific crop. Based on this limited view, it does not appear to show definite signs of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9034
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8192663788795471,
+      "box": [
+        1228,
+        221,
+        1461,
+        476
+      ],
+      "padded_box": [
+        1193,
+        182,
+        1495,
+        514
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interdental spaces. There appears to be a brownish discoloration on the occlusal (chewing) surface of several posterior teeth. This could potentially indicate dental caries or staining. Based on the visual evidence, it does appear that there is a brown discoloration suggestive of potential caries or staining. Confidence level: Moderate.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.9039
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7927901744842529,
+      "box": [
+        108,
+        238,
+        380,
+        505
+      ],
+      "padded_box": [
+        67,
+        197,
+        420,
+        545
+      ],
+      "reasoning": "The image shows multiple teeth with visible plaque buildup and some yellowish discoloration on the surfaces of several teeth. There is no clear evidence of cavitated lesions or dark shadows indicative of active caries within the enamel structure shown in this close-up view. Based on the visual information, it does not appear to show definite signs of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9037
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

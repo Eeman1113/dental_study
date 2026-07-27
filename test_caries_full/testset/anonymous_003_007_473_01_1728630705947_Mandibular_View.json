@@ -1,0 +1,118 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_473_01_1728630705947_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1620,
+      6,
+      1887,
+      291
+    ],
+    [
+      1487,
+      218,
+      1832,
+      544
+    ],
+    [
+      51,
+      42,
+      344,
+      294
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7795852422714233,
+      "box": [
+        54,
+        32,
+        339,
+        318
+      ],
+      "padded_box": [
+        11,
+        0,
+        381,
+        360
+      ],
+      "reasoning": "The image shows a primary caries lesion with a permanent caries lesion. I can identify 2 regions of concern. Final Answer: The final answer is \"\\nSurface enamel caries; Reason: The primary caries lesion has a permanent caries lesion.\"",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8599
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7592758536338806,
+      "box": [
+        1600,
+        0,
+        1887,
+        286
+      ],
+      "padded_box": [
+        1556,
+        0,
+        1930,
+        328
+      ],
+      "reasoning": "The image shows primary caries lesions (tooth decay) in the lower right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8962
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.5647684335708618,
+      "box": [
+        1466,
+        215,
+        1836,
+        538
+      ],
+      "padded_box": [
+        1410,
+        166,
+        1891,
+        586
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal appearance;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.908
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.288692831993103,
+      "box": [
+        82,
+        267,
+        432,
+        589
+      ],
+      "padded_box": [
+        29,
+        218,
+        484,
+        637
+      ],
+      "reasoning": "The image shows 4 permanent teeth with intact enamel surfaces. I can identify one region of concern which is a primary caries lesion. Final Answer: The visible dentition appears normal with no evidence of decay. Marking one primary caries lesion. Reason: One primary caries lesion identified.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 1,
+    "fn": 0
+  }
+}

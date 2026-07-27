@@ -1,0 +1,33 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-866-00_1730209761250_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.5777158141136169,
+      "box": [
+        0,
+        669,
+        315,
+        977
+      ],
+      "padded_box": [
+        0,
+        622,
+        362,
+        1023
+      ],
+      "reasoning": "The image shows multiple teeth with white, opaque material filling the interproximal spaces (between the teeth). This appears to be dental composite resin or amalgam filling. There is no visible evidence of active dental caries such as cavitation, dark shadows within enamel, or brown/black discoloration on the tooth surfaces shown in this close-up view. Confidence: High.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0
+  }
+}

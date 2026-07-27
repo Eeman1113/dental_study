@@ -1,0 +1,68 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_395_00_1728367097307_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      169,
+      922,
+      594,
+      1254
+    ],
+    [
+      1835,
+      806,
+      2251,
+      1069
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7537901997566223,
+      "box": [
+        1839,
+        786,
+        2253,
+        1084
+      ],
+      "padded_box": [
+        1776,
+        741,
+        2315,
+        1128
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a noticeable brownish discoloration on the occlusal (chewing) surface of one of the posterior teeth. This appears to be a dark shadow within the tooth structure. Yes, this looks like dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the discoloration.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8709
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7231623530387878,
+      "box": [
+        167,
+        903,
+        604,
+        1258
+      ],
+      "padded_box": [
+        101,
+        849,
+        669,
+        1311
+      ],
+      "reasoning": "The image shows multiple teeth with visible plaque buildup and some areas of discoloration on the surfaces of the teeth. There is evidence of dental caries (tooth decay) in the form of a dark brown lesion on one tooth surface. I am moderately confident this represents caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9095
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 0
+  }
+}

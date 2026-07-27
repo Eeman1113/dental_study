@@ -1,0 +1,55 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1182-00_1732708106125_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.4742773473262787,
+      "box": [
+        79,
+        257,
+        347,
+        506
+      ],
+      "padded_box": [
+        38,
+        219,
+        387,
+        543
+      ],
+      "reasoning": "The image shows 4 permanent teeth with normal appearing enamel structure and color. I can identify no regions of concern such as cavitation or discoloration. Final Answer: The visible dentition appears healthy with no signs of decay. Final Answer: 2",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.2866475582122803,
+      "box": [
+        1081,
+        110,
+        1320,
+        346
+      ],
+      "padded_box": [
+        1045,
+        74,
+        1355,
+        381
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. Final Answer: The visible dentition appears healthy with no signs of caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 2,
+    "fn": 0
+  }
+}

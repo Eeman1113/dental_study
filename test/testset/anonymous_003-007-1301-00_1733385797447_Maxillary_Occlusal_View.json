@@ -1,0 +1,46 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1301-00_1733385797447_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      549,
+      1042,
+      877,
+      1276
+    ],
+    [
+      2154,
+      1187,
+      2620,
+      1526
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.8432073593139648,
+      "box": [
+        2125,
+        1146,
+        2641,
+        1567
+      ],
+      "padded_box": [
+        2047,
+        1082,
+        2718,
+        1630
+      ],
+      "reasoning": "The image shows the occlusal (biting) surfaces of several teeth, including premolars and possibly molars. The enamel appears generally intact, though there is some slight discoloration or staining visible on the surface of the lower right molar. There is no obvious evidence of a cavitated lesion or dark shadow within the enamel structure. No, it does not appear to show clear signs of dental caries. I am not confident in this assessment as the image quality and angle limit detailed examination.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7272
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 1
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1130-00_1732522239159_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.51053786277771,
+      "box": [
+        1126,
+        207,
+        1421,
+        464
+      ],
+      "padded_box": [
+        1081,
+        168,
+        1433,
+        502
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 1,
+      "cls": "D",
+      "confidence": 0.4839686453342438,
+      "box": [
+        155,
+        408,
+        391,
+        644
+      ],
+      "padded_box": [
+        119,
+        372,
+        426,
+        679
+      ],
+      "reasoning": "This is a close-up view of a permanent human tooth with normal enamel structure visible. I can identify 2 regions of concern for dental caries (tooth decay). The primary concern is a primary caries lesion in the upper right region of the image. The secondary concern is a primary caries lesion in the lower right region of the image. Final Answer: 2",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.43689242005348206,
+      "box": [
+        82,
+        237,
+        348,
+        467
+      ],
+      "padded_box": [
+        42,
+        202,
+        387,
+        501
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. I can identify one primary caries lesion (permanent). I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 3,
+    "fn": 0
+  }
+}

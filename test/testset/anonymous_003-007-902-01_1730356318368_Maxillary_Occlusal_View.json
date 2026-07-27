@@ -1,0 +1,62 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-902-01_1730356318368_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      305,
+      1636,
+      979,
+      2220
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.7001953721046448,
+      "box": [
+        255,
+        1636,
+        1009,
+        2237
+      ],
+      "padded_box": [
+        141,
+        1545,
+        1122,
+        2327
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There is a small dark spot visible on the occlusal (chewing) surface of one of the lower molars. This appears to be a potential area of dental caries (tooth decay). I am moderately confident this represents early caries, but further examination by a dentist is needed for confirmation and treatment planning.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8686
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.3230966627597809,
+      "box": [
+        209,
+        2064,
+        945,
+        2638
+      ],
+      "padded_box": [
+        98,
+        1977,
+        1055,
+        2724
+      ],
+      "reasoning": "The image shows a close-up view of teeth, likely premolars or canines, with visible enamel structure and some minor variations in translucency. There is a small, dark spot visible within the occlusal surface of one of the teeth. This appears to be a cavitated lesion. Yes, it looks like caries (tooth decay). I am moderately confident this is caries due to the distinct dark spot resembling a cavity.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  }
+}

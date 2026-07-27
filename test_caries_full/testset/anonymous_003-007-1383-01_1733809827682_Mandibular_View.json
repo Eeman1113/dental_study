@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1383-01_1733809827682_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      109,
+      141,
+      495,
+      460
+    ],
+    [
+      97,
+      399,
+      543,
+      797
+    ],
+    [
+      2243,
+      197,
+      2638,
+      543
+    ],
+    [
+      2104,
+      438,
+      2595,
+      909
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7988364100456238,
+      "box": [
+        2064,
+        414,
+        2619,
+        909
+      ],
+      "padded_box": [
+        1980,
+        339,
+        2678,
+        983
+      ],
+      "reasoning": "The image shows a primary caries lesion in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8418
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7909177541732788,
+      "box": [
+        66,
+        378,
+        572,
+        829
+      ],
+      "padded_box": [
+        0,
+        310,
+        647,
+        896
+      ],
+      "reasoning": "The image shows 4 permanent upper teeth with normal morphology and color. I can identify no regions of concern such as dental caries. Final Answer: The visible dentition appears healthy with no signs of decay. Final Answer: 0.98 ```json{\"final_answer\": \"The visible dentition appears healthy with no signs of decay.\", \"reasoning\": \"The image shows 4 permanent upper teeth. There are no regions of concern such as dental caries (tooth decay).\"}```",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7778
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7844560146331787,
+      "box": [
+        74,
+        125,
+        518,
+        479
+      ],
+      "padded_box": [
+        7,
+        71,
+        584,
+        532
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in cross-section with normal appearance. I can identify no regions of concern such as dental caries. Final Answer: The image displays 4 permanent teeth in cross-section with normal enamel structure. There is no evidence of dental caries; I am very confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7834
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.715874433517456,
+      "box": [
+        2219,
+        164,
+        2669,
+        560
+      ],
+      "padded_box": [
+        2151,
+        104,
+        2678,
+        619
+      ],
+      "reasoning": "The image shows 4 permanent teeth with intact enamel surfaces. I can identify no regions of concern such as cavitation, discoloration, or shadowing that would indicate dental decay. Final Answer: The visible dentition appears healthy with no signs of caries. I am very confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7669
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

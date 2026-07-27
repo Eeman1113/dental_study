@@ -1,0 +1,33 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-946-00_1730786337286_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.31450507044792175,
+      "box": [
+        364,
+        1589,
+        1011,
+        2144
+      ],
+      "padded_box": [
+        266,
+        1505,
+        1108,
+        2227
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, slightly darker area on the occlusal (chewing) surface of one of the upper molars. This could potentially be early decay or staining. It appears there might be a small area of discoloration that could represent caries, but it's difficult to confirm definitively from this image alone. Confidence level is moderate.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0
+  }
+}

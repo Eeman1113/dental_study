@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-913-00_1730374663171_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1386,
+      634,
+      1616,
+      804
+    ],
+    [
+      176,
+      586,
+      419,
+      809
+    ],
+    [
+      1380,
+      513,
+      1570,
+      648
+    ],
+    [
+      1427,
+      774,
+      1620,
+      898
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7716124057769775,
+      "box": [
+        1387,
+        617,
+        1621,
+        810
+      ],
+      "padded_box": [
+        1351,
+        588,
+        1656,
+        838
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is a visible dark discoloration within the grooves of one of the upper molars. This appears to be a cavitated lesion consistent with dental caries (tooth decay). I am moderately confident in this assessment based on the visual evidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8588
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7063590288162231,
+      "box": [
+        1378,
+        509,
+        1574,
+        649
+      ],
+      "padded_box": [
+        1348,
+        488,
+        1603,
+        670
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is a small, dark line running vertically down the central groove of one of the cusps. This appears to be a restoration or a minor defect. Yes, it looks like caries (tooth decay) and I am moderately confident in this assessment due to the dark line resembling a cavity.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.9348
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.6256422996520996,
+      "box": [
+        168,
+        583,
+        425,
+        817
+      ],
+      "padded_box": [
+        129,
+        547,
+        463,
+        852
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, light-colored spot near the center of one of the upper molars. It appears to be a small area of discoloration or potential decay. Yes, there is evidence that looks like caries. I am moderately confident this is caries due to the localized discoloration and slight irregularity in the tooth surface.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9011
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.6151225566864014,
+      "box": [
+        1420,
+        773,
+        1618,
+        897
+      ],
+      "padded_box": [
+        1390,
+        754,
+        1647,
+        915
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, likely premolars or molars, with visible enamel surfaces and some interproximal areas where the teeth meet. There is a small, slightly darker area on the occlusal (chewing) surface of one tooth, possibly near the gum line. There appears to be a small dark spot on the occlusal surface of one of the teeth. This could potentially indicate early caries, but it's difficult to determine definitively from this image alone. Confidence is low.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.9401
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

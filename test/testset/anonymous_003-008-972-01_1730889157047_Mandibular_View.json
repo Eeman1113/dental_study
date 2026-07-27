@@ -1,0 +1,90 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-972-01_1730889157047_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      96,
+      292,
+      326,
+      491
+    ],
+    [
+      1034,
+      332,
+      1234,
+      529
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8636409640312195,
+      "box": [
+        83,
+        287,
+        334,
+        502
+      ],
+      "padded_box": [
+        45,
+        254,
+        371,
+        534
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible enamel structure and some darker spots within the grooves of the upper molar. There is no obvious cavitated lesion or significant discoloration on the surfaces shown. No, it does not appear to show evidence of dental caries. I am not confident in this assessment as I cannot see the entire tooth surface.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8481
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8146730065345764,
+      "box": [
+        1018,
+        322,
+        1246,
+        536
+      ],
+      "padded_box": [
+        983,
+        289,
+        1280,
+        568
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is a dark, irregular marking within the central fossa area of the tooth. This appears to be a cavitated lesion or decay. Yes, it looks like caries (tooth decay). I am moderately confident in this assessment based on the visual evidence of the dark discoloration and irregular shape within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8075
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.611310601234436,
+      "box": [
+        38,
+        96,
+        274,
+        323
+      ],
+      "padded_box": [
+        2,
+        61,
+        309,
+        357
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is a small dark spot near the gum line on the lower right side of the image. This appears to be a potential area of concern. Yes, it looks like caries (tooth decay) and I am moderately confident in this assessment due to the dark spot observed.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  }
+}

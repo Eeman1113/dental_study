@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1281-00_1733293729321_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1733,
+      417,
+      2175,
+      785
+    ],
+    [
+      59,
+      237,
+      451,
+      591
+    ],
+    [
+      133,
+      531,
+      573,
+      933
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7981632351875305,
+      "box": [
+        1706,
+        382,
+        2192,
+        808
+      ],
+      "padded_box": [
+        1633,
+        318,
+        2264,
+        871
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7856
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7897731065750122,
+      "box": [
+        39,
+        221,
+        476,
+        597
+      ],
+      "padded_box": [
+        0,
+        164,
+        541,
+        653
+      ],
+      "reasoning": "A permanent caries lesion is visible in the mid right region of the image. I am moderately confident this represents primary caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8445
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7409950494766235,
+      "box": [
+        95,
+        503,
+        586,
+        942
+      ],
+      "padded_box": [
+        21,
+        437,
+        659,
+        1007
+      ],
+      "reasoning": "A primary caries lesion is visible in the upper left region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8206
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

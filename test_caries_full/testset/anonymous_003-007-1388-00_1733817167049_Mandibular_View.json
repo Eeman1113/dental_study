@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1388-00_1733817167049_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      74,
+      391,
+      445,
+      728
+    ],
+    [
+      107,
+      641,
+      520,
+      1043
+    ],
+    [
+      1912,
+      124,
+      2385,
+      478
+    ],
+    [
+      1832,
+      426,
+      2312,
+      822
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.823993980884552,
+      "box": [
+        1903,
+        94,
+        2395,
+        497
+      ],
+      "padded_box": [
+        1829,
+        33,
+        2445,
+        557
+      ],
+      "reasoning": "The image shows a primary caries lesion with a brownish discoloration in the mid right region of the image. Yes, this appears to be dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8445
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8139423727989197,
+      "box": [
+        1808,
+        399,
+        2324,
+        831
+      ],
+      "padded_box": [
+        1730,
+        334,
+        2401,
+        895
+      ],
+      "reasoning": "The image shows 4 permanent molars in the upper right region of the mouth. There is one primary caries lesion visible in the mid left region of the image. I can identify 1 dental caries lesion.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8527
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7845680117607117,
+      "box": [
+        97,
+        626,
+        538,
+        1024
+      ],
+      "padded_box": [
+        30,
+        566,
+        604,
+        1083
+      ],
+      "reasoning": "The image shows 6 permanent molars in the upper right region of the mouth. I can identify 3 regions of concern: one primary caries lesion; one region of concern for cavitation; one region of concern for cavitation. Final Answer: The final answer is \"Primary caries lesion, high confidence.\"",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8626
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7482210993766785,
+      "box": [
+        59,
+        360,
+        465,
+        729
+      ],
+      "padded_box": [
+        0,
+        304,
+        525,
+        784
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8345
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

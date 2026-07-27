@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_103_332_00_1727963224846_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      103,
+      298,
+      292,
+      470
+    ],
+    [
+      141,
+      447,
+      343,
+      627
+    ],
+    [
+      952,
+      471,
+      1161,
+      678
+    ],
+    [
+      1002,
+      328,
+      1194,
+      517
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8419972658157349,
+      "box": [
+        89,
+        288,
+        302,
+        485
+      ],
+      "padded_box": [
+        57,
+        258,
+        333,
+        514
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interdental spaces. There appears to be a dark shadow or discoloration within the grooves of the upper premolars on the left side of the image. Yes, there is evidence of potential dental caries (tooth decay). I am moderately confident in this assessment due to the dark shadow observed within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7747
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8408266305923462,
+      "box": [
+        939,
+        457,
+        1176,
+        684
+      ],
+      "padded_box": [
+        903,
+        422,
+        1211,
+        718
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including molars and premolars. The upper molar visible has dark brown/black markings within its grooves and on the occlusal surface. The lower molar also appears to have some similar dark areas. Yes, there is evidence of dental caries (tooth decay). I am confident in this assessment due to the distinct dark discoloration observed within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8042
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8389456272125244,
+      "box": [
+        1004,
+        320,
+        1212,
+        519
+      ],
+      "padded_box": [
+        972,
+        290,
+        1243,
+        548
+      ],
+      "reasoning": "The image shows close-up views of several teeth with visible plaque buildup and some staining. There is a dark shadow within the grooves of the upper premolars, which could indicate early caries or calculus (tartar). Yes, there appears to be evidence of dental caries, specifically in the grooves of the upper premolars. The confidence level is moderate due to the limited view and potential for other explanations like calculus.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8597
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.8360714316368103,
+      "box": [
+        126,
+        433,
+        358,
+        648
+      ],
+      "padded_box": [
+        91,
+        400,
+        392,
+        680
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including molars and premolars. The crowns of the teeth appear white and generally healthy. There is a dark shadow visible on the occlusal (chewing) surface of one of the upper molars. This could potentially represent caries or another type of lesion. Yes, it looks like there might be evidence of dental caries. I am moderately confident in this assessment based on the visual appearance of the dark shadow.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7289
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

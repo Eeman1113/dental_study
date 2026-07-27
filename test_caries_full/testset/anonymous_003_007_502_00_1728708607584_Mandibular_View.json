@@ -1,0 +1,190 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_502_00_1728708607584_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      2240,
+      318,
+      2649,
+      718
+    ],
+    [
+      234,
+      79,
+      579,
+      401
+    ],
+    [
+      218,
+      673,
+      621,
+      1012
+    ],
+    [
+      227,
+      395,
+      586,
+      679
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8301333785057068,
+      "box": [
+        2231,
+        322,
+        2665,
+        708
+      ],
+      "padded_box": [
+        2165,
+        264,
+        2730,
+        765
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9112
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8056623339653015,
+      "box": [
+        221,
+        380,
+        606,
+        719
+      ],
+      "padded_box": [
+        163,
+        329,
+        663,
+        769
+      ],
+      "reasoning": "The image shows 4 permanent teeth in the upper right region of the mouth. I can identify one primary caries lesion (permanent). I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.7812
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7977044582366943,
+      "box": [
+        217,
+        68,
+        596,
+        393
+      ],
+      "padded_box": [
+        160,
+        19,
+        652,
+        441
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8602
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7054321765899658,
+      "box": [
+        207,
+        659,
+        626,
+        1055
+      ],
+      "padded_box": [
+        144,
+        599,
+        688,
+        1114
+      ],
+      "reasoning": "The image shows 6 permanent teeth in the upper right region of the mouth. There is one primary caries lesion visible in the lower right region of the image. I can identify 1 affected area. Final Answer: The final answer is \"\\nSensorineural Caries; Affected Area Count: 1\"",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8234
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.6668477058410645,
+      "box": [
+        2125,
+        636,
+        2597,
+        1055
+      ],
+      "padded_box": [
+        2054,
+        573,
+        2667,
+        1117
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.6116029620170593,
+      "box": [
+        297,
+        966,
+        650,
+        1258
+      ],
+      "padded_box": [
+        244,
+        922,
+        702,
+        1301
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible in the mid right region of the image. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 6,
+      "cls": "d",
+      "confidence": 0.2800661027431488,
+      "box": [
+        2022,
+        952,
+        2420,
+        1286
+      ],
+      "padded_box": [
+        1962,
+        901,
+        2479,
+        1336
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal appearance;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 3,
+    "fn": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/Dataset/Images/no_retractors/Mandibular/anonymous_003-007-803-00_1729916855699_Mandibular_View.jpg",
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7914024591445923,
+      "box": [
+        1994,
+        590,
+        2537,
+        1104
+      ],
+      "padded_box": [
+        1912,
+        512,
+        2588,
+        1181
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including molars and premolars. There is a visible dark discoloration or shadow within the grooves of one molar tooth. Yes, there appears to be evidence of dental caries (tooth decay) on the molar tooth shown. I am moderately confident in this assessment based on the visual appearance of the dark shadow within the tooth structure."
+    }
+  ]
+}

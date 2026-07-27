@@ -1,0 +1,140 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1277-00_1733288989839_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      207,
+      1791,
+      663,
+      2063
+    ],
+    [
+      2279,
+      1381,
+      2763,
+      1748
+    ],
+    [
+      2240,
+      1694,
+      2671,
+      1973
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7488162517547607,
+      "box": [
+        216,
+        1765,
+        667,
+        2092
+      ],
+      "padded_box": [
+        148,
+        1715,
+        734,
+        2114
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be a small dark spot or discoloration within one of the grooves on the occlusal (chewing) surface. This could potentially represent early caries, but it is difficult to determine definitively from this single image without additional context like clinical examination findings or radiographs. The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be a small dark spot or discoloration within one of the grooves on the occlusal (chewing) surface. This could potentially represent early caries, but it is difficult to determine definitively from this single image without additional context like clinical examination findings or radiographs.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.811
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7213049530982971,
+      "box": [
+        2220,
+        1683,
+        2687,
+        2002
+      ],
+      "padded_box": [
+        2149,
+        1635,
+        2757,
+        2049
+      ],
+      "reasoning": "The image shows multiple teeth with visible crowns. There is a noticeable dark discoloration on the occlusal (chewing) surface of one of the posterior teeth. This appears to be a cavitated lesion or decay. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8072
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.700415849685669,
+      "box": [
+        164,
+        1451,
+        677,
+        1887
+      ],
+      "padded_box": [
+        87,
+        1385,
+        753,
+        1952
+      ],
+      "reasoning": "The image shows multiple teeth with visible roots and crowns. There is some redness around the gum line near the upper right molar. No clear evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows inside enamel, or brown/black discolourations on the tooth surfaces are immediately apparent in this close-up view. Confidence: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.674662709236145,
+      "box": [
+        2254,
+        1380,
+        2790,
+        1814
+      ],
+      "padded_box": [
+        2173,
+        1314,
+        2820,
+        1879
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces and some darker brownish discoloration visible on the occlusal (chewing) surfaces of several teeth. There is no clear evidence of a cavitated lesion or a distinct dark shadow within the enamel. It appears there might be some staining or extrinsic discoloration, but it does not definitively look like active dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7636
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.2546131908893585,
+      "box": [
+        248,
+        1241,
+        698,
+        1552
+      ],
+      "padded_box": [
+        180,
+        1194,
+        765,
+        1598
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible pulp chambers and roots. There is a small area of reddish discoloration near the root of one of the upper teeth. This could potentially indicate bleeding or inflammation, but it's difficult to definitively diagnose without more context. It does not appear to be a classic cavitated lesion typical of caries. Based on this limited view, it doesn't look like active dental caries, although the reddish area warrants further investigation. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 2,
+    "fn": 0
+  }
+}

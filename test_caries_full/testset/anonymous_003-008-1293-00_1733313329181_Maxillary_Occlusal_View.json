@@ -1,0 +1,33 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1293-00_1733313329181_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.6554057002067566,
+      "box": [
+        1016,
+        399,
+        1299,
+        645
+      ],
+      "padded_box": [
+        973,
+        362,
+        1341,
+        681
+      ],
+      "reasoning": "The image shows 4 permanent teeth with normal alignment and intact enamel. I can identify one region of concern which is a primary caries lesion. Final Answer: The visible dentition appears healthy with no signs of decay. Marking one primary caries lesion. Reason: One primary caries lesion identified.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0
+  }
+}

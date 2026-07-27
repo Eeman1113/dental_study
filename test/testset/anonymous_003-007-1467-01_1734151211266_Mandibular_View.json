@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1467-01_1734151211266_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      119,
+      142,
+      519,
+      514
+    ],
+    [
+      145,
+      453,
+      558,
+      858
+    ],
+    [
+      182,
+      742,
+      562,
+      1125
+    ],
+    [
+      2047,
+      453,
+      2508,
+      910
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.8877916932106018,
+      "box": [
+        163,
+        734,
+        587,
+        1137
+      ],
+      "padded_box": [
+        99,
+        673,
+        650,
+        1197
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There is a visible lesion with a dark central area within the crown of one tooth. This appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual characteristics.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8517
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8148754835128784,
+      "box": [
+        90,
+        110,
+        544,
+        531
+      ],
+      "padded_box": [
+        21,
+        46,
+        612,
+        594
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible internal structures. There is a dark brown discoloration within the grooves of the occlusal (chewing) surface. This appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7785
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.770043671131134,
+      "box": [
+        120,
+        429,
+        583,
+        866
+      ],
+      "padded_box": [
+        50,
+        363,
+        652,
+        931
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interproximal areas. There is a noticeable dark discoloration within the grooves of the lower right molar. Yes, there appears to be evidence of dental caries (tooth decay) on the lower right molar, specifically in the occlusal groove. The dark discoloration suggests demineralization consistent with caries. Confidence level: High.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8267
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7350608110427856,
+      "box": [
+        2014,
+        422,
+        2525,
+        915
+      ],
+      "padded_box": [
+        1937,
+        348,
+        2556,
+        988
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel structure and some minor variations in translucency. There is a small dark spot visible on the occlusal (chewing) surface of the upper tooth. This appears to be a cavitated lesion, possibly representing early caries. I am moderately confident this represents caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8363
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

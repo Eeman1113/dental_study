@@ -1,0 +1,77 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-009-1194-00_1732775915152_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.5826444029808044,
+      "box": [
+        122,
+        235,
+        559,
+        622
+      ],
+      "padded_box": [
+        56,
+        176,
+        624,
+        680
+      ],
+      "reasoning": "The image shows 4 permanent upper teeth with intact enamel and no discoloration. I can identify 2 regions of concern for dental caries. My confidence is not high.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.3251284658908844,
+      "box": [
+        200,
+        544,
+        691,
+        1004
+      ],
+      "padded_box": [
+        126,
+        475,
+        764,
+        1073
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid left region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.26779720187187195,
+      "box": [
+        2174,
+        362,
+        2648,
+        802
+      ],
+      "padded_box": [
+        2102,
+        296,
+        2719,
+        868
+      ],
+      "reasoning": "The image shows 4 permanent teeth in the upper right region of the mouth. The enamel appears intact with no discoloration or shadowing that would indicate decay. Final Answer: The visible dentition appears healthy with no signs of caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 3,
+    "fn": 0
+  }
+}

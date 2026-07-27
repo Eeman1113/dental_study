@@ -1,0 +1,55 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1004-00_1731042060585_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.3096359670162201,
+      "box": [
+        227,
+        1865,
+        771,
+        2285
+      ],
+      "padded_box": [
+        145,
+        1802,
+        852,
+        2348
+      ],
+      "reasoning": "The image shows the occlusal (biting) surfaces of two teeth, likely premolars or canines, with visible enamel structure and some minor staining/discoloration on the surface of the lower tooth. There is no clear evidence of a cavitated lesion or significant dark shadow indicative of caries in this view. No, it does not appear to show obvious dental caries. Confidence: Low (based solely on this limited view).",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.3063148260116577,
+      "box": [
+        2579,
+        1965,
+        3144,
+        2431
+      ],
+      "padded_box": [
+        2494,
+        1895,
+        3228,
+        2500
+      ],
+      "reasoning": "The image shows multiple white dental restorations, likely crowns or fillings, on teeth within the mouth. There is also some pink tissue visible, which appears to be gum tissue. There is no clear evidence of dental caries (tooth decay) in this specific cropped view. I am not confident in identifying caries from this limited image.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 2,
+    "fn": 0
+  }
+}

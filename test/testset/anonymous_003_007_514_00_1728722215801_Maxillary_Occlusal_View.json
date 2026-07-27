@@ -1,0 +1,180 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_514_00_1728722215801_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      465,
+      765,
+      814,
+      1031
+    ],
+    [
+      331,
+      976,
+      758,
+      1361
+    ],
+    [
+      275,
+      1274,
+      650,
+      1572
+    ],
+    [
+      2099,
+      802,
+      2467,
+      997
+    ],
+    [
+      2090,
+      1012,
+      2518,
+      1308
+    ],
+    [
+      2135,
+      1276,
+      2528,
+      1508
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7646178603172302,
+      "box": [
+        258,
+        1282,
+        659,
+        1560
+      ],
+      "padded_box": [
+        197,
+        1240,
+        719,
+        1601
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel structure and some internal structures. There is a small area of darker pigmentation within one of the teeth, possibly near the gum line. This could potentially be related to caries or another dental issue. Based on this limited view, it is difficult to definitively determine if there is evidence of caries. The darker area requires further evaluation for confirmation.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8762
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7189674973487854,
+      "box": [
+        460,
+        777,
+        814,
+        1039
+      ],
+      "padded_box": [
+        406,
+        737,
+        867,
+        1078
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with a filling material visible within the cavity. There is also some discoloration or staining present on the tooth surface near the filling. Yes, there appears to be evidence of dental caries (tooth decay). The filling indicates previous decay, and the discoloration suggests potential ongoing issues or secondary effects. My confidence in this assessment is high based on the visual evidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9145
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7068501710891724,
+      "box": [
+        2143,
+        1264,
+        2529,
+        1525
+      ],
+      "padded_box": [
+        2085,
+        1224,
+        2586,
+        1564
+      ],
+      "reasoning": "The image shows close-up views of teeth with white enamel surfaces and some darker areas within the grooves of the occlusal (chewing) surfaces. There is a noticeable brown discoloration visible on one tooth's occlusal surface, specifically within a groove. Yes, it appears to show evidence of dental caries (tooth decay). The brown discoloration suggests demineralization or bacterial activity within the tooth structure. My confidence in this assessment is high based on the visual evidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 5,
+      "iou_with_gt": 0.8705
+    },
+    {
+      "index": 3,
+      "cls": "D",
+      "confidence": 0.6988215446472168,
+      "box": [
+        333,
+        976,
+        758,
+        1361
+      ],
+      "padded_box": [
+        269,
+        918,
+        821,
+        1418
+      ],
+      "reasoning": "The image shows multiple teeth with visible crowns, some of which appear to have restorations. There is a noticeable dark discoloration within the crown of one of the upper molars. This appears to be evidence of dental caries (tooth decay), specifically a cavitated lesion or deep decay, and I am confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9953
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.6357765197753906,
+      "box": [
+        2104,
+        769,
+        2469,
+        1009
+      ],
+      "padded_box": [
+        2049,
+        733,
+        2523,
+        1045
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be a small, light brown discoloration within one of the grooves or fissures on the occlusal surface. This could potentially represent early caries, but it might also be related to staining or enamel structure. Based on this visual information alone, it is difficult to definitively determine if this represents dental caries. The discoloration is subtle and could have other causes. Confidence in identifying caries based solely on this image is low.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.7992
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.33518484234809875,
+      "box": [
+        2093,
+        969,
+        2525,
+        1333
+      ],
+      "padded_box": [
+        2028,
+        914,
+        2589,
+        1387
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, slightly darker area within the dentin of one of the upper molars. This could potentially represent early caries or an artifact. Based on this single view, it is difficult to definitively determine if there is dental caries. The appearance could be due to various factors including staining or minor structural variations. Confidence in identifying caries from this image alone is low.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.7955
+    }
+  ],
+  "matched": {
+    "tp": 6,
+    "fp": 0,
+    "fn": 0
+  }
+}

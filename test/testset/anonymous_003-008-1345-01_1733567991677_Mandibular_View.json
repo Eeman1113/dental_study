@@ -1,0 +1,180 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1345-01_1733567991677_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      50,
+      58,
+      253,
+      240
+    ],
+    [
+      89,
+      212,
+      316,
+      423
+    ],
+    [
+      175,
+      371,
+      352,
+      516
+    ],
+    [
+      1042,
+      60,
+      1231,
+      254
+    ],
+    [
+      978,
+      225,
+      1196,
+      436
+    ],
+    [
+      948,
+      366,
+      1115,
+      518
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8015776872634888,
+      "box": [
+        1040,
+        62,
+        1224,
+        246
+      ],
+      "padded_box": [
+        1012,
+        34,
+        1251,
+        273
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, likely molars, with visible enamel surfaces and some interproximal areas. There is a small dark shadow or discoloration visible on the occlusal surface of one of the upper teeth. Yes, it appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the dark shadow.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.9043
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7983558773994446,
+      "box": [
+        978,
+        225,
+        1194,
+        424
+      ],
+      "padded_box": [
+        945,
+        195,
+        1226,
+        453
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is no obvious evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows inside the enamel, or brown/black discolourations on the tooth surfaces. Based on this visual inspection, it does not appear to show signs of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.9345
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7915710806846619,
+      "box": [
+        51,
+        52,
+        256,
+        237
+      ],
+      "padded_box": [
+        20,
+        24,
+        286,
+        264
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is no obvious evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows inside the enamel, or brown/black discolourations on the tooth surfaces. Based on this visual inspection, it does not appear to show signs of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.934
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7804189920425415,
+      "box": [
+        89,
+        209,
+        312,
+        422
+      ],
+      "padded_box": [
+        55,
+        177,
+        345,
+        453
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is some slight discoloration visible on the occlusal (chewing) surface of the upper right molar. It appears as a slightly darker area within the tooth structure. Yes, there is evidence of potential caries. The discoloration looks like it could be early decay, but it's difficult to determine with certainty from this image alone. Confidence level: Moderate.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9643
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.596206545829773,
+      "box": [
+        945,
+        374,
+        1114,
+        514
+      ],
+      "padded_box": [
+        919,
+        353,
+        1139,
+        535
+      ],
+      "reasoning": "The image shows close-up views of several teeth, likely premolars or molars, with visible enamel surfaces and some interproximal areas where teeth touch. There is a small, slightly darker area on the occlusal (chewing) surface of one of the upper teeth. Yes, it appears to show evidence of dental caries (tooth decay). The dark spot suggests demineralization within the tooth structure. My confidence in this assessment is high based on the visual characteristics.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 5,
+      "iou_with_gt": 0.9006
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.5778067111968994,
+      "box": [
+        173,
+        371,
+        351,
+        520
+      ],
+      "padded_box": [
+        146,
+        348,
+        377,
+        542
+      ],
+      "reasoning": "The image shows close-up views of several teeth, likely premolars or molars, with visible enamel structure and some minor variations in translucency. There is no obvious evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows within the enamel, or brown/black discoloration on the surfaces shown. Based on this image alone, it does not appear to show signs of active dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.957
+    }
+  ],
+  "matched": {
+    "tp": 6,
+    "fp": 0,
+    "fn": 0
+  }
+}

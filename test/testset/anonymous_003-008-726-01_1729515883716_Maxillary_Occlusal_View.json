@@ -1,0 +1,40 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-726-01_1729515883716_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1054,
+      504,
+      1270,
+      638
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.6791918873786926,
+      "box": [
+        1053,
+        492,
+        1277,
+        643
+      ],
+      "padded_box": [
+        1019,
+        469,
+        1310,
+        665
+      ],
+      "reasoning": "The image shows a close-up view of teeth, likely molars, with visible cusps and fissures. There appears to be a small white spot or potential early decay on the occlusal surface of one of the upper teeth. Yes, there is evidence of what looks like a small cavity or caries on the tooth surface. I am moderately confident in this assessment based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8557
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_103_376_01_1728132928256_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      188,
+      446,
+      404,
+      601
+    ],
+    [
+      204,
+      577,
+      443,
+      752
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8141046166419983,
+      "box": [
+        175,
+        430,
+        414,
+        622
+      ],
+      "padded_box": [
+        139,
+        401,
+        449,
+        650
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in cross-section with some primary caries lesions present. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7296
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8046597242355347,
+      "box": [
+        198,
+        558,
+        457,
+        770
+      ],
+      "padded_box": [
+        159,
+        526,
+        495,
+        801
+      ],
+      "reasoning": "The image shows 6 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7617
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.3904784619808197,
+      "box": [
+        1230,
+        348,
+        1461,
+        551
+      ],
+      "padded_box": [
+        1195,
+        317,
+        1495,
+        581
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  }
+}

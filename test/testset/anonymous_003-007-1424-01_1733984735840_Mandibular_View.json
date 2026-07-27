@@ -1,0 +1,68 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1424-01_1733984735840_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      253,
+      418,
+      610,
+      802
+    ],
+    [
+      1710,
+      272,
+      2095,
+      690
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.615440309047699,
+      "box": [
+        219,
+        403,
+        638,
+        785
+      ],
+      "padded_box": [
+        156,
+        345,
+        700,
+        842
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There appears to be some slight discoloration or shadowing within the grooves of the upper premolars. Yes, there is evidence of dental caries (tooth decay). I am moderately confident in this assessment due to the presence of dark shadows within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7887
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.4764591157436371,
+      "box": [
+        1681,
+        258,
+        2126,
+        691
+      ],
+      "padded_box": [
+        1614,
+        193,
+        2192,
+        755
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is a small, lighter-colored area within one of the grooves on the occlusal (chewing) surface. This could potentially be early decay or perhaps just a shadow or variation in enamel structure. It appears to show a possible early sign of dental caries, but it's difficult to definitively diagnose from this image alone. Confidence is low.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8352
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 0
+  }
+}

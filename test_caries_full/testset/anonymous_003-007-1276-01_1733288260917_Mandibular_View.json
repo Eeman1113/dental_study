@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1276-01_1733288260917_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      66,
+      505,
+      512,
+      960
+    ],
+    [
+      40,
+      170,
+      402,
+      570
+    ],
+    [
+      2207,
+      129,
+      2571,
+      489
+    ],
+    [
+      2116,
+      484,
+      2571,
+      922
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8298651576042175,
+      "box": [
+        2183,
+        111,
+        2599,
+        528
+      ],
+      "padded_box": [
+        2120,
+        48,
+        2605,
+        590
+      ],
+      "reasoning": "The image shows the permanent dentition of a human mouth. There is one region of concern: a primary caries lesion in the lower right region of the image. I can identify 1 affected area. Final Answer: The final answer is \"\\n1 affected area. Reasoning: One primary caries lesion is visible in the lower right region of the image.\"",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7554
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8101595044136047,
+      "box": [
+        32,
+        494,
+        526,
+        982
+      ],
+      "padded_box": [
+        0,
+        420,
+        600,
+        1055
+      ],
+      "reasoning": "A permanent maxillary central region caries lesion with primary concern. Yes, I can identify this as dental caries. My confidence level is high.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8418
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8085561990737915,
+      "box": [
+        7,
+        164,
+        425,
+        579
+      ],
+      "padded_box": [
+        0,
+        101,
+        487,
+        641
+      ],
+      "reasoning": "The image shows the permanent dentition of a human mouth. There is one region of concern: a primary caries lesion in the mid right region of the image. It appears as a dark brown discoloration within the enamel structure. Yes, it looks like caries. I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8347
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.8059093356132507,
+      "box": [
+        2102,
+        462,
+        2588,
+        937
+      ],
+      "padded_box": [
+        2029,
+        390,
+        2605,
+        1008
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I am moderately confident this represents decay.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8633
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

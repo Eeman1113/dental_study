@@ -1,0 +1,62 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1253-00_1732971070859_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1075,
+      355,
+      1307,
+      585
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.837364912033081,
+      "box": [
+        1051,
+        337,
+        1328,
+        598
+      ],
+      "padded_box": [
+        1009,
+        297,
+        1356,
+        637
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some internal structures. There appears to be a dark shadow within the grooves of the upper premolars. Yes, there is evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the dark shadows within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7381
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.36976224184036255,
+      "box": [
+        72,
+        325,
+        345,
+        588
+      ],
+      "padded_box": [
+        31,
+        285,
+        385,
+        627
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is a visible cavity on the occlusal (chewing) surface of the upper right molar. Yes, there appears to be evidence of dental caries (tooth decay). The lesion is dark and has irregular borders, consistent with a cavitated tooth decay. I am confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 1,
+    "fn": 0
+  }
+}

@@ -1,0 +1,353 @@
+test images to process: 332
+
+=== stage A: detector-only test-set metrics ===
+Ultralytics 8.4.104 🚀 Python-3.13.2 torch-2.11.0 MPS (Apple M4)
+YOLO11m summary (fused): 126 layers, 20,031,574 parameters, 0 gradients, 67.7 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 803.6±350.9 MB/s, size: 227.2 KB)
+[K[34m[1mval: [0mScanning /Users/eemanmajumder/code_shit/daath/yolo_split/labels/test... 332 images, 78 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 332/332 6.9Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /Users/eemanmajumder/code_shit/daath/yolo_split/labels/test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 4% ╸─────────── 1/21 6.9s/it 2.1s<2:18[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 9% ━─────────── 2/21 3.9s/it 4.0s<1:14[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 14% ━╸────────── 3/21 2.6s/it 5.5s<46.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 19% ━━────────── 4/21 2.3s/it 7.2s<38.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 23% ━━╸───────── 5/21 2.0s/it 8.9s<32.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 28% ━━━───────── 6/21 2.0s/it 10.8s<30.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 7/21 1.9s/it 12.4s<26.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 38% ━━━━╸─────── 8/21 1.8s/it 13.9s<22.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 42% ━━━━━─────── 9/21 1.7s/it 15.5s<20.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 47% ━━━━━╸────── 10/21 1.7s/it 17.2s<18.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 52% ━━━━━━────── 11/21 1.6s/it 18.6s<16.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 57% ━━━━━━╸───── 12/21 1.6s/it 20.1s<14.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 61% ━━━━━━━───── 13/21 1.6s/it 21.6s<12.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━━──── 14/21 1.5s/it 23.1s<10.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 71% ━━━━━━━━╸─── 15/21 1.5s/it 24.6s<9.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 76% ━━━━━━━━━─── 16/21 1.5s/it 26.1s<7.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 17/21 1.5s/it 27.7s<6.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 85% ━━━━━━━━━━── 18/21 1.5s/it 29.1s<4.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 90% ━━━━━━━━━━╸─ 19/21 1.5s/it 30.5s<3.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 95% ━━━━━━━━━━━─ 20/21 1.5s/it 32.0s<1.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 21/21 1.6s/it 33.4s
+                   all        332        850      0.824      0.845       0.86      0.692
+Speed: 0.2ms preprocess, 55.5ms inference, 0.0ms loss, 23.5ms postprocess per image
+Results saved to [1m/opt/homebrew/runs/detect/val[0m
+  mAP50=0.8597  mAP50-95=0.6916  P=0.8243  R=0.8445
+
+=== stage B: combined pipeline on 332 images ===
+[  1/332] anonymous_003-007-1004-00_1731042060585_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 0:00:27 elapsed, eta 2:32:43
+[  2/332] anonymous_003-007-1004-00_1731042060585_Maxillary_Occlusal_View.jpg    gt=0 pred=2 tp=0 fp=2 fn=0 | 0:00:40 elapsed, eta 1:52:19
+[  3/332] anonymous_003-007-1021-01_1731212419570_Mandibular_View.jpg            gt=5 pred=6 tp=5 fp=1 fn=0 | 0:01:15 elapsed, eta 2:18:32
+[  4/332] anonymous_003-007-1021-01_1731212419570_Maxillary_Occlusal_View.jpg    gt=1 pred=2 tp=1 fp=1 fn=0 | 0:01:28 elapsed, eta 2:01:16
+[  5/332] anonymous_003-007-1043-01_1731313150655_Mandibular_View.jpg            gt=4 pred=5 tp=4 fp=1 fn=0 | 0:01:59 elapsed, eta 2:10:43
+[  6/332] anonymous_003-007-1043-01_1731313150655_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:02:00 elapsed, eta 1:49:14
+[  7/332] anonymous_003-007-1044-00_1731313465914_Mandibular_View.jpg            gt=4 pred=5 tp=4 fp=1 fn=0 | 0:02:30 elapsed, eta 1:56:25
+[  8/332] anonymous_003-007-1044-00_1731313465914_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:02:31 elapsed, eta 1:42:02
+[  9/332] anonymous_003-007-1058-00_1731390028166_Mandibular_View.jpg            gt=4 pred=3 tp=3 fp=0 fn=1 | 0:02:49 elapsed, eta 1:41:27
+[ 10/332] anonymous_003-007-1058-00_1731390028166_Maxillary_Occlusal_View.jpg    gt=1 pred=1 tp=1 fp=0 fn=0 | 0:02:57 elapsed, eta 1:35:01
+[ 11/332] anonymous_003-007-1059-01_1731392005920_Mandibular_View.jpg            gt=2 pred=3 tp=2 fp=1 fn=0 | 0:03:16 elapsed, eta 1:35:27
+[ 12/332] anonymous_003-007-1059-01_1731392005920_Maxillary_Occlusal_View.jpg    gt=2 pred=3 tp=2 fp=1 fn=0 | 0:03:36 elapsed, eta 1:36:08
+[ 13/332] anonymous_003-007-1062-00_1731395133625_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 0:04:03 elapsed, eta 1:39:25
+[ 14/332] anonymous_003-007-1062-00_1731395133625_Maxillary_Occlusal_View.jpg    gt=4 pred=4 tp=3 fp=1 fn=1 | 0:04:28 elapsed, eta 1:41:32
+[ 15/332] anonymous_003-007-1078-00_1731473228593_Mandibular_View.jpg            gt=3 pred=5 tp=3 fp=2 fn=0 | 0:05:01 elapsed, eta 1:46:21
+[ 16/332] anonymous_003-007-1078-00_1731473228593_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:05:02 elapsed, eta 1:39:39
+[ 17/332] anonymous_003-007-1084-00_1732176334274_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 0:05:26 elapsed, eta 1:40:58
+[ 18/332] anonymous_003-007-1084-00_1732176334274_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:05:27 elapsed, eta 1:35:15
+[ 19/332] anonymous_003-007-1095-01_1732255771018_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 0:05:52 elapsed, eta 1:36:50
+[ 20/332] anonymous_003-007-1095-01_1732255771018_Maxillary_Occlusal_View.jpg    gt=1 pred=1 tp=1 fp=0 fn=0 | 0:05:59 elapsed, eta 1:33:31
+[ 21/332] anonymous_003-007-1097-01_1732258152530_Mandibular_View.jpg            gt=3 pred=3 tp=3 fp=0 fn=0 | 0:06:18 elapsed, eta 1:33:23
+[ 22/332] anonymous_003-007-1097-01_1732258152530_Maxillary_Occlusal_View.jpg    gt=2 pred=2 tp=2 fp=0 fn=0 | 0:06:31 elapsed, eta 1:31:54
+[ 23/332] anonymous_003-007-1099-01_1732262197016_Mandibular_View.jpg            gt=3 pred=3 tp=3 fp=0 fn=0 | 0:06:49 elapsed, eta 1:31:43
+[ 24/332] anonymous_003-007-1099-01_1732262197016_Maxillary_Occlusal_View.jpg    gt=1 pred=1 tp=1 fp=0 fn=0 | 0:06:56 elapsed, eta 1:28:59
+[ 25/332] anonymous_003-007-1124-00_1732512565150_Mandibular_View.jpg            gt=1 pred=4 tp=1 fp=3 fn=0 | 0:07:20 elapsed, eta 1:30:10
+[ 26/332] anonymous_003-007-1124-00_1732512565150_Maxillary_Occlusal_View.jpg    gt=0 pred=1 tp=0 fp=1 fn=0 | 0:07:26 elapsed, eta 1:27:38
+[ 27/332] anonymous_003-007-1129-01_1732521529208_Mandibular_View.jpg            gt=1 pred=2 tp=1 fp=1 fn=0 | 0:07:40 elapsed, eta 1:26:44
+[ 28/332] anonymous_003-007-1129-01_1732521529208_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:07:41 elapsed, eta 1:23:29
+[ 29/332] anonymous_003-007-1130-00_1732522239159_Mandibular_View.jpg            gt=0 pred=3 tp=0 fp=3 fn=0 | 0:08:00 elapsed, eta 1:23:45
+[ 30/332] anonymous_003-007-1130-00_1732522239159_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:08:01 elapsed, eta 1:20:48
+[ 31/332] anonymous_003-007-1141-01_1732595713489_Mandibular_View.jpg            gt=2 pred=3 tp=2 fp=1 fn=0 | 0:08:20 elapsed, eta 1:20:58
+[ 32/332] anonymous_003-007-1141-01_1732595713489_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:08:21 elapsed, eta 1:18:17
+[ 33/332] anonymous_003-007-1165-00_1732681881529_Mandibular_View.jpg            gt=3 pred=4 tp=3 fp=1 fn=0 | 0:08:45 elapsed, eta 1:19:18
+[ 34/332] anonymous_003-007-1165-00_1732681881529_Maxillary_Occlusal_View.jpg    gt=2 pred=1 tp=1 fp=0 fn=1 | 0:08:51 elapsed, eta 1:17:41
+[ 35/332] anonymous_003-007-1166-01_1732683540150_Mandibular_View.jpg            gt=3 pred=4 tp=3 fp=1 fn=0 | 0:09:18 elapsed, eta 1:18:56
+[ 36/332] anonymous_003-007-1166-01_1732683540150_Maxillary_Occlusal_View.jpg    gt=4 pred=4 tp=4 fp=0 fn=0 | 0:09:43 elapsed, eta 1:19:55
+[ 37/332] anonymous_003-007-1172-00_1732692324606_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 0:10:08 elapsed, eta 1:20:48
+[ 38/332] anonymous_003-007-1172-00_1732692324606_Maxillary_Occlusal_View.jpg    gt=4 pred=3 tp=3 fp=0 fn=1 | 0:10:27 elapsed, eta 1:20:54
+[ 39/332] anonymous_003-007-1174-01_1732694128852_Mandibular_View.jpg            gt=2 pred=3 tp=2 fp=1 fn=0 | 0:10:46 elapsed, eta 1:20:58
+[ 40/332] anonymous_003-007-1174-01_1732694128852_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:10:47 elapsed, eta 1:18:45
+[ 41/332] anonymous_003-007-1240-01_1732954748387_Mandibular_View.jpg            gt=0 pred=1 tp=0 fp=1 fn=0 | 0:10:53 elapsed, eta 1:17:19
+[ 42/332] anonymous_003-007-1240-01_1732954748387_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:10:54 elapsed, eta 1:15:18
+[ 43/332] anonymous_003-007-1254-01_1733114052105_Mandibular_View.jpg            gt=3 pred=3 tp=3 fp=0 fn=0 | 0:11:12 elapsed, eta 1:15:22
+[ 44/332] anonymous_003-007-1254-01_1733114052105_Maxillary_Occlusal_View.jpg    gt=0 pred=1 tp=0 fp=1 fn=0 | 0:11:19 elapsed, eta 1:14:06
+[ 45/332] anonymous_003-007-1256-01_1733116383089_Mandibular_View.jpg            gt=3 pred=3 tp=2 fp=1 fn=1 | 0:11:38 elapsed, eta 1:14:15
+[ 46/332] anonymous_003-007-1256-01_1733116383089_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:11:39 elapsed, eta 1:12:28
+[ 47/332] anonymous_003-007-1276-01_1733288260917_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 0:12:01 elapsed, eta 1:12:53
+[ 48/332] anonymous_003-007-1276-01_1733288260917_Maxillary_Occlusal_View.jpg    gt=5 pred=5 tp=5 fp=0 fn=0 | 0:12:33 elapsed, eta 1:14:16
+[ 49/332] anonymous_003-007-1277-00_1733288989839_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 0:12:58 elapsed, eta 1:14:54
+[ 50/332] anonymous_003-007-1277-00_1733288989839_Maxillary_Occlusal_View.jpg    gt=3 pred=5 tp=3 fp=2 fn=0 | 0:13:32 elapsed, eta 1:16:20
+[ 51/332] anonymous_003-007-1281-00_1733293729321_Mandibular_View.jpg            gt=3 pred=3 tp=3 fp=0 fn=0 | 0:13:51 elapsed, eta 1:16:22
+[ 52/332] anonymous_003-007-1281-00_1733293729321_Maxillary_Occlusal_View.jpg    gt=2 pred=3 tp=2 fp=1 fn=0 | 0:14:11 elapsed, eta 1:16:23
+[ 53/332] anonymous_003-007-1282-01_1733296511775_Mandibular_View.jpg            gt=4 pred=3 tp=2 fp=1 fn=2 | 0:14:32 elapsed, eta 1:16:34
+[ 54/332] anonymous_003-007-1282-01_1733296511775_Maxillary_Occlusal_View.jpg    gt=1 pred=0 tp=0 fp=0 fn=1 | 0:14:33 elapsed, eta 1:14:56
+[ 55/332] anonymous_003-007-1301-00_1733385797447_Mandibular_View.jpg            gt=2 pred=2 tp=1 fp=1 fn=1 | 0:14:46 elapsed, eta 1:14:27
+[ 56/332] anonymous_003-007-1301-00_1733385797447_Maxillary_Occlusal_View.jpg    gt=2 pred=1 tp=1 fp=0 fn=1 | 0:14:55 elapsed, eta 1:13:32
+[ 57/332] anonymous_003-007-1314-01_1733460606394_Mandibular_View.jpg            gt=0 pred=0 tp=0 fp=0 fn=0 | 0:14:55 elapsed, eta 1:12:02
+[ 58/332] anonymous_003-007-1314-01_1733460606394_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:14:56 elapsed, eta 1:10:33
+[ 59/332] anonymous_003-007-1334-01_1733549416124_Mandibular_View.jpg            gt=3 pred=4 tp=3 fp=1 fn=0 | 0:15:21 elapsed, eta 1:11:02
+[ 60/332] anonymous_003-007-1334-01_1733549416124_Maxillary_Occlusal_View.jpg    gt=1 pred=0 tp=0 fp=0 fn=1 | 0:15:21 elapsed, eta 1:09:38
+[ 61/332] anonymous_003-007-1357-00_1733720840910_Mandibular_View.jpg            gt=1 pred=1 tp=1 fp=0 fn=0 | 0:15:28 elapsed, eta 1:08:45
+[ 62/332] anonymous_003-007-1357-00_1733720840910_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:15:29 elapsed, eta 1:07:27
+[ 63/332] anonymous_003-007-1363-00_1733726568839_Mandibular_View.jpg            gt=3 pred=3 tp=3 fp=0 fn=0 | 0:15:48 elapsed, eta 1:07:27
+[ 64/332] anonymous_003-007-1363-00_1733726568839_Maxillary_Occlusal_View.jpg    gt=4 pred=3 tp=3 fp=0 fn=1 | 0:16:07 elapsed, eta 1:07:31
+[ 65/332] anonymous_003-007-1365-00_1733730834809_Mandibular_View.jpg            gt=0 pred=4 tp=0 fp=4 fn=0 | 0:16:34 elapsed, eta 1:08:06
+[ 66/332] anonymous_003-007-1365-00_1733730834809_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:16:35 elapsed, eta 1:06:51
+[ 67/332] anonymous_003-007-1381-01_1733807088132_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 0:17:00 elapsed, eta 1:07:15
+[ 68/332] anonymous_003-007-1381-01_1733807088132_Maxillary_Occlusal_View.jpg    gt=3 pred=1 tp=1 fp=0 fn=2 | 0:17:07 elapsed, eta 1:06:28
+[ 69/332] anonymous_003-007-1383-01_1733809827682_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 0:17:33 elapsed, eta 1:06:55
+[ 70/332] anonymous_003-007-1383-01_1733809827682_Maxillary_Occlusal_View.jpg    gt=3 pred=3 tp=3 fp=0 fn=0 | 0:17:52 elapsed, eta 1:06:54
+[ 71/332] anonymous_003-007-1385-01_1733812781705_Mandibular_View.jpg            gt=5 pred=5 tp=5 fp=0 fn=0 | 0:18:22 elapsed, eta 1:07:31
+[ 72/332] anonymous_003-007-1385-01_1733812781705_Maxillary_Occlusal_View.jpg    gt=6 pred=6 tp=6 fp=0 fn=0 | 0:18:56 elapsed, eta 1:08:24
+[ 73/332] anonymous_003-007-1388-00_1733817167049_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 0:19:20 elapsed, eta 1:08:38
+[ 74/332] anonymous_003-007-1388-00_1733817167049_Maxillary_Occlusal_View.jpg    gt=7 pred=2 tp=2 fp=0 fn=5 | 0:19:32 elapsed, eta 1:08:09
+[ 75/332] anonymous_003-007-1397-01_1733892390896_Mandibular_View.jpg            gt=3 pred=3 tp=3 fp=0 fn=0 | 0:19:52 elapsed, eta 1:08:07
+[ 76/332] anonymous_003-007-1397-01_1733892390896_Maxillary_Occlusal_View.jpg    gt=3 pred=2 tp=2 fp=0 fn=1 | 0:20:06 elapsed, eta 1:07:42
+[ 77/332] anonymous_003-007-1424-01_1733984735840_Mandibular_View.jpg            gt=2 pred=2 tp=2 fp=0 fn=0 | 0:20:19 elapsed, eta 1:07:18
+[ 78/332] anonymous_003-007-1424-01_1733984735840_Maxillary_Occlusal_View.jpg    gt=3 pred=2 tp=2 fp=0 fn=1 | 0:20:31 elapsed, eta 1:06:51
+[ 79/332] anonymous_003-007-1428-00_1733988334630_Mandibular_View.jpg            gt=5 pred=5 tp=5 fp=0 fn=0 | 0:21:01 elapsed, eta 1:07:20
+[ 80/332] anonymous_003-007-1428-00_1733988334630_Maxillary_Occlusal_View.jpg    gt=4 pred=2 tp=2 fp=0 fn=2 | 0:21:14 elapsed, eta 1:06:55
+[ 81/332] anonymous_003-007-1445-01_1734067220530_Mandibular_View.jpg            gt=3 pred=3 tp=3 fp=0 fn=0 | 0:21:33 elapsed, eta 1:06:47
+[ 82/332] anonymous_003-007-1445-01_1734067220530_Maxillary_Occlusal_View.jpg    gt=4 pred=5 tp=4 fp=1 fn=0 | 0:22:03 elapsed, eta 1:07:16
+[ 83/332] anonymous_003-007-1467-01_1734151211266_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 0:22:27 elapsed, eta 1:07:23
+[ 84/332] anonymous_003-007-1467-01_1734151211266_Maxillary_Occlusal_View.jpg    gt=2 pred=1 tp=1 fp=0 fn=1 | 0:22:35 elapsed, eta 1:06:41
+[ 85/332] anonymous_003-007-1468-00_1734151836223_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 0:23:02 elapsed, eta 1:06:57
+[ 86/332] anonymous_003-007-1468-00_1734151836223_Maxillary_Occlusal_View.jpg    gt=2 pred=2 tp=1 fp=1 fn=1 | 0:23:15 elapsed, eta 1:06:31
+[ 87/332] anonymous_003-007-1471-00_1734154142740_Mandibular_View.jpg            gt=5 pred=5 tp=5 fp=0 fn=0 | 0:23:47 elapsed, eta 1:07:01
+[ 88/332] anonymous_003-007-1471-00_1734154142740_Maxillary_Occlusal_View.jpg    gt=4 pred=3 tp=3 fp=0 fn=1 | 0:24:05 elapsed, eta 1:06:48
+[ 89/332] anonymous_003-007-1476-01_1734160175819_Mandibular_View.jpg            gt=2 pred=4 tp=2 fp=2 fn=0 | 0:24:29 elapsed, eta 1:06:53
+[ 90/332] anonymous_003-007-1476-01_1734160175819_Maxillary_Occlusal_View.jpg    gt=3 pred=1 tp=1 fp=0 fn=2 | 0:24:35 elapsed, eta 1:06:08
+[ 91/332] anonymous_003-007-601-00_1729053072717_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 0:25:01 elapsed, eta 1:06:16
+[ 92/332] anonymous_003-007-601-00_1729053072717_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 0:25:02 elapsed, eta 1:05:19
+[ 93/332] anonymous_003-007-602-01_1729054437729_Mandibular_View.jpg             gt=0 pred=0 tp=0 fp=0 fn=0 | 0:25:02 elapsed, eta 1:04:21
+[ 94/332] anonymous_003-007-602-01_1729054437729_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 0:25:02 elapsed, eta 1:03:25
+[ 95/332] anonymous_003-007-605-00_1729057547565_Mandibular_View.jpg             gt=1 pred=1 tp=1 fp=0 fn=0 | 0:25:09 elapsed, eta 1:02:45
+[ 96/332] anonymous_003-007-605-00_1729057547565_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 0:25:10 elapsed, eta 1:01:52
+[ 97/332] anonymous_003-007-608-01_1729061556946_Mandibular_View.jpg             gt=4 pred=3 tp=3 fp=0 fn=1 | 0:25:31 elapsed, eta 1:01:49
+[ 98/332] anonymous_003-007-608-01_1729061556946_Maxillary_Occlusal_View.jpg     gt=1 pred=1 tp=1 fp=0 fn=0 | 0:25:39 elapsed, eta 1:01:15
+[ 99/332] anonymous_003-007-609-00_1729062135762_Mandibular_View.jpg             gt=4 pred=3 tp=3 fp=0 fn=1 | 0:25:58 elapsed, eta 1:01:08
+[100/332] anonymous_003-007-609-00_1729062135762_Maxillary_Occlusal_View.jpg     gt=1 pred=2 tp=1 fp=1 fn=0 | 0:26:14 elapsed, eta 1:00:53
+[101/332] anonymous_003-007-610-01_1729062730067_Mandibular_View.jpg             gt=5 pred=5 tp=5 fp=0 fn=0 | 0:26:45 elapsed, eta 1:01:10
+[102/332] anonymous_003-007-610-01_1729062730067_Maxillary_Occlusal_View.jpg     gt=5 pred=5 tp=5 fp=0 fn=0 | 0:27:19 elapsed, eta 1:01:36
+[103/332] anonymous_003-007-632-00_1729144134892_Mandibular_View.jpg             gt=2 pred=3 tp=2 fp=1 fn=0 | 0:27:38 elapsed, eta 1:01:26
+[104/332] anonymous_003-007-632-00_1729144134892_Maxillary_Occlusal_View.jpg     gt=1 pred=0 tp=0 fp=0 fn=1 | 0:27:38 elapsed, eta 1:00:36
+[105/332] anonymous_003-007-642-00_1729154783455_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 0:28:02 elapsed, eta 1:00:36
+[106/332] anonymous_003-007-642-00_1729154783455_Maxillary_Occlusal_View.jpg     gt=5 pred=3 tp=3 fp=0 fn=2 | 0:28:21 elapsed, eta 1:00:27
+[107/332] anonymous_003-007-661-01_1729228712416_Mandibular_View.jpg             gt=4 pred=3 tp=3 fp=0 fn=1 | 0:28:39 elapsed, eta 1:00:15
+[108/332] anonymous_003-007-661-01_1729228712416_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 0:28:40 elapsed, eta 0:59:28
+[109/332] anonymous_003-007-674-01_1729243660931_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 0:29:05 elapsed, eta 0:59:31
+[110/332] anonymous_003-007-674-01_1729243660931_Maxillary_Occlusal_View.jpg     gt=1 pred=1 tp=1 fp=0 fn=0 | 0:29:13 elapsed, eta 0:58:58
+[111/332] anonymous_003-007-675-00_1729243996615_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 0:29:37 elapsed, eta 0:58:58
+[112/332] anonymous_003-007-675-00_1729243996615_Maxillary_Occlusal_View.jpg     gt=1 pred=3 tp=1 fp=2 fn=0 | 0:29:59 elapsed, eta 0:58:54
+[113/332] anonymous_003-007-690-01_1729312765724_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 0:30:27 elapsed, eta 0:59:01
+[114/332] anonymous_003-007-690-01_1729312765724_Maxillary_Occlusal_View.jpg     gt=4 pred=3 tp=3 fp=0 fn=1 | 0:30:46 elapsed, eta 0:58:51
+[115/332] anonymous_003-007-711-00_1729486430166_Mandibular_View.jpg             gt=6 pred=6 tp=6 fp=0 fn=0 | 0:31:24 elapsed, eta 0:59:16
+[116/332] anonymous_003-007-711-00_1729486430166_Maxillary_Occlusal_View.jpg     gt=3 pred=3 tp=3 fp=0 fn=0 | 0:31:42 elapsed, eta 0:59:03
+[117/332] anonymous_003-007-716-01_1729494300386_Mandibular_View.jpg             gt=5 pred=5 tp=5 fp=0 fn=0 | 0:32:14 elapsed, eta 0:59:14
+[118/332] anonymous_003-007-716-01_1729494300386_Maxillary_Occlusal_View.jpg     gt=4 pred=4 tp=3 fp=1 fn=1 | 0:32:39 elapsed, eta 0:59:13
+[119/332] anonymous_003-007-719-00_1729496830754_Mandibular_View.jpg             gt=5 pred=5 tp=5 fp=0 fn=0 | 0:33:10 elapsed, eta 0:59:22
+[120/332] anonymous_003-007-719-00_1729496830754_Maxillary_Occlusal_View.jpg     gt=4 pred=4 tp=4 fp=0 fn=0 | 0:33:33 elapsed, eta 0:59:17
+[121/332] anonymous_003-007-750-01_1729655314264_Mandibular_View.jpg             gt=0 pred=0 tp=0 fp=0 fn=0 | 0:33:34 elapsed, eta 0:58:32
+[122/332] anonymous_003-007-750-01_1729655314264_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 0:33:34 elapsed, eta 0:57:47
+[123/332] anonymous_003-007-776-00_1729758162119_Mandibular_View.jpg             gt=3 pred=5 tp=3 fp=2 fn=0 | 0:34:05 elapsed, eta 0:57:56
+[124/332] anonymous_003-007-776-00_1729758162119_Maxillary_Occlusal_View.jpg     gt=4 pred=5 tp=4 fp=1 fn=0 | 0:34:37 elapsed, eta 0:58:05
+[125/332] anonymous_003-007-802-01_1729916116649_Mandibular_View.jpg             gt=2 pred=3 tp=2 fp=1 fn=0 | 0:34:57 elapsed, eta 0:57:53
+[126/332] anonymous_003-007-802-01_1729916116649_Maxillary_Occlusal_View.jpg     gt=1 pred=0 tp=0 fp=0 fn=1 | 0:34:58 elapsed, eta 0:57:10
+[127/332] anonymous_003-007-827-01_1730088725164_Mandibular_View.jpg             gt=0 pred=4 tp=0 fp=4 fn=0 | 0:35:24 elapsed, eta 0:57:09
+[128/332] anonymous_003-007-827-01_1730088725164_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 0:35:25 elapsed, eta 0:56:27
+[129/332] anonymous_003-007-828-00_1730089776327_Mandibular_View.jpg             gt=0 pred=2 tp=0 fp=2 fn=0 | 0:35:38 elapsed, eta 0:56:05
+[130/332] anonymous_003-007-828-00_1730089776327_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 0:35:39 elapsed, eta 0:55:24
+[131/332] anonymous_003-007-832-00_1730094248119_Mandibular_View.jpg             gt=5 pred=4 tp=4 fp=0 fn=1 | 0:36:02 elapsed, eta 0:55:18
+[132/332] anonymous_003-007-832-00_1730094248119_Maxillary_Occlusal_View.jpg     gt=2 pred=0 tp=0 fp=0 fn=2 | 0:36:03 elapsed, eta 0:54:37
+[133/332] anonymous_003-007-834-01_1730097912853_Mandibular_View.jpg             gt=0 pred=0 tp=0 fp=0 fn=0 | 0:36:03 elapsed, eta 0:53:57
+[134/332] anonymous_003-007-847-01_1730184498927_Mandibular_View.jpg             gt=3 pred=3 tp=3 fp=0 fn=0 | 0:36:21 elapsed, eta 0:53:43
+[135/332] anonymous_003-007-847-01_1730184498927_Maxillary_Occlusal_View.jpg     gt=0 pred=1 tp=0 fp=1 fn=0 | 0:36:29 elapsed, eta 0:53:14
+[136/332] anonymous_003-007-848-00_1730185308013_Mandibular_View.jpg             gt=3 pred=4 tp=3 fp=1 fn=0 | 0:36:52 elapsed, eta 0:53:08
+[137/332] anonymous_003-007-848-00_1730185308013_Maxillary_Occlusal_View.jpg     gt=0 pred=1 tp=0 fp=1 fn=0 | 0:36:59 elapsed, eta 0:52:38
+[138/332] anonymous_003-007-874-01_1730269462019_Mandibular_View.jpg             gt=6 pred=6 tp=6 fp=0 fn=0 | 0:37:39 elapsed, eta 0:52:56
+[139/332] anonymous_003-007-874-01_1730269462019_Maxillary_Occlusal_View.jpg     gt=1 pred=4 tp=1 fp=3 fn=0 | 0:38:04 elapsed, eta 0:52:52
+[140/332] anonymous_003-007-880-00_1730277823725_Mandibular_View.jpg             gt=6 pred=7 tp=6 fp=1 fn=0 | 0:38:47 elapsed, eta 0:53:11
+[141/332] anonymous_003-007-880-00_1730277823725_Maxillary_Occlusal_View.jpg     gt=4 pred=3 tp=3 fp=0 fn=1 | 0:39:06 elapsed, eta 0:52:58
+[142/332] anonymous_003-007-902-01_1730356318368_Mandibular_View.jpg             gt=3 pred=3 tp=3 fp=0 fn=0 | 0:39:24 elapsed, eta 0:52:44
+[143/332] anonymous_003-007-902-01_1730356318368_Maxillary_Occlusal_View.jpg     gt=1 pred=2 tp=1 fp=1 fn=0 | 0:39:38 elapsed, eta 0:52:23
+[144/332] anonymous_003-007-903-00_1730357034326_Mandibular_View.jpg             gt=3 pred=3 tp=3 fp=0 fn=0 | 0:40:02 elapsed, eta 0:52:16
+[145/332] anonymous_003-007-903-00_1730357034326_Maxillary_Occlusal_View.jpg     gt=2 pred=2 tp=2 fp=0 fn=0 | 0:40:16 elapsed, eta 0:51:56
+[146/332] anonymous_003-007-946-00_1730786337286_Mandibular_View.jpg             gt=2 pred=3 tp=2 fp=1 fn=0 | 0:40:36 elapsed, eta 0:51:44
+[147/332] anonymous_003-007-946-00_1730786337286_Maxillary_Occlusal_View.jpg     gt=0 pred=1 tp=0 fp=1 fn=0 | 0:40:44 elapsed, eta 0:51:15
+[148/332] anonymous_003-008-1018-00_1731069917933_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 0:41:10 elapsed, eta 0:51:11
+[149/332] anonymous_003-008-1018-00_1731069917933_Maxillary_Occlusal_View.jpg    gt=3 pred=1 tp=0 fp=1 fn=3 | 0:41:17 elapsed, eta 0:50:42
+[150/332] anonymous_003-008-1045-01_1731320462211_Mandibular_View.jpg            gt=2 pred=2 tp=2 fp=0 fn=0 | 0:41:28 elapsed, eta 0:50:19
+[151/332] anonymous_003-008-1045-01_1731320462211_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:41:29 elapsed, eta 0:49:44
+[152/332] anonymous_003-008-1105-01_1732274761826_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 0:41:56 elapsed, eta 0:49:40
+[153/332] anonymous_003-008-1105-01_1732274761826_Maxillary_Occlusal_View.jpg    gt=1 pred=0 tp=0 fp=0 fn=1 | 0:41:57 elapsed, eta 0:49:05
+[154/332] anonymous_003-008-1113-01_1732361420661_Mandibular_View.jpg            gt=4 pred=5 tp=4 fp=1 fn=0 | 0:42:28 elapsed, eta 0:49:06
+[155/332] anonymous_003-008-1113-01_1732361420661_Maxillary_Occlusal_View.jpg    gt=5 pred=7 tp=5 fp=2 fn=0 | 0:43:11 elapsed, eta 0:49:19
+[156/332] anonymous_003-008-1115-01_1732364427758_Mandibular_View.jpg            gt=3 pred=3 tp=3 fp=0 fn=0 | 0:43:30 elapsed, eta 0:49:05
+[157/332] anonymous_003-008-1115-01_1732364427758_Maxillary_Occlusal_View.jpg    gt=3 pred=3 tp=3 fp=0 fn=0 | 0:43:49 elapsed, eta 0:48:50
+[158/332] anonymous_003-008-1120-00_1732369192953_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 0:44:15 elapsed, eta 0:48:43
+[159/332] anonymous_003-008-1120-00_1732369192953_Maxillary_Occlusal_View.jpg    gt=2 pred=4 tp=2 fp=2 fn=0 | 0:44:40 elapsed, eta 0:48:36
+[160/332] anonymous_003-008-1158-01_1732623667368_Mandibular_View.jpg            gt=4 pred=5 tp=4 fp=1 fn=0 | 0:45:12 elapsed, eta 0:48:36
+[161/332] anonymous_003-008-1158-01_1732623667368_Maxillary_Occlusal_View.jpg    gt=0 pred=1 tp=0 fp=1 fn=0 | 0:45:18 elapsed, eta 0:48:07
+[162/332] anonymous_003-008-1176-01_1732700821121_Mandibular_View.jpg            gt=0 pred=3 tp=0 fp=3 fn=0 | 0:45:39 elapsed, eta 0:47:54
+[163/332] anonymous_003-008-1176-01_1732700821121_Maxillary_Occlusal_View.jpg    gt=0 pred=2 tp=0 fp=2 fn=0 | 0:45:53 elapsed, eta 0:47:34
+[164/332] anonymous_003-008-1182-00_1732708106125_Mandibular_View.jpg            gt=0 pred=2 tp=0 fp=2 fn=0 | 0:46:07 elapsed, eta 0:47:15
+[165/332] anonymous_003-008-1182-00_1732708106125_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:46:08 elapsed, eta 0:46:42
+[166/332] anonymous_003-008-1202-00_1732788831480_Mandibular_View.jpg            gt=1 pred=2 tp=1 fp=1 fn=0 | 0:46:21 elapsed, eta 0:46:21
+[167/332] anonymous_003-008-1202-00_1732788831480_Maxillary_Occlusal_View.jpg    gt=1 pred=1 tp=1 fp=0 fn=0 | 0:46:27 elapsed, eta 0:45:53
+[168/332] anonymous_003-008-1223-01_1732877412001_Mandibular_View.jpg            gt=2 pred=2 tp=2 fp=0 fn=0 | 0:46:40 elapsed, eta 0:45:33
+[169/332] anonymous_003-008-1223-01_1732877412001_Maxillary_Occlusal_View.jpg    gt=4 pred=2 tp=2 fp=0 fn=2 | 0:46:53 elapsed, eta 0:45:13
+[170/332] anonymous_003-008-1244-01_1732962596526_Mandibular_View.jpg            gt=5 pred=5 tp=5 fp=0 fn=0 | 0:47:23 elapsed, eta 0:45:09
+[171/332] anonymous_003-008-1244-01_1732962596526_Maxillary_Occlusal_View.jpg    gt=3 pred=4 tp=3 fp=1 fn=0 | 0:47:46 elapsed, eta 0:44:58
+[172/332] anonymous_003-008-1253-00_1732971070859_Mandibular_View.jpg            gt=1 pred=2 tp=1 fp=1 fn=0 | 0:47:58 elapsed, eta 0:44:37
+[173/332] anonymous_003-008-1253-00_1732971070859_Maxillary_Occlusal_View.jpg    gt=1 pred=1 tp=1 fp=0 fn=0 | 0:48:06 elapsed, eta 0:44:12
+[174/332] anonymous_003-008-1292-01_1733312885543_Mandibular_View.jpg            gt=4 pred=5 tp=4 fp=1 fn=0 | 0:48:35 elapsed, eta 0:44:07
+[175/332] anonymous_003-008-1292-01_1733312885543_Maxillary_Occlusal_View.jpg    gt=4 pred=1 tp=1 fp=0 fn=3 | 0:48:42 elapsed, eta 0:43:41
+[176/332] anonymous_003-008-1293-00_1733313329181_Mandibular_View.jpg            gt=0 pred=2 tp=0 fp=2 fn=0 | 0:48:55 elapsed, eta 0:43:21
+[177/332] anonymous_003-008-1293-00_1733313329181_Maxillary_Occlusal_View.jpg    gt=0 pred=1 tp=0 fp=1 fn=0 | 0:49:01 elapsed, eta 0:42:56
+[178/332] anonymous_003-008-1307-00_1733399296706_Mandibular_View.jpg            gt=4 pred=5 tp=4 fp=1 fn=0 | 0:49:30 elapsed, eta 0:42:49
+[179/332] anonymous_003-008-1307-00_1733399296706_Maxillary_Occlusal_View.jpg    gt=2 pred=3 tp=2 fp=1 fn=0 | 0:49:48 elapsed, eta 0:42:34
+[180/332] anonymous_003-008-1324-01_1733480246380_Mandibular_View.jpg            gt=3 pred=3 tp=3 fp=0 fn=0 | 0:50:08 elapsed, eta 0:42:20
+[181/332] anonymous_003-008-1324-01_1733480246380_Maxillary_Occlusal_View.jpg    gt=3 pred=3 tp=2 fp=1 fn=1 | 0:50:29 elapsed, eta 0:42:07
+[182/332] anonymous_003-008-1329-00_1733490890827_Mandibular_View.jpg            gt=1 pred=2 tp=1 fp=1 fn=0 | 0:50:43 elapsed, eta 0:41:48
+[183/332] anonymous_003-008-1329-00_1733490890827_Maxillary_Occlusal_View.jpg    gt=2 pred=2 tp=2 fp=0 fn=0 | 0:50:57 elapsed, eta 0:41:29
+[184/332] anonymous_003-008-1345-01_1733567991677_Mandibular_View.jpg            gt=6 pred=6 tp=6 fp=0 fn=0 | 0:51:35 elapsed, eta 0:41:29
+[185/332] anonymous_003-008-1345-01_1733567991677_Maxillary_Occlusal_View.jpg    gt=6 pred=4 tp=4 fp=0 fn=2 | 0:52:02 elapsed, eta 0:41:21
+[186/332] anonymous_003-008-1350-00_1733571474043_Mandibular_View.jpg            gt=0 pred=0 tp=0 fp=0 fn=0 | 0:52:03 elapsed, eta 0:40:51
+[187/332] anonymous_003-008-1350-00_1733571474043_Maxillary_Occlusal_View.jpg    gt=2 pred=0 tp=0 fp=0 fn=2 | 0:52:03 elapsed, eta 0:40:21
+[188/332] anonymous_003-008-1351-01_1733572755849_Mandibular_View.jpg            gt=5 pred=3 tp=3 fp=0 fn=2 | 0:52:23 elapsed, eta 0:40:07
+[189/332] anonymous_003-008-1351-01_1733572755849_Maxillary_Occlusal_View.jpg    gt=3 pred=2 tp=2 fp=0 fn=1 | 0:52:37 elapsed, eta 0:39:49
+[190/332] anonymous_003-008-1392-00_1733827997119_Mandibular_View.jpg            gt=0 pred=1 tp=0 fp=1 fn=0 | 0:52:43 elapsed, eta 0:39:24
+[191/332] anonymous_003-008-1392-00_1733827997119_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:52:44 elapsed, eta 0:38:56
+[192/332] anonymous_003-008-1413-01_1733914506164_Mandibular_View.jpg            gt=0 pred=1 tp=0 fp=1 fn=0 | 0:52:51 elapsed, eta 0:38:32
+[193/332] anonymous_003-008-1413-01_1733914506164_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 0:52:51 elapsed, eta 0:38:04
+[194/332] anonymous_003-008-1416-01_1733916762406_Mandibular_View.jpg            gt=4 pred=6 tp=3 fp=3 fn=1 | 0:53:28 elapsed, eta 0:38:02
+[195/332] anonymous_003-008-1416-01_1733916762406_Maxillary_Occlusal_View.jpg    gt=1 pred=1 tp=1 fp=0 fn=0 | 0:53:34 elapsed, eta 0:37:38
+[196/332] anonymous_003-008-566-01_1728910029994_Mandibular_View.jpg             gt=6 pred=5 tp=5 fp=0 fn=1 | 0:54:34 elapsed, eta 0:37:52
+[197/332] anonymous_003-008-566-01_1728910029994_Maxillary_Occlusal_View.jpg     gt=3 pred=2 tp=2 fp=0 fn=1 | 0:54:48 elapsed, eta 0:37:33
+[198/332] anonymous_003-008-653-01_1729171852238_Mandibular_View.jpg             gt=5 pred=5 tp=5 fp=0 fn=0 | 0:55:21 elapsed, eta 0:37:28
+[199/332] anonymous_003-008-653-01_1729171852238_Maxillary_Occlusal_View.jpg     gt=7 pred=4 tp=4 fp=0 fn=3 | 0:55:47 elapsed, eta 0:37:17
+[200/332] anonymous_003-008-654-00_1729172264488_Mandibular_View.jpg             gt=5 pred=4 tp=4 fp=0 fn=1 | 0:56:15 elapsed, eta 0:37:07
+[201/332] anonymous_003-008-654-00_1729172264488_Maxillary_Occlusal_View.jpg     gt=6 pred=5 tp=5 fp=0 fn=1 | 0:56:47 elapsed, eta 0:37:01
+[202/332] anonymous_003-008-656-00_1729174018756_Mandibular_View.jpg             gt=5 pred=7 tp=5 fp=2 fn=0 | 0:57:33 elapsed, eta 0:37:02
+[203/332] anonymous_003-008-656-00_1729174018756_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 0:57:34 elapsed, eta 0:36:35
+[204/332] anonymous_003-008-680-01_1729252793946_Mandibular_View.jpg             gt=5 pred=6 tp=5 fp=1 fn=0 | 0:58:09 elapsed, eta 0:36:29
+[205/332] anonymous_003-008-680-01_1729252793946_Maxillary_Occlusal_View.jpg     gt=5 pred=4 tp=4 fp=0 fn=1 | 0:58:37 elapsed, eta 0:36:19
+[206/332] anonymous_003-008-686-01_1729259151138_Mandibular_View.jpg             gt=3 pred=3 tp=3 fp=0 fn=0 | 0:58:55 elapsed, eta 0:36:02
+[207/332] anonymous_003-008-686-01_1729259151138_Maxillary_Occlusal_View.jpg     gt=5 pred=3 tp=3 fp=0 fn=2 | 0:59:14 elapsed, eta 0:35:46
+[208/332] anonymous_003-008-726-01_1729515883716_Mandibular_View.jpg             gt=1 pred=3 tp=1 fp=2 fn=0 | 0:59:33 elapsed, eta 0:35:30
+[209/332] anonymous_003-008-726-01_1729515883716_Maxillary_Occlusal_View.jpg     gt=1 pred=1 tp=1 fp=0 fn=0 | 0:59:40 elapsed, eta 0:35:06
+[210/332] anonymous_003-008-793-00_1729852086224_Mandibular_View.jpg             gt=5 pred=5 tp=5 fp=0 fn=0 | 1:00:10 elapsed, eta 0:34:57
+[211/332] anonymous_003-008-793-00_1729852086224_Maxillary_Occlusal_View.jpg     gt=1 pred=1 tp=1 fp=0 fn=0 | 1:00:17 elapsed, eta 0:34:34
+[212/332] anonymous_003-008-797-00_1729858198340_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:00:42 elapsed, eta 0:34:21
+[213/332] anonymous_003-008-797-00_1729858198340_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 1:00:43 elapsed, eta 0:33:55
+[214/332] anonymous_003-008-816-00_1729939059509_Mandibular_View.jpg             gt=4 pred=4 tp=3 fp=1 fn=1 | 1:01:09 elapsed, eta 0:33:43
+[215/332] anonymous_003-008-816-00_1729939059509_Maxillary_Occlusal_View.jpg     gt=1 pred=0 tp=0 fp=0 fn=1 | 1:01:10 elapsed, eta 0:33:17
+[216/332] anonymous_003-008-818-00_1729941374322_Mandibular_View.jpg             gt=0 pred=0 tp=0 fp=0 fn=0 | 1:01:10 elapsed, eta 0:32:51
+[217/332] anonymous_003-008-818-00_1729941374322_Maxillary_Occlusal_View.jpg     gt=1 pred=1 tp=1 fp=0 fn=0 | 1:01:16 elapsed, eta 0:32:28
+[218/332] anonymous_003-008-857-01_1730199751150_Mandibular_View.jpg             gt=5 pred=5 tp=5 fp=0 fn=0 | 1:01:47 elapsed, eta 0:32:18
+[219/332] anonymous_003-008-857-01_1730199751150_Maxillary_Occlusal_View.jpg     gt=7 pred=7 tp=7 fp=0 fn=0 | 1:02:27 elapsed, eta 0:32:13
+[220/332] anonymous_003-008-862-00_1730205438736_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:02:53 elapsed, eta 0:32:01
+[221/332] anonymous_003-008-862-00_1730205438736_Maxillary_Occlusal_View.jpg     gt=2 pred=1 tp=1 fp=0 fn=1 | 1:03:00 elapsed, eta 0:31:38
+[222/332] anonymous_003-008-863-01_1730206910719_Mandibular_View.jpg             gt=2 pred=2 tp=2 fp=0 fn=0 | 1:03:14 elapsed, eta 0:31:20
+[223/332] anonymous_003-008-863-01_1730206910719_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 1:03:14 elapsed, eta 0:30:54
+[224/332] anonymous_003-008-866-00_1730209761250_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:03:40 elapsed, eta 0:30:42
+[225/332] anonymous_003-008-866-00_1730209761250_Maxillary_Occlusal_View.jpg     gt=0 pred=1 tp=0 fp=1 fn=0 | 1:03:47 elapsed, eta 0:30:20
+[226/332] anonymous_003-008-881-01_1730280472007_Mandibular_View.jpg             gt=0 pred=0 tp=0 fp=0 fn=0 | 1:03:47 elapsed, eta 0:29:55
+[227/332] anonymous_003-008-881-01_1730280472007_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 1:03:47 elapsed, eta 0:29:30
+[228/332] anonymous_003-008-883-01_1730282825622_Mandibular_View.jpg             gt=0 pred=0 tp=0 fp=0 fn=0 | 1:03:48 elapsed, eta 0:29:06
+[229/332] anonymous_003-008-883-01_1730282825622_Maxillary_Occlusal_View.jpg     gt=0 pred=1 tp=0 fp=1 fn=0 | 1:03:54 elapsed, eta 0:28:44
+[230/332] anonymous_003-008-892-01_1730293561502_Mandibular_View.jpg             gt=2 pred=2 tp=2 fp=0 fn=0 | 1:04:08 elapsed, eta 0:28:26
+[231/332] anonymous_003-008-892-01_1730293561502_Maxillary_Occlusal_View.jpg     gt=2 pred=3 tp=2 fp=1 fn=0 | 1:04:27 elapsed, eta 0:28:10
+[232/332] anonymous_003-008-913-00_1730374663171_Mandibular_View.jpg             gt=3 pred=3 tp=3 fp=0 fn=0 | 1:04:46 elapsed, eta 0:27:55
+[233/332] anonymous_003-008-913-00_1730374663171_Maxillary_Occlusal_View.jpg     gt=4 pred=4 tp=4 fp=0 fn=0 | 1:05:12 elapsed, eta 0:27:42
+[234/332] anonymous_003-008-935-00_1730724141122_Mandibular_View.jpg             gt=4 pred=3 tp=3 fp=0 fn=1 | 1:05:32 elapsed, eta 0:27:26
+[235/332] anonymous_003-008-935-00_1730724141122_Maxillary_Occlusal_View.jpg     gt=3 pred=3 tp=3 fp=0 fn=0 | 1:05:52 elapsed, eta 0:27:11
+[236/332] anonymous_003-008-972-01_1730889157047_Mandibular_View.jpg             gt=2 pred=3 tp=2 fp=1 fn=0 | 1:06:12 elapsed, eta 0:26:55
+[237/332] anonymous_003-008-972-01_1730889157047_Maxillary_Occlusal_View.jpg     gt=0 pred=1 tp=0 fp=1 fn=0 | 1:06:19 elapsed, eta 0:26:35
+[238/332] anonymous_003-008-978-01_1730897360301_Mandibular_View.jpg             gt=2 pred=2 tp=2 fp=0 fn=0 | 1:06:32 elapsed, eta 0:26:17
+[239/332] anonymous_003-008-978-01_1730897360301_Maxillary_Occlusal_View.jpg     gt=3 pred=3 tp=3 fp=0 fn=0 | 1:06:54 elapsed, eta 0:26:02
+[240/332] anonymous_003-008-998-01_1730980715687_Mandibular_View.jpg             gt=0 pred=0 tp=0 fp=0 fn=0 | 1:06:55 elapsed, eta 0:25:39
+[241/332] anonymous_003-008-998-01_1730980715687_Maxillary_Occlusal_View.jpg     gt=0 pred=1 tp=0 fp=1 fn=0 | 1:07:01 elapsed, eta 0:25:18
+[242/332] anonymous_003-009-1194-00_1732775915152_Mandibular_View.jpg            gt=0 pred=3 tp=0 fp=3 fn=0 | 1:07:22 elapsed, eta 0:25:03
+[243/332] anonymous_003-009-1194-00_1732775915152_Maxillary_Occlusal_View.jpg    gt=0 pred=1 tp=0 fp=1 fn=0 | 1:07:29 elapsed, eta 0:24:43
+[244/332] anonymous_003-009-1197-01_1732783016757_Mandibular_View.jpg            gt=1 pred=2 tp=1 fp=1 fn=0 | 1:07:43 elapsed, eta 0:24:25
+[245/332] anonymous_003-009-1197-01_1732783016757_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 1:07:44 elapsed, eta 0:24:03
+[246/332] anonymous_003_007_319_01_1727941314974_Mandibular_View.jpg             gt=0 pred=0 tp=0 fp=0 fn=0 | 1:07:44 elapsed, eta 0:23:40
+[247/332] anonymous_003_007_319_01_1727941314974_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 1:07:44 elapsed, eta 0:23:18
+[248/332] anonymous_003_007_339_01_1728020284845_Mandibular_View.jpg             gt=6 pred=6 tp=6 fp=0 fn=0 | 1:08:24 elapsed, eta 0:23:10
+[249/332] anonymous_003_007_339_01_1728020284845_Maxillary_Occlusal_View.jpg     gt=1 pred=2 tp=1 fp=1 fn=0 | 1:08:37 elapsed, eta 0:22:52
+[250/332] anonymous_003_007_340_00_1728021056982_Mandibular_View.jpg             gt=6 pred=6 tp=6 fp=0 fn=0 | 1:09:15 elapsed, eta 0:22:42
+[251/332] anonymous_003_007_340_00_1728021056982_Maxillary_Occlusal_View.jpg     gt=6 pred=5 tp=5 fp=0 fn=1 | 1:09:46 elapsed, eta 0:22:31
+[252/332] anonymous_003_007_341_01_1728024477624_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:10:14 elapsed, eta 0:22:17
+[253/332] anonymous_003_007_341_01_1728024477624_Maxillary_Occlusal_View.jpg     gt=1 pred=1 tp=1 fp=0 fn=0 | 1:10:22 elapsed, eta 0:21:58
+[254/332] anonymous_003_007_342_00_1728025115744_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:10:49 elapsed, eta 0:21:44
+[255/332] anonymous_003_007_342_00_1728025115744_Maxillary_Occlusal_View.jpg     gt=1 pred=2 tp=1 fp=1 fn=0 | 1:11:04 elapsed, eta 0:21:27
+[256/332] anonymous_003_007_363_01_1728112740981_Mandibular_View.jpg             gt=4 pred=5 tp=4 fp=1 fn=0 | 1:11:36 elapsed, eta 0:21:15
+[257/332] anonymous_003_007_363_01_1728112740981_Maxillary_Occlusal_View.jpg     gt=1 pred=0 tp=0 fp=0 fn=1 | 1:11:36 elapsed, eta 0:20:53
+[258/332] anonymous_003_007_366_01_1728116583995_Mandibular_View.jpg             gt=4 pred=6 tp=4 fp=2 fn=0 | 1:12:13 elapsed, eta 0:20:42
+[259/332] anonymous_003_007_366_01_1728116583995_Maxillary_Occlusal_View.jpg     gt=7 pred=6 tp=6 fp=0 fn=1 | 1:12:47 elapsed, eta 0:20:31
+[260/332] anonymous_003_007_392_01_1728361981214_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:13:15 elapsed, eta 0:20:17
+[261/332] anonymous_003_007_392_01_1728361981214_Maxillary_Occlusal_View.jpg     gt=3 pred=8 tp=3 fp=5 fn=0 | 1:14:05 elapsed, eta 0:20:09
+[262/332] anonymous_003_007_395_00_1728367097307_Mandibular_View.jpg             gt=3 pred=3 tp=3 fp=0 fn=0 | 1:14:25 elapsed, eta 0:19:53
+[263/332] anonymous_003_007_395_00_1728367097307_Maxillary_Occlusal_View.jpg     gt=2 pred=2 tp=2 fp=0 fn=0 | 1:14:38 elapsed, eta 0:19:34
+[264/332] anonymous_003_007_421_00_1728455045188_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:15:05 elapsed, eta 0:19:20
+[265/332] anonymous_003_007_421_00_1728455045188_Maxillary_Occlusal_View.jpg     gt=4 pred=4 tp=4 fp=0 fn=0 | 1:15:33 elapsed, eta 0:19:06
+[266/332] anonymous_003_007_423_00_1728457856133_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:15:59 elapsed, eta 0:18:51
+[267/332] anonymous_003_007_423_00_1728457856133_Maxillary_Occlusal_View.jpg     gt=5 pred=2 tp=2 fp=0 fn=3 | 1:16:12 elapsed, eta 0:18:33
+[268/332] anonymous_003_007_425_00_1728461756319_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:16:37 elapsed, eta 0:18:17
+[269/332] anonymous_003_007_425_00_1728461756319_Maxillary_Occlusal_View.jpg     gt=2 pred=3 tp=2 fp=1 fn=0 | 1:16:58 elapsed, eta 0:18:01
+[270/332] anonymous_003_007_447_01_1728537828958_Mandibular_View.jpg             gt=4 pred=5 tp=4 fp=1 fn=0 | 1:18:00 elapsed, eta 0:17:54
+[271/332] anonymous_003_007_447_01_1728537828958_Maxillary_Occlusal_View.jpg     gt=3 pred=4 tp=3 fp=1 fn=0 | 1:18:26 elapsed, eta 0:17:39
+[272/332] anonymous_003_007_448_00_1728538878630_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:19:21 elapsed, eta 0:17:30
+[273/332] anonymous_003_007_448_00_1728538878630_Maxillary_Occlusal_View.jpg     gt=3 pred=3 tp=3 fp=0 fn=0 | 1:19:40 elapsed, eta 0:17:13
+[274/332] anonymous_003_007_461_01_1728565377628_Mandibular_View.jpg             gt=1 pred=3 tp=1 fp=2 fn=0 | 1:20:00 elapsed, eta 0:16:56
+[275/332] anonymous_003_007_461_01_1728565377628_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 1:20:01 elapsed, eta 0:16:35
+[276/332] anonymous_003_007_468_00_1728620859733_Mandibular_View.jpg             gt=6 pred=5 tp=5 fp=0 fn=1 | 1:20:33 elapsed, eta 0:16:20
+[277/332] anonymous_003_007_468_00_1728620859733_Maxillary_Occlusal_View.jpg     gt=5 pred=5 tp=5 fp=0 fn=0 | 1:21:04 elapsed, eta 0:16:05
+[278/332] anonymous_003_007_473_01_1728630705947_Mandibular_View.jpg             gt=3 pred=4 tp=3 fp=1 fn=0 | 1:21:30 elapsed, eta 0:15:50
+[279/332] anonymous_003_007_473_01_1728630705947_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 1:21:31 elapsed, eta 0:15:29
+[280/332] anonymous_003_007_502_00_1728708607584_Mandibular_View.jpg             gt=4 pred=7 tp=4 fp=3 fn=0 | 1:22:13 elapsed, eta 0:15:16
+[281/332] anonymous_003_007_502_00_1728708607584_Maxillary_Occlusal_View.jpg     gt=2 pred=3 tp=2 fp=1 fn=0 | 1:22:34 elapsed, eta 0:14:59
+[282/332] anonymous_003_007_507_01_1728715242584_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:22:57 elapsed, eta 0:14:42
+[283/332] anonymous_003_007_507_01_1728715242584_Maxillary_Occlusal_View.jpg     gt=4 pred=4 tp=4 fp=0 fn=0 | 1:23:23 elapsed, eta 0:14:26
+[284/332] anonymous_003_007_510_01_1728719208166_Mandibular_View.jpg             gt=6 pred=6 tp=6 fp=0 fn=0 | 1:24:00 elapsed, eta 0:14:11
+[285/332] anonymous_003_007_510_01_1728719208166_Maxillary_Occlusal_View.jpg     gt=7 pred=7 tp=7 fp=0 fn=0 | 1:24:42 elapsed, eta 0:13:58
+[286/332] anonymous_003_007_514_00_1728722215801_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:25:06 elapsed, eta 0:13:41
+[287/332] anonymous_003_007_514_00_1728722215801_Maxillary_Occlusal_View.jpg     gt=6 pred=6 tp=6 fp=0 fn=0 | 1:25:45 elapsed, eta 0:13:26
+[288/332] anonymous_003_007_545_01_1728878463369_Mandibular_View.jpg             gt=6 pred=6 tp=6 fp=0 fn=0 | 1:26:25 elapsed, eta 0:13:12
+[289/332] anonymous_003_007_545_01_1728878463369_Maxillary_Occlusal_View.jpg     gt=0 pred=1 tp=0 fp=1 fn=0 | 1:26:32 elapsed, eta 0:12:52
+[290/332] anonymous_003_007_550_00_1728882478562_Mandibular_View.jpg             gt=5 pred=5 tp=5 fp=0 fn=0 | 1:27:01 elapsed, eta 0:12:36
+[291/332] anonymous_003_007_550_00_1728882478562_Maxillary_Occlusal_View.jpg     gt=5 pred=5 tp=5 fp=0 fn=0 | 1:27:32 elapsed, eta 0:12:20
+[292/332] anonymous_003_007_556_00_1728891607018_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:27:58 elapsed, eta 0:12:03
+[293/332] anonymous_003_007_556_00_1728891607018_Maxillary_Occlusal_View.jpg     gt=2 pred=3 tp=2 fp=1 fn=0 | 1:28:16 elapsed, eta 0:11:45
+[294/332] anonymous_003_008_495_01_1728653519595_Mandibular_View.jpg             gt=4 pred=5 tp=4 fp=1 fn=0 | 1:28:49 elapsed, eta 0:11:28
+[295/332] anonymous_003_008_495_01_1728653519595_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 1:28:50 elapsed, eta 0:11:08
+[296/332] anonymous_003_008_519_00_1728731108258_Mandibular_View.jpg             gt=8 pred=8 tp=8 fp=0 fn=0 | 1:29:41 elapsed, eta 0:10:54
+[297/332] anonymous_003_008_521_00_1728733813051_Mandibular_View.jpg             gt=2 pred=2 tp=2 fp=0 fn=0 | 1:29:55 elapsed, eta 0:10:35
+[298/332] anonymous_003_008_521_00_1728733813051_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 1:29:56 elapsed, eta 0:10:15
+[299/332] anonymous_003_103_300_00_1727868501855_Mandibular_View.jpg             gt=2 pred=7 tp=2 fp=5 fn=0 | 1:30:37 elapsed, eta 0:10:00
+[300/332] anonymous_003_103_300_00_1727868501855_Maxillary_Occlusal_View.jpg     gt=9 pred=9 tp=9 fp=0 fn=0 | 1:31:30 elapsed, eta 0:09:45
+[301/332] anonymous_003_103_303_00_1727871236587_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:31:57 elapsed, eta 0:09:28
+[302/332] anonymous_003_103_303_00_1727871236587_Maxillary_Occlusal_View.jpg     gt=1 pred=1 tp=1 fp=0 fn=0 | 1:32:04 elapsed, eta 0:09:08
+[303/332] anonymous_003_103_307_00_1727875920267_Mandibular_View.jpg             gt=0 pred=1 tp=0 fp=1 fn=0 | 1:32:11 elapsed, eta 0:08:49
+[304/332] anonymous_003_103_307_00_1727875920267_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 1:32:12 elapsed, eta 0:08:29
+[305/332] anonymous_003_103_308_01_1727877227409_Mandibular_View.jpg             gt=0 pred=0 tp=0 fp=0 fn=0 | 1:32:12 elapsed, eta 0:08:09
+[306/332] anonymous_003_103_308_01_1727877227409_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 1:32:12 elapsed, eta 0:07:50
+[307/332] anonymous_003_103_332_00_1727963224846_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:32:39 elapsed, eta 0:07:32
+[308/332] anonymous_003_103_332_00_1727963224846_Maxillary_Occlusal_View.jpg     gt=4 pred=4 tp=4 fp=0 fn=0 | 1:33:05 elapsed, eta 0:07:15
+[309/332] anonymous_003_103_334_00_1727967004094_Mandibular_View.jpg             gt=5 pred=6 tp=5 fp=1 fn=0 | 1:33:43 elapsed, eta 0:06:58
+[310/332] anonymous_003_103_334_00_1727967004094_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 1:33:44 elapsed, eta 0:06:39
+[311/332] anonymous_003_103_353_01_1728047772900_Mandibular_View.jpg             gt=5 pred=5 tp=5 fp=0 fn=0 | 1:34:14 elapsed, eta 0:06:21
+[312/332] anonymous_003_103_353_01_1728047772900_Maxillary_Occlusal_View.jpg     gt=3 pred=2 tp=2 fp=0 fn=1 | 1:34:28 elapsed, eta 0:06:03
+[313/332] anonymous_003_103_376_01_1728132928256_Mandibular_View.jpg             gt=2 pred=3 tp=2 fp=1 fn=0 | 1:34:49 elapsed, eta 0:05:45
+[314/332] anonymous_003_103_376_01_1728132928256_Maxillary_Occlusal_View.jpg     gt=1 pred=2 tp=1 fp=1 fn=0 | 1:35:03 elapsed, eta 0:05:26
+[315/332] anonymous_003_103_383_00_1728189994793_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:35:29 elapsed, eta 0:05:09
+[316/332] anonymous_003_103_383_00_1728189994793_Maxillary_Occlusal_View.jpg     gt=1 pred=1 tp=1 fp=0 fn=0 | 1:35:36 elapsed, eta 0:04:50
+[317/332] anonymous_003_103_414_01_1728387955658_Mandibular_View.jpg             gt=3 pred=5 tp=3 fp=2 fn=0 | 1:36:07 elapsed, eta 0:04:32
+[318/332] anonymous_003_103_414_01_1728387955658_Maxillary_Occlusal_View.jpg     gt=3 pred=1 tp=1 fp=0 fn=2 | 1:36:14 elapsed, eta 0:04:14
+[319/332] anonymous_003_103_443_01_1728483954102_Mandibular_View.jpg             gt=0 pred=1 tp=0 fp=1 fn=0 | 1:36:20 elapsed, eta 0:03:55
+[320/332] anonymous_003_103_443_01_1728483954102_Maxillary_Occlusal_View.jpg     gt=0 pred=0 tp=0 fp=0 fn=0 | 1:36:21 elapsed, eta 0:03:36
+[321/332] anonymous_004-007-1320-01_1733472660011_Mandibular_View.jpg            gt=4 pred=4 tp=4 fp=0 fn=0 | 1:36:46 elapsed, eta 0:03:18
+[322/332] anonymous_004-007-1320-01_1733472660011_Maxillary_Occlusal_View.jpg    gt=1 pred=2 tp=1 fp=1 fn=0 | 1:36:59 elapsed, eta 0:03:00
+[323/332] anonymous_004-007-1321-00_1733473332768_Mandibular_View.jpg            gt=2 pred=3 tp=2 fp=1 fn=0 | 1:37:17 elapsed, eta 0:02:42
+[324/332] anonymous_004-007-1321-00_1733473332768_Maxillary_Occlusal_View.jpg    gt=1 pred=2 tp=1 fp=1 fn=0 | 1:37:32 elapsed, eta 0:02:24
+[325/332] anonymous_004-008-1020-00_1731071782536_Mandibular_View.jpg            gt=3 pred=0 tp=0 fp=0 fn=3 | 1:37:32 elapsed, eta 0:02:06
+[326/332] anonymous_004-008-1020-00_1731071782536_Maxillary_Occlusal_View.jpg    gt=0 pred=0 tp=0 fp=0 fn=0 | 1:37:33 elapsed, eta 0:01:47
+[327/332] anonymous_004-008-1465-01_1734100929758_Mandibular_View.jpg            gt=3 pred=3 tp=3 fp=0 fn=0 | 1:37:51 elapsed, eta 0:01:29
+[328/332] anonymous_004-008-1465-01_1734100929758_Maxillary_Occlusal_View.jpg    gt=5 pred=4 tp=4 fp=0 fn=1 | 1:38:15 elapsed, eta 0:01:11
+[329/332] anonymous_004-008-914-01_1730377944083_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:38:39 elapsed, eta 0:00:53
+[330/332] anonymous_004-008-914-01_1730377944083_Maxillary_Occlusal_View.jpg     gt=2 pred=2 tp=2 fp=0 fn=0 | 1:38:52 elapsed, eta 0:00:35
+[331/332] anonymous_004-008-915-00_1730378380302_Mandibular_View.jpg             gt=4 pred=4 tp=4 fp=0 fn=0 | 1:39:15 elapsed, eta 0:00:17
+[332/332] anonymous_004-008-915-00_1730378380302_Maxillary_Occlusal_View.jpg     gt=2 pred=2 tp=2 fp=0 fn=0 | 1:39:28 elapsed, eta 0:00:00
+
+=== stage C: aggregating combined-pipeline metrics ===
+  wrote test/METRICS.json
+  wrote test/REPORT.md
+
+total wall time: 1:39:28

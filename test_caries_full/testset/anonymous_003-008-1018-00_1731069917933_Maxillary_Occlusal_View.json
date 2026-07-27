@@ -1,0 +1,52 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1018-00_1731069917933_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      139,
+      597,
+      359,
+      753
+    ],
+    [
+      63,
+      716,
+      351,
+      948
+    ],
+    [
+      1249,
+      787,
+      1508,
+      979
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.3165203630924225,
+      "box": [
+        67,
+        893,
+        342,
+        1094
+      ],
+      "padded_box": [
+        25,
+        862,
+        383,
+        1124
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0.1414
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 3
+  }
+}

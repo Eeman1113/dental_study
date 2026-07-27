@@ -1,0 +1,152 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_103_353_01_1728047772900_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      54,
+      157,
+      242,
+      357
+    ],
+    [
+      1059,
+      132,
+      1273,
+      327
+    ],
+    [
+      1026,
+      303,
+      1246,
+      508
+    ],
+    [
+      94,
+      332,
+      313,
+      539
+    ],
+    [
+      176,
+      502,
+      354,
+      647
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8642692565917969,
+      "box": [
+        1051,
+        124,
+        1281,
+        341
+      ],
+      "padded_box": [
+        1016,
+        91,
+        1306,
+        373
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There is a dark discoloration visible within the grooves of a molar tooth. This appears to be evidence of dental caries (tooth decay). I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8361
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8286115527153015,
+      "box": [
+        43,
+        145,
+        257,
+        364
+      ],
+      "padded_box": [
+        10,
+        112,
+        289,
+        396
+      ],
+      "reasoning": "The image shows multiple teeth with visible decay. There is a dark brown discoloration on the occlusal (chewing) surfaces of the upper molars. This appears to be dental caries (tooth decay). I am moderately confident this is caries, as the discoloration is typical of decay.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8023
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8035123348236084,
+      "box": [
+        1012,
+        295,
+        1261,
+        527
+      ],
+      "padded_box": [
+        974,
+        260,
+        1298,
+        561
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is a small, slightly darker area visible on the occlusal (chewing) surface of the upper right molar. This could potentially be early decay or staining. Yes, there appears to be a possible sign of dental caries on the upper right molar. The confidence level is moderate due to the limited view and potential for other causes like staining.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7807
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.6831110715866089,
+      "box": [
+        92,
+        324,
+        323,
+        550
+      ],
+      "padded_box": [
+        57,
+        290,
+        357,
+        583
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including molars and premolars. The crowns of the teeth appear white and relatively intact, though some minor irregularities or staining might be present on the surfaces. There is no obvious sign of active dental caries (tooth decay) like a cavity or significant discoloration visible in this cropped view. Based on the image provided, there is no clear evidence of dental caries. I am not confident in diagnosing caries from this single close-up crop.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8683
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.643395185470581,
+      "box": [
+        169,
+        496,
+        361,
+        657
+      ],
+      "padded_box": [
+        140,
+        471,
+        389,
+        681
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel structure and some minor staining or texture variations on the surfaces. There is no clear evidence of active dental caries such as a cavitated lesion, dark shadow within enamel, or significant brown/black discoloration. Based on this visual inspection, it does not appear to show signs of active dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.835
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+  }
+}

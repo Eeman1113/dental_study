@@ -1,0 +1,180 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-874-01_1730269462019_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      67,
+      144,
+      495,
+      558
+    ],
+    [
+      156,
+      522,
+      550,
+      928
+    ],
+    [
+      359,
+      853,
+      653,
+      1244
+    ],
+    [
+      1803,
+      519,
+      2195,
+      881
+    ],
+    [
+      1742,
+      833,
+      2050,
+      1139
+    ],
+    [
+      1986,
+      147,
+      2322,
+      605
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.9094609618186951,
+      "box": [
+        171,
+        518,
+        572,
+        930
+      ],
+      "padded_box": [
+        110,
+        456,
+        632,
+        991
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is a dark discoloration or shadow within one of the grooves on the occlusal (chewing) surface. This could potentially indicate early decay, but it might also be due to staining or shadowing effects from the lighting. Based on this image alone, it is difficult to definitively determine if there is dental caries. The appearance could represent various factors including staining, shadowing, or early demineralization. Therefore, I am not confident in a diagnosis of caries based solely on this visual information.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8983
+    },
+    {
+      "index": 1,
+      "cls": "D",
+      "confidence": 0.8713971376419067,
+      "box": [
+        356,
+        852,
+        658,
+        1235
+      ],
+      "padded_box": [
+        310,
+        794,
+        703,
+        1292
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be a small, dark spot or shadow within one of the grooves on the occlusal surface. This could potentially represent early caries, but it is difficult to determine definitively from this single image without additional context like clinical examination findings or radiographs. The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be a small, dark spot or shadow within one of the grooves on the occlusal surface. This could potentially represent early caries, but it is difficult to determine definitively from this single image without additional context like clinical examination findings or radiographs.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.9493
+    },
+    {
+      "index": 2,
+      "cls": "D",
+      "confidence": 0.7810912728309631,
+      "box": [
+        1793,
+        512,
+        2200,
+        914
+      ],
+      "padded_box": [
+        1731,
+        451,
+        2261,
+        974
+      ],
+      "reasoning": "The image shows close-up views of several teeth with visible plaque buildup and some staining on the surfaces. There is no clear evidence of active dental caries (tooth decay) such as a cavitated lesion or dark shadow inside enamel. Based on the visual information, it does not appear to be dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8673
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.6987459659576416,
+      "box": [
+        52,
+        140,
+        488,
+        576
+      ],
+      "padded_box": [
+        0,
+        74,
+        553,
+        641
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some interdental spaces. There is a distinct, irregular, light-colored lesion present on the occlusal (chewing) surface of the upper right molar tooth. This lesion appears somewhat translucent or opaque depending on the angle of light. Yes, it looks like caries. I am moderately confident in this assessment based on the visual appearance of the lesion.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9031
+    },
+    {
+      "index": 4,
+      "cls": "D",
+      "confidence": 0.6837120056152344,
+      "box": [
+        1739,
+        831,
+        2038,
+        1143
+      ],
+      "padded_box": [
+        1694,
+        784,
+        2082,
+        1189
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including molars with visible cusps and grooves. There appears to be some discoloration or staining on the surfaces of the teeth. Yes, there is evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of dark shadows within the tooth structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.9342
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.6621898412704468,
+      "box": [
+        1979,
+        159,
+        2333,
+        582
+      ],
+      "padded_box": [
+        1925,
+        95,
+        2386,
+        645
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel structure and some slight variations in translucency. There is no obvious evidence of dental caries such as cavitated lesions, dark shadows within the enamel, or brown/black discoloration on the tooth surfaces. Based on this visual inspection, it does not appear to show signs of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 5,
+      "iou_with_gt": 0.88
+    }
+  ],
+  "matched": {
+    "tp": 6,
+    "fp": 0,
+    "fn": 0
+  }
+}

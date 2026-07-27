@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-686-01_1729259151138_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      77,
+      203,
+      295,
+      392
+    ],
+    [
+      928,
+      274,
+      1172,
+      479
+    ],
+    [
+      78,
+      43,
+      264,
+      220
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8410605788230896,
+      "box": [
+        916,
+        263,
+        1180,
+        500
+      ],
+      "padded_box": [
+        876,
+        227,
+        1213,
+        535
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible in the mid right region of the image. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7995
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8111683130264282,
+      "box": [
+        52,
+        193,
+        310,
+        419
+      ],
+      "padded_box": [
+        13,
+        159,
+        348,
+        452
+      ],
+      "reasoning": "The image shows a primary caries lesion with a permanent caries lesion. I can identify 2 regions of concern. Final Answer: The final answer is \"\\nSurface marking: 46\\nReasoning: A permanent caries lesion is visible in the upper left region of the image. Marking affected area.\"",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7066
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.3929244875907898,
+      "box": [
+        65,
+        45,
+        275,
+        234
+      ],
+      "padded_box": [
+        33,
+        16,
+        306,
+        262
+      ],
+      "reasoning": "The image shows 5 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. Final Answer: The visible dentition appears normal with no evidence of caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8125
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

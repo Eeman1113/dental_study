@@ -1,0 +1,90 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1174-01_1732694128852_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1943,
+      54,
+      2364,
+      494
+    ],
+    [
+      89,
+      534,
+      484,
+      957
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7958995699882507,
+      "box": [
+        1913,
+        35,
+        2400,
+        513
+      ],
+      "padded_box": [
+        1839,
+        0,
+        2449,
+        584
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7958
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.5027753114700317,
+      "box": [
+        53,
+        502,
+        515,
+        947
+      ],
+      "padded_box": [
+        0,
+        435,
+        584,
+        1013
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I am moderately confident this represents decay.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7785
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.458392471075058,
+      "box": [
+        1766,
+        380,
+        2282,
+        884
+      ],
+      "padded_box": [
+        1688,
+        304,
+        2359,
+        959
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  }
+}

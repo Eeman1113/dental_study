@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1097-01_1732258152530_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      23,
+      191,
+      289,
+      459
+    ],
+    [
+      1383,
+      352,
+      1653,
+      616
+    ],
+    [
+      117,
+      444,
+      413,
+      744
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8136979937553406,
+      "box": [
+        1,
+        184,
+        306,
+        481
+      ],
+      "padded_box": [
+        0,
+        139,
+        351,
+        525
+      ],
+      "reasoning": "The image shows close-up views of two teeth, likely molars, with visible cusps and fissures. There appears to be some debris or possibly small metallic particles on the surfaces of the lower tooth. There is no clear evidence of dental caries (tooth decay) in this specific view. I am not confident in identifying caries from this image alone.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.787
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7336585521697998,
+      "box": [
+        86,
+        428,
+        420,
+        748
+      ],
+      "padded_box": [
+        35,
+        380,
+        470,
+        796
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible dental restorations. There appears to be a metal crown on the upper tooth shown. There is no clear evidence of dental caries (tooth decay) in this specific cropped view. I am not confident in identifying caries from this limited image.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8308
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.6752347946166992,
+      "box": [
+        1360,
+        335,
+        1677,
+        634
+      ],
+      "padded_box": [
+        1312,
+        290,
+        1686,
+        678
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, including the upper molars and premolars. The enamel appears generally intact, though some minor variations in translucency are visible. There is a small dark spot on one of the lower teeth. No, it does not appear to be dental caries. I am not confident in this assessment as I cannot definitively rule out early or subtle signs of decay without clinical examination and potentially further imaging.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.752
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

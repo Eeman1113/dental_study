@@ -1,0 +1,102 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1058-00_1731390028166_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      29,
+      255,
+      329,
+      589
+    ],
+    [
+      65,
+      540,
+      435,
+      831
+    ],
+    [
+      1996,
+      183,
+      2332,
+      479
+    ],
+    [
+      1862,
+      458,
+      2271,
+      819
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7479971051216125,
+      "box": [
+        1950,
+        151,
+        2356,
+        546
+      ],
+      "padded_box": [
+        1889,
+        91,
+        2356,
+        605
+      ],
+      "reasoning": "The image shows 4 permanent teeth with normal morphology and color. I can identify no carious lesions. Final Answer: The visible dentition appears healthy with no signs of decay. Final Answer: 0.93",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.6202
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7147173881530762,
+      "box": [
+        1805,
+        434,
+        2296,
+        866
+      ],
+      "padded_box": [
+        1731,
+        369,
+        2356,
+        930
+      ],
+      "reasoning": "The image shows 6 permanent upper teeth with intact enamel and no discoloration. I can identify 2 regions of concern for dental caries. My confidence is not high.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.6961
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.4934520721435547,
+      "box": [
+        0,
+        251,
+        358,
+        635
+      ],
+      "padded_box": [
+        0,
+        193,
+        411,
+        692
+      ],
+      "reasoning": "The image shows multiple carious lesions (tooth decay) of varying sizes and locations within the visible dentition. I can identify 5 regions of concern. Final Answer: The final answer is \"\\n\\n5 regions of concern; Caries.\"",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7289
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 1
+  }
+}

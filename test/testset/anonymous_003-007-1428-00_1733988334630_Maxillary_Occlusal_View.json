@@ -1,0 +1,80 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1428-00_1733988334630_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      247,
+      1017,
+      649,
+      1298
+    ],
+    [
+      219,
+      1242,
+      687,
+      1606
+    ],
+    [
+      1978,
+      736,
+      2370,
+      1028
+    ],
+    [
+      1951,
+      942,
+      2419,
+      1353
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.6627821922302246,
+      "box": [
+        195,
+        1212,
+        713,
+        1643
+      ],
+      "padded_box": [
+        117,
+        1147,
+        790,
+        1707
+      ],
+      "reasoning": "The image shows multiple teeth, including molars and premolars, with visible enamel surfaces. There appears to be some minor discoloration or staining on the occlusal (chewing) surface of one of the posterior teeth. There is no clear evidence of active dental caries in this cropped view. I am not confident in identifying subtle early signs of decay from this image alone.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.763
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.3274272680282593,
+      "box": [
+        236,
+        1016,
+        665,
+        1304
+      ],
+      "padded_box": [
+        171,
+        972,
+        729,
+        1347
+      ],
+      "reasoning": "The image shows the occlusal (biting) surfaces of maxillary (upper) teeth, likely premolars or molars. There is a visible cavity on the occlusal surface of one of the teeth. Yes, there appears to be evidence of dental caries (tooth decay). The lesion looks like a cavitated area with a distinct dark shadow within the enamel. I am confident this represents caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9143
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 2
+  }
+}

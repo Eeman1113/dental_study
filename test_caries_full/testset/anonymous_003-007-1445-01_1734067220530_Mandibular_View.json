@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1445-01_1734067220530_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      191,
+      331,
+      568,
+      638
+    ],
+    [
+      2047,
+      336,
+      2482,
+      773
+    ],
+    [
+      1863,
+      604,
+      2319,
+      1099
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8285291790962219,
+      "box": [
+        2021,
+        339,
+        2505,
+        772
+      ],
+      "padded_box": [
+        1948,
+        274,
+        2577,
+        836
+      ],
+      "reasoning": "The image shows 4 permanent teeth in the upper right region of the mouth. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8914
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8126241564750671,
+      "box": [
+        165,
+        314,
+        588,
+        665
+      ],
+      "padded_box": [
+        101,
+        261,
+        651,
+        717
+      ],
+      "reasoning": "The image shows 6 permanent upper teeth with intact enamel and no discoloration. I can identify 2 regions of concern for dental caries. My confidence is not high.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7795
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7825287580490112,
+      "box": [
+        1835,
+        601,
+        2356,
+        1089
+      ],
+      "padded_box": [
+        1756,
+        527,
+        2434,
+        1162
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in cross-section with intact enamel. I can identify no regions of concern such as cavitation or discoloration. Final Answer: The visible dentition appears healthy with no signs of decay. I am very confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8545
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

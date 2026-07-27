@@ -1,0 +1,46 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1467-01_1734151211266_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      267,
+      953,
+      693,
+      1335
+    ],
+    [
+      230,
+      1256,
+      695,
+      1616
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.45095255970954895,
+      "box": [
+        247,
+        957,
+        690,
+        1336
+      ],
+      "padded_box": [
+        180,
+        900,
+        756,
+        1392
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. I can identify one primary caries lesion (permanent). I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9365
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 1
+  }
+}

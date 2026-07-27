@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_507_01_1728715242584_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      5,
+      337,
+      321,
+      641
+    ],
+    [
+      148,
+      551,
+      384,
+      726
+    ],
+    [
+      1326,
+      76,
+      1611,
+      266
+    ],
+    [
+      1305,
+      245,
+      1594,
+      501
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8013933897018433,
+      "box": [
+        1296,
+        240,
+        1605,
+        530
+      ],
+      "padded_box": [
+        1249,
+        196,
+        1651,
+        573
+      ],
+      "reasoning": "The image shows 6 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion (primary caries) with a permanent caries lesion (permanent caries). I am moderately confident that these are primary caries lesions.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8256
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7907792329788208,
+      "box": [
+        0,
+        337,
+        315,
+        648
+      ],
+      "padded_box": [
+        0,
+        290,
+        362,
+        694
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9444
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7650673985481262,
+      "box": [
+        1322,
+        70,
+        1603,
+        286
+      ],
+      "padded_box": [
+        1279,
+        37,
+        1645,
+        318
+      ],
+      "reasoning": "The image shows a permanent caries lesion in the mid right region of the primary caries. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8459
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.47162556648254395,
+      "box": [
+        157,
+        545,
+        384,
+        761
+      ],
+      "padded_box": [
+        122,
+        512,
+        418,
+        793
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in cross-section with normal appearing enamel structure. I can identify no regions of concern such as cavitation or discoloration. Final Answer: The visible dentition appears healthy with no signs of decay.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.785
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

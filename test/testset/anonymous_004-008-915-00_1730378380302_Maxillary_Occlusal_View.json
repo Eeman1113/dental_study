@@ -1,0 +1,68 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_004-008-915-00_1730378380302_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      94,
+      675,
+      402,
+      933
+    ],
+    [
+      1274,
+      683,
+      1560,
+      894
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.3802573084831238,
+      "box": [
+        79,
+        674,
+        403,
+        942
+      ],
+      "padded_box": [
+        30,
+        633,
+        451,
+        982
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, dark spot visible on the occlusal (chewing) surface of one of the posterior teeth. This could potentially be early caries or an artifact. Yes, there appears to be a possible area of concern that resembles caries, although it could also be an artifact. Confidence level: Moderate.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9151
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.33768805861473083,
+      "box": [
+        1272,
+        638,
+        1575,
+        907
+      ],
+      "padded_box": [
+        1226,
+        597,
+        1577,
+        947
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is no clear evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows inside the enamel, or brown/black discolourations on the tooth surfaces. Based on this visual inspection, it does not appear to show signs of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7404
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 0
+  }
+}

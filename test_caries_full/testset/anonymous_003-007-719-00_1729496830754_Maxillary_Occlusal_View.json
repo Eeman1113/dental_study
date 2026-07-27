@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-719-00_1729496830754_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      108,
+      942,
+      520,
+      1184
+    ],
+    [
+      68,
+      1142,
+      538,
+      1484
+    ],
+    [
+      77,
+      1411,
+      520,
+      1669
+    ],
+    [
+      1923,
+      1263,
+      2293,
+      1508
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8313277959823608,
+      "box": [
+        45,
+        1111,
+        542,
+        1510
+      ],
+      "padded_box": [
+        0,
+        1051,
+        616,
+        1569
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible in the mid right region of the image. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8106
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7903632521629333,
+      "box": [
+        70,
+        1392,
+        534,
+        1687
+      ],
+      "padded_box": [
+        0,
+        1347,
+        603,
+        1731
+      ],
+      "reasoning": "The image shows primary caries lesions (tooth decay) in the permanent dentition. I am moderately confident this is correct.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.835
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7545565366744995,
+      "box": [
+        90,
+        895,
+        534,
+        1191
+      ],
+      "padded_box": [
+        23,
+        850,
+        600,
+        1235
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion (primary caries) visible in the mid left region of the frame. I can identify 1 affected area. \u05e7\u05d0\u05e8\u05d9\u05d6\u094d\u092e (Primary Caries) - High Confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7586
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.6062701344490051,
+      "box": [
+        1918,
+        1232,
+        2297,
+        1506
+      ],
+      "padded_box": [
+        1861,
+        1190,
+        2353,
+        1547
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal appearance;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8597
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

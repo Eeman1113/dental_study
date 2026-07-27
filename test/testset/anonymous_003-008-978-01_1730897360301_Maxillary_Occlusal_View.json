@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-978-01_1730897360301_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1032,
+      518,
+      1244,
+      730
+    ],
+    [
+      1082,
+      672,
+      1322,
+      873
+    ],
+    [
+      44,
+      686,
+      320,
+      906
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.48662257194519043,
+      "box": [
+        1072,
+        631,
+        1337,
+        881
+      ],
+      "padded_box": [
+        1032,
+        593,
+        1348,
+        918
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is a small, slightly darker area visible on the occlusal (chewing) surface of one of the lower molars. This could potentially be early decay or staining. It appears there might be some evidence of dental caries, but it's difficult to determine definitively from this close-up image alone. More information would be needed for a confident diagnosis.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7282
+    },
+    {
+      "index": 1,
+      "cls": "D",
+      "confidence": 0.4812967777252197,
+      "box": [
+        1001,
+        510,
+        1242,
+        732
+      ],
+      "padded_box": [
+        964,
+        476,
+        1278,
+        765
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There appears to be a small dark spot or shadow within the dentin near the gum line on the occlusal surface. This could potentially indicate early caries, but it is difficult to determine definitively from this single image. Based on the visual evidence, there is a possible area of concern that might represent early caries. However, without further information or comparison with previous images, it's impossible to be certain.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8256
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.3804195821285248,
+      "box": [
+        44,
+        672,
+        326,
+        919
+      ],
+      "padded_box": [
+        1,
+        634,
+        368,
+        956
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with significant white deposits on its occlusal (chewing) surface. There is also a small dark spot visible near the gum line on the mesial aspect. Yes, there appears to be evidence of dental caries (tooth decay). The white deposits could represent secondary dentin formation or possibly early carious lesions. The dark spot suggests potential caries activity. My confidence in this assessment is moderate due to the limitations of image quality and the possibility of other explanations for the white deposits.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8717
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

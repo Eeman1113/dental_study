@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-913-00_1730374663171_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1386,
+      634,
+      1616,
+      804
+    ],
+    [
+      176,
+      586,
+      419,
+      809
+    ],
+    [
+      1380,
+      513,
+      1570,
+      648
+    ],
+    [
+      1427,
+      774,
+      1620,
+      898
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7716124057769775,
+      "box": [
+        1387,
+        617,
+        1621,
+        810
+      ],
+      "padded_box": [
+        1351,
+        588,
+        1656,
+        838
+      ],
+      "reasoning": "The image shows 6 permanent upper teeth with intact enamel. There is one region of concern: a primary caries lesion in the mid right region of the image. I can identify this region of concern. Final Answer: The final answer is \"\\nSurface change: Primary caries\\nLocation: Mid right region of the image\\nConfidence: 3\"",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8588
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7063590288162231,
+      "box": [
+        1378,
+        509,
+        1574,
+        649
+      ],
+      "padded_box": [
+        1348,
+        488,
+        1603,
+        670
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.9348
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.6256422996520996,
+      "box": [
+        168,
+        583,
+        425,
+        817
+      ],
+      "padded_box": [
+        129,
+        547,
+        463,
+        852
+      ],
+      "reasoning": "The image shows 6 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion (primary caries) visible in the mid left region of the image. I am moderately confident this is primary caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9011
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.6151225566864014,
+      "box": [
+        1420,
+        773,
+        1618,
+        897
+      ],
+      "padded_box": [
+        1390,
+        754,
+        1647,
+        915
+      ],
+      "reasoning": "The image shows 4 permanent upper teeth with intact enamel and no discoloration. I can identify 2 regions of concern for dental caries. My confidence is not high.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.9401
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-972-01_1730889157047_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      96,
+      292,
+      326,
+      491
+    ],
+    [
+      1034,
+      332,
+      1234,
+      529
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8636409640312195,
+      "box": [
+        83,
+        287,
+        334,
+        502
+      ],
+      "padded_box": [
+        45,
+        254,
+        371,
+        534
+      ],
+      "reasoning": "The image shows a primary caries lesion with a permanent caries lesion. I can identify 2 regions of concern. Final Answer: The final answer is \"\\nSurface enamel caries; Reason: The primary caries lesion has a permanent caries lesion.\"",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8481
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8146730065345764,
+      "box": [
+        1018,
+        322,
+        1246,
+        536
+      ],
+      "padded_box": [
+        983,
+        289,
+        1280,
+        568
+      ],
+      "reasoning": "The image shows a primary caries lesion with 3 permanent caries lesions. I can identify 4 regions of concern: a primary caries lesion in the upper left region of the image; a primary caries lesion in the mid right region of the image; a permanent caries lesion in the lower left region of the image; a permanent caries lesion in the lower right region of the image. Final Answer: The final answer is \"\\nSurface enamel caries; Moderately confident.\"",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8075
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.611310601234436,
+      "box": [
+        38,
+        96,
+        274,
+        323
+      ],
+      "padded_box": [
+        2,
+        61,
+        309,
+        357
+      ],
+      "reasoning": "The image shows a primary caries lesion in the lower right region of the image. Yes, I am moderately confident this is dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  }
+}

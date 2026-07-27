@@ -1,0 +1,40 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-674-01_1729243660931_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1235,
+      588,
+      1471,
+      738
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.5695789456367493,
+      "box": [
+        1229,
+        577,
+        1475,
+        748
+      ],
+      "padded_box": [
+        1192,
+        551,
+        1511,
+        773
+      ],
+      "reasoning": "The image shows two primary caries lesions (tooth decay) in the upper right region of the image. I am moderately confident this is correct.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8415
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+  }
+}

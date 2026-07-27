@@ -1,0 +1,146 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1158-01_1732623667368_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      26,
+      216,
+      242,
+      420
+    ],
+    [
+      84,
+      385,
+      315,
+      588
+    ],
+    [
+      995,
+      319,
+      1202,
+      521
+    ],
+    [
+      1045,
+      147,
+      1245,
+      350
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8063446879386902,
+      "box": [
+        23,
+        209,
+        251,
+        421
+      ],
+      "padded_box": [
+        0,
+        177,
+        285,
+        452
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be a small dark spot or shadow within one of the grooves on the occlusal (chewing) surface. This could potentially indicate early decay, but it's difficult to determine definitively from this single image without more context. Yes, there is evidence that looks like caries. The dark spot within the fissure suggests potential tooth decay. Confidence level: Moderate.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9116
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8003637790679932,
+      "box": [
+        81,
+        375,
+        325,
+        593
+      ],
+      "padded_box": [
+        44,
+        342,
+        361,
+        625
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There appears to be some discoloration or texture variation within the grooves on the occlusal surface. It is difficult to definitively determine if this represents dental caries without further information or clinical examination. I am not confident in identifying caries based solely on this image.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8816
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7810279726982117,
+      "box": [
+        984,
+        315,
+        1224,
+        537
+      ],
+      "padded_box": [
+        948,
+        281,
+        1260,
+        570
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There is a small, dark spot visible within the crown of one of the upper molars. This appears to be a cavitated lesion. I am moderately confident this represents dental caries (tooth decay).",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7848
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.5960612297058105,
+      "box": [
+        1031,
+        137,
+        1262,
+        353
+      ],
+      "padded_box": [
+        996,
+        104,
+        1296,
+        385
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There appears to be a small dark spot or discoloration within one of the grooves on the occlusal surface. This could potentially indicate early dental caries, but it is difficult to determine definitively from this single image alone. Confidence: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8137
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.5322142243385315,
+      "box": [
+        183,
+        530,
+        375,
+        693
+      ],
+      "padded_box": [
+        154,
+        505,
+        403,
+        717
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is no obvious evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows within the enamel, or brown/black discoloration on the tooth surface. Based on this visual inspection, it does not appear to show signs of active dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 1,
+    "fn": 0
+  }
+}

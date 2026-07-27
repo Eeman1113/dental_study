@@ -1,0 +1,33 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-883-01_1730282825622_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.375375360250473,
+      "box": [
+        492,
+        1184,
+        937,
+        1271
+      ],
+      "padded_box": [
+        425,
+        1170,
+        1003,
+        1271
+      ],
+      "reasoning": "The image shows a close-up view of the upper anterior teeth, specifically the incisors. The teeth appear white and relatively healthy. There is no visible evidence of dental caries (tooth decay) such as cavitated lesions, dark shadows within enamel, or brown/black discoloration on the tooth surfaces shown in this crop. I am not confident in identifying dental caries from this image alone.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0
+  }
+}

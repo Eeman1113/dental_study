@@ -1,0 +1,33 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-972-01_1730889157047_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.26900938153266907,
+      "box": [
+        58,
+        710,
+        356,
+        964
+      ],
+      "padded_box": [
+        13,
+        671,
+        400,
+        1002
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, slightly darker area near the gumline on one of the lower molars. This could potentially be early decay or staining. Based on this single image, it's difficult to definitively diagnose caries. The area appears somewhat dark, but it could also be due to shadowing or extrinsic stain. Confidence in identifying caries is low without further information or examination.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0
+  }
+}

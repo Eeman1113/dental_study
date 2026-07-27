@@ -1,0 +1,98 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1388-00_1733817167049_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      246,
+      579,
+      641,
+      881
+    ],
+    [
+      197,
+      810,
+      574,
+      1030
+    ],
+    [
+      103,
+      957,
+      527,
+      1351
+    ],
+    [
+      1823,
+      1296,
+      2262,
+      1602
+    ],
+    [
+      1843,
+      1530,
+      2262,
+      1751
+    ],
+    [
+      1811,
+      1093,
+      2201,
+      1322
+    ],
+    [
+      1784,
+      881,
+      2195,
+      1140
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7833437323570251,
+      "box": [
+        1789,
+        1248,
+        2282,
+        1653
+      ],
+      "padded_box": [
+        1715,
+        1187,
+        2355,
+        1713
+      ],
+      "reasoning": "The image shows 4 permanent molars in the upper right region of the mouth. There is one primary caries lesion visible; it appears as a permanent caries lesion with a primary caries lesion within it. I am moderately confident this represents primary caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.6728
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7623666524887085,
+      "box": [
+        70,
+        959,
+        547,
+        1368
+      ],
+      "padded_box": [
+        0,
+        897,
+        618,
+        1429
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8483
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 5
+  }
+}

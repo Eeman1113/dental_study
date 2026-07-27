@@ -1,0 +1,68 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-903-00_1730357034326_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      166,
+      2047,
+      817,
+      2512
+    ],
+    [
+      217,
+      1618,
+      863,
+      2147
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.9105796217918396,
+      "box": [
+        192,
+        1604,
+        916,
+        2172
+      ],
+      "padded_box": [
+        83,
+        1518,
+        1024,
+        2257
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There is a visible dark spot on the occlusal (chewing) surface of one of the lower molars. This appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the dark lesion.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.831
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.3797018826007843,
+      "box": [
+        142,
+        2002,
+        848,
+        2523
+      ],
+      "padded_box": [
+        36,
+        1923,
+        953,
+        2523
+      ],
+      "reasoning": "The image shows a close-up view of teeth, likely molars, with visible cusps and grooves. There appears to be a small dark spot or shadow within one of the occlusal surfaces (the chewing surface). This could potentially represent early caries, but it is difficult to determine definitively from this single image without additional context like clinical examination findings or radiographs. The image shows teeth with visible cusps and grooves. There appears to be a small dark spot or shadow within one of the occlusal surfaces. It looks like there might be caries, but I am not confident enough to say for sure based on this image alone.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.823
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 0
+  }
+}

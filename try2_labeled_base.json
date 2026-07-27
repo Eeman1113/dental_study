@@ -1,0 +1,113 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_339_01_1728020284845_Mandibular_View.jpg",
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8151564002037048,
+      "box": [
+        1933,
+        142,
+        2234,
+        405
+      ],
+      "padded_box": [
+        1887,
+        102,
+        2279,
+        444
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible decay. There is a noticeable dark discoloration within the enamel of the upper tooth, suggesting dental caries. The lesion appears to be cavitated, indicating active decay. Based on the visual evidence, it looks like there is dental caries present. I am moderately confident in this assessment due to the distinct dark area within the enamel."
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8099938631057739,
+      "box": [
+        419,
+        8,
+        734,
+        272
+      ],
+      "padded_box": [
+        371,
+        0,
+        781,
+        311
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is a dark discoloration within one of the grooves on the occlusal surface. This appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance."
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8021219372749329,
+      "box": [
+        439,
+        250,
+        799,
+        551
+      ],
+      "padded_box": [
+        385,
+        204,
+        853,
+        596
+      ],
+      "reasoning": "The image shows the occlusal view of a molar tooth with visible cusps and fissures. There appears to be some discoloration or staining on the surfaces. It is difficult to definitively determine if this represents dental caries without further information or clinical examination. I am not confident in identifying caries from this image alone."
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7933483719825745,
+      "box": [
+        1841,
+        351,
+        2189,
+        674
+      ],
+      "padded_box": [
+        1788,
+        302,
+        2241,
+        722
+      ],
+      "reasoning": "The image shows a close-up view of teeth within the mouth. There is a visible lesion on the occlusal (chewing) surface of the upper molar tooth. This lesion appears as a brownish discoloration with some textural changes. Yes, it looks like caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the lesion."
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.6587430238723755,
+      "box": [
+        538,
+        508,
+        805,
+        735
+      ],
+      "padded_box": [
+        497,
+        473,
+        845,
+        769
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There is a small area of discoloration or shadow near the gum line on the mesial (left) side of the tooth. This could potentially be related to decay, but it's difficult to determine definitively from this single image. It is difficult to say for sure if there is evidence of dental caries based on this image alone. The discoloration could be due to various factors other than decay. More information or a different view would be needed for a definitive diagnosis."
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.46993738412857056,
+      "box": [
+        1805,
+        588,
+        2060,
+        836
+      ],
+      "padded_box": [
+        1766,
+        550,
+        2098,
+        873
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including a prominent molar with visible cusps and grooves, and another tooth below it. The surfaces appear relatively smooth and white. There is some slight discoloration or shadowing visible on the surface of the upper tooth, but no clear signs of active decay like cavitation or dark staining are immediately apparent in this cropped view. It does not look like caries, although a definitive diagnosis requires a full examination. Confidence level: Low."
+    }
+  ]
+}

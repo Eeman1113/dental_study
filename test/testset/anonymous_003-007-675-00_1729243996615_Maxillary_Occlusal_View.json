@@ -1,0 +1,84 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-675-00_1729243996615_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1281,
+      644,
+      1526,
+      791
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.5042881965637207,
+      "box": [
+        1273,
+        613,
+        1533,
+        804
+      ],
+      "padded_box": [
+        1234,
+        584,
+        1572,
+        832
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including molars and premolars. The crowns of the teeth appear white and intact. There is some yellowish discoloration visible on the occlusal (chewing) surfaces of the lower molars, likely due to extrinsic staining or restorations. No obvious signs of active dental caries are visible in this cropped view. I am not confident that there is no caries present, as only a small portion of the teeth are shown.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7252
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.27276378870010376,
+      "box": [
+        423,
+        1111,
+        840,
+        1211
+      ],
+      "padded_box": [
+        360,
+        1096,
+        902,
+        1211
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There is a small, light-colored spot visible on the surface of one of the teeth. This spot appears to be a small area of enamel that has been worn away or possibly affected by early decay. Based on this visual information alone, it is difficult to definitively determine if this represents dental caries (tooth decay). The appearance could potentially be due to erosion, abrasion from brushing, or very early demineralization. Therefore, I am not confident in a definitive diagnosis of caries based solely on this image.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.26176026463508606,
+      "box": [
+        875,
+        1143,
+        1225,
+        1211
+      ],
+      "padded_box": [
+        822,
+        1132,
+        1277,
+        1211
+      ],
+      "reasoning": "The image shows a close-up view of the gingival margin (gum line) adjacent to an anterior tooth. There is some yellowish discoloration visible on the tooth surface near the gumline. This could potentially be related to extrinsic staining or early demineralization, but it's difficult to definitively determine without more context and higher resolution. It does not appear to show a clear cavitated lesion or dark shadow indicative of advanced caries. Based on this limited view, it is difficult to definitively diagnose caries. The discoloration could be due to various factors, including extrinsic staining or early demineralization. Confidence in diagnosing caries from this image alone is low.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 2,
+    "fn": 0
+  }
+}

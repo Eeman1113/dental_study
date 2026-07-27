@@ -1,0 +1,130 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-832-00_1730094248119_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      101,
+      266,
+      479,
+      579
+    ],
+    [
+      372,
+      777,
+      619,
+      1063
+    ],
+    [
+      229,
+      524,
+      571,
+      840
+    ],
+    [
+      1653,
+      236,
+      2024,
+      556
+    ],
+    [
+      1553,
+      497,
+      1890,
+      811
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.8553311228752136,
+      "box": [
+        238,
+        519,
+        567,
+        841
+      ],
+      "padded_box": [
+        188,
+        470,
+        616,
+        889
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the upper left region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.9447
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8084185123443604,
+      "box": [
+        1648,
+        231,
+        2028,
+        561
+      ],
+      "padded_box": [
+        1591,
+        181,
+        2085,
+        610
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.9467
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7951877117156982,
+      "box": [
+        90,
+        261,
+        474,
+        593
+      ],
+      "padded_box": [
+        32,
+        211,
+        531,
+        642
+      ],
+      "reasoning": "The image shows 4 permanent teeth with primary caries lesions visible. Yes, there is evidence of dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9047
+    },
+    {
+      "index": 3,
+      "cls": "D",
+      "confidence": 0.7630031108856201,
+      "box": [
+        376,
+        769,
+        624,
+        1042
+      ],
+      "padded_box": [
+        338,
+        728,
+        661,
+        1082
+      ],
+      "reasoning": "A primary caries lesion is visible in the upper left region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8708
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 1
+  }
+}

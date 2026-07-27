@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1254-01_1733114052105_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      138,
+      126,
+      466,
+      439
+    ],
+    [
+      158,
+      399,
+      547,
+      760
+    ],
+    [
+      1768,
+      352,
+      2192,
+      758
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7655532360076904,
+      "box": [
+        1747,
+        325,
+        2198,
+        753
+      ],
+      "padded_box": [
+        1679,
+        260,
+        2265,
+        817
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, dark area on the occlusal (chewing) surface of the upper right molar. This could potentially represent early caries or staining. Yes, there appears to be evidence of potential dental caries on the upper right molar. The dark spot suggests possible demineralization. Confidence level: Moderate.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8713
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.48986729979515076,
+      "box": [
+        152,
+        377,
+        566,
+        762
+      ],
+      "padded_box": [
+        89,
+        319,
+        628,
+        819
+      ],
+      "reasoning": "The image shows close-up views of teeth, specifically the occlusal (biting) surfaces of premolars or molars. There appears to be some dark staining or discoloration on the surface of one tooth. Yes, there is evidence of potential dental caries (tooth decay). The dark discoloration suggests possible demineralization within the enamel. I am moderately confident in this assessment based on the visual appearance.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.881
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.4524006247520447,
+      "box": [
+        130,
+        124,
+        474,
+        451
+      ],
+      "padded_box": [
+        78,
+        74,
+        525,
+        500
+      ],
+      "reasoning": "The image shows a close-up view of teeth within the mouth. There appears to be some discoloration or staining on the surfaces of the teeth. It is difficult to definitively determine if this represents dental caries (tooth decay) without further information or clinical examination. The appearance could potentially indicate early stages of decay, but it might also be due to other factors like staining or restorations.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.9127
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

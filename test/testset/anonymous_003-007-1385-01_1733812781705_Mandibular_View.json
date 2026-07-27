@@ -1,0 +1,152 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1385-01_1733812781705_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      193,
+      146,
+      543,
+      489
+    ],
+    [
+      139,
+      470,
+      584,
+      892
+    ],
+    [
+      165,
+      820,
+      532,
+      1094
+    ],
+    [
+      2115,
+      75,
+      2584,
+      480
+    ],
+    [
+      1982,
+      454,
+      2517,
+      939
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8537266850471497,
+      "box": [
+        1953,
+        425,
+        2546,
+        967
+      ],
+      "padded_box": [
+        1864,
+        343,
+        2634,
+        1048
+      ],
+      "reasoning": "The image shows multiple teeth with visible plaque buildup and some areas of discoloration on the surfaces. There is a dark shadow within the enamel of one molar tooth. Yes, this appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the dark shadow within the enamel.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.8073
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8294445872306824,
+      "box": [
+        2080,
+        47,
+        2601,
+        517
+      ],
+      "padded_box": [
+        2001,
+        0,
+        2645,
+        587
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible decay. There is a dark, brownish discoloration within the grooves of the occlusal (chewing) surface, suggesting caries. The lesion appears to be cavitated, meaning it has progressed beyond superficial enamel staining. Yes, this looks like dental caries. I am moderately confident in this assessment based on the visual evidence of decay and cavitation.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.7757
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8055186867713928,
+      "box": [
+        167,
+        123,
+        574,
+        502
+      ],
+      "padded_box": [
+        105,
+        66,
+        635,
+        558
+      ],
+      "reasoning": "The image shows a close-up view of several teeth with visible enamel structure. There is a distinct dark brown discoloration within the grooves of one of the upper molars. This appears to be a cavitated lesion consistent with dental caries (tooth decay). I am moderately confident in this assessment based on the visual evidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7783
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.8052113652229309,
+      "box": [
+        108,
+        440,
+        595,
+        901
+      ],
+      "padded_box": [
+        34,
+        370,
+        668,
+        970
+      ],
+      "reasoning": "The image shows multiple teeth with visible plaque buildup and some areas of discoloration on the surfaces. There is evidence of dental caries (tooth decay) present on several teeth, specifically appearing as dark brown/black discolourations within the enamel structure. I am moderately confident this represents caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8365
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.4860369563102722,
+      "box": [
+        146,
+        801,
+        534,
+        1105
+      ],
+      "padded_box": [
+        87,
+        755,
+        592,
+        1150
+      ],
+      "reasoning": "The image shows close-up views of teeth with visible enamel structure and some yellowish discoloration on the surfaces. There is no clear evidence of active dental caries such as cavitation or dark decay within the tooth structure shown. No, I do not see any obvious signs of dental caries in this specific cropped view. My confidence level is low due to the limited field of view.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8525
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+  }
+}

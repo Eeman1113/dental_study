@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1115-01_1732364427758_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      32,
+      114,
+      236,
+      328
+    ],
+    [
+      38,
+      317,
+      298,
+      563
+    ],
+    [
+      1125,
+      435,
+      1344,
+      679
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8255952000617981,
+      "box": [
+        46,
+        314,
+        296,
+        563
+      ],
+      "padded_box": [
+        8,
+        276,
+        333,
+        600
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces and some internal structures. There is a noticeable dark discoloration within the grooves of one of the upper molars. This appears to be a cavitated lesion or decay. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9504
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8137627243995667,
+      "box": [
+        1118,
+        426,
+        1353,
+        680
+      ],
+      "padded_box": [
+        1082,
+        387,
+        1388,
+        718
+      ],
+      "reasoning": "The image shows a close-up view of teeth. There is a visible dark discoloration on the surface of one of the lower teeth. This appears to be evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of the discoloration.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8952
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.754694938659668,
+      "box": [
+        22,
+        108,
+        247,
+        335
+      ],
+      "padded_box": [
+        0,
+        73,
+        280,
+        369
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and grooves. There appears to be some slight discoloration or shadowing within the grooves on the occlusal surface. It is difficult to definitively determine if this represents dental caries without further information or clinical examination. The appearance could potentially be due to staining, enamel hypoplasia, or other non-carious factors. Confidence in identifying caries based solely on this image is low.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8547
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

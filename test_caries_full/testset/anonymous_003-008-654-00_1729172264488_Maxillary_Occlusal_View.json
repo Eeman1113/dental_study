@@ -1,0 +1,158 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-654-00_1729172264488_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      149,
+      424,
+      393,
+      618
+    ],
+    [
+      95,
+      565,
+      361,
+      724
+    ],
+    [
+      48,
+      663,
+      332,
+      910
+    ],
+    [
+      1185,
+      522,
+      1434,
+      673
+    ],
+    [
+      1230,
+      644,
+      1442,
+      777
+    ],
+    [
+      1230,
+      761,
+      1493,
+      977
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8225097060203552,
+      "box": [
+        1226,
+        744,
+        1500,
+        985
+      ],
+      "padded_box": [
+        1184,
+        707,
+        1541,
+        1021
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion (primary caries) visible in the upper left region of the frame. I am moderately confident this is primary caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 5,
+      "iou_with_gt": 0.8603
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.63715660572052,
+      "box": [
+        89,
+        556,
+        363,
+        725
+      ],
+      "padded_box": [
+        47,
+        530,
+        404,
+        750
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion (primary caries) visible as a small dark spot in the mid left region of the image. I am moderately confident this represents primary caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9134
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.5484328269958496,
+      "box": [
+        132,
+        405,
+        405,
+        625
+      ],
+      "padded_box": [
+        91,
+        372,
+        445,
+        658
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion visible in the lower left region of the frame. I can identify 1 dental caries lesion.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7881
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.4151899814605713,
+      "box": [
+        30,
+        662,
+        335,
+        926
+      ],
+      "padded_box": [
+        0,
+        622,
+        380,
+        965
+      ],
+      "reasoning": "The image shows 4 permanent teeth with normal morphology and color. I can identify one region of concern which is a primary caries lesion. Final Answer: The visible dentition appears healthy with no signs of decay. Marking one primary caries lesion. Reason: One primary caries lesion identified.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8712
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.285587877035141,
+      "box": [
+        1218,
+        639,
+        1452,
+        784
+      ],
+      "padded_box": [
+        1182,
+        617,
+        1487,
+        805
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is one primary caries lesion (primary caries) visible in the mid left region of the frame. I can identify 1 affected area. \u05e7\u05d0\u05e8\u05d9\u05d6\u094d\u092e (Primary Caries) 20/20",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.831
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 1
+  }
+}

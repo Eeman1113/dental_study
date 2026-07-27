@@ -1,0 +1,68 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1097-01_1732258152530_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      174,
+      1391,
+      670,
+      1823
+    ],
+    [
+      2438,
+      1511,
+      2946,
+      1886
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8284358382225037,
+      "box": [
+        2411,
+        1436,
+        2956,
+        1866
+      ],
+      "padded_box": [
+        2329,
+        1371,
+        3037,
+        1930
+      ],
+      "reasoning": "A primary caries lesion with a permanent caries lesion within it. I am moderately confident that this is primary caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.7376
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7595628499984741,
+      "box": [
+        144,
+        1376,
+        695,
+        1865
+      ],
+      "padded_box": [
+        61,
+        1302,
+        777,
+        1938
+      ],
+      "reasoning": "I can identify 2 regions of concern: a primary caries lesion in the mid right region of the image; a permanent caries lesion in the lower left region of the image. Yes, there is evidence of dental caries. I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7953
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 0
+  }
+}

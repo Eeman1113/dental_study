@@ -1,0 +1,33 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1124-00_1732512565150_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.35850009322166443,
+      "box": [
+        2268,
+        1702,
+        2787,
+        2017
+      ],
+      "padded_box": [
+        2190,
+        1654,
+        2864,
+        2064
+      ],
+      "reasoning": "The image shows a primary caries lesion with a permanent caries lesion. I can identify 2 regions of concern. Final Answer: The final answer is \"\\nSurface marking: 3\\nReasoning: A primary caries lesion is visible in the upper right region of the image. A permanent caries lesion is visible in the lower left region of the image.\"",
+      "mg_verdict": "uncertain",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 1,
+    "fn": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/Dataset/Images/retractors/Maxillary_Occlusal/anonymous_003-007-922-01_1730698705895_Maxillary_Occlusal_View.jpg",
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.6823994517326355,
+      "box": [
+        2429,
+        1443,
+        3104,
+        1988
+      ],
+      "padded_box": [
+        2327,
+        1361,
+        3147,
+        2069
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There appears to be some slight discoloration or staining on the surfaces of the teeth. It is difficult to definitively determine if this represents dental caries (tooth decay) without further clinical examination and potentially radiographic imaging. Based on the visual information alone, it is not possible to confirm the presence of active caries lesions like cavitation or significant dark shadows within the enamel."
+    }
+  ]
+}

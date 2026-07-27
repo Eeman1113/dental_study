@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_556_00_1728891607018_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      36,
+      238,
+      436,
+      573
+    ],
+    [
+      80,
+      560,
+      552,
+      923
+    ],
+    [
+      1917,
+      110,
+      2302,
+      466
+    ],
+    [
+      1899,
+      435,
+      2327,
+      838
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8328030705451965,
+      "box": [
+        1914,
+        110,
+        2316,
+        488
+      ],
+      "padded_box": [
+        1853,
+        53,
+        2376,
+        544
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps. There is a dark discoloration within one of the grooves on the occlusal (chewing) surface. This appears to be a cavitated lesion, indicative of dental caries. I am moderately confident this represents caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.902
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8144485950469971,
+      "box": [
+        1895,
+        439,
+        2345,
+        857
+      ],
+      "padded_box": [
+        1827,
+        376,
+        2412,
+        919
+      ],
+      "reasoning": "The image shows multiple teeth with visible crowns. There appear to be several small metallic objects embedded within the crowns of some teeth. It is difficult to definitively determine if these are dental restorations or something else due to the close-up nature and potential distortion. Based on the visual evidence, it appears there might be signs of dental caries (tooth decay). The presence of metallic objects could indicate previous fillings or other dental procedures. However, without further information or context, it is difficult to confirm if these are related to caries or represent something else entirely. Confidence in this assessment is moderate.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8997
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8093998432159424,
+      "box": [
+        76,
+        535,
+        548,
+        970
+      ],
+      "padded_box": [
+        5,
+        469,
+        618,
+        1035
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a noticeable dark discoloration within the grooves of the upper premolars. This appears to be a cavitated lesion or decay. I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8216
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.8004905581474304,
+      "box": [
+        27,
+        224,
+        448,
+        603
+      ],
+      "padded_box": [
+        0,
+        167,
+        511,
+        659
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible cusps and fissures. There is a dark discoloration within one of the grooves or fissures on the occlusal (chewing) surface. This appears to be a cavitated lesion, indicative of dental caries. I am confident this represents caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8398
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

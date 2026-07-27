@@ -1,0 +1,180 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-1345-01_1733567991677_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      50,
+      58,
+      253,
+      240
+    ],
+    [
+      89,
+      212,
+      316,
+      423
+    ],
+    [
+      175,
+      371,
+      352,
+      516
+    ],
+    [
+      1042,
+      60,
+      1231,
+      254
+    ],
+    [
+      978,
+      225,
+      1196,
+      436
+    ],
+    [
+      948,
+      366,
+      1115,
+      518
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8015776872634888,
+      "box": [
+        1040,
+        62,
+        1224,
+        246
+      ],
+      "padded_box": [
+        1012,
+        34,
+        1251,
+        273
+      ],
+      "reasoning": "The image shows 4 permanent molars visible in the upper right region of the frame. I can identify 3 regions of concern: one primary caries lesion; one primary caries lesion; one primary caries lesion. Final Answer: The final answer is \"\\nSurface lesions: 3\\nSoft tissue: 0\\nBone: 0\"",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.9043
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7983558773994446,
+      "box": [
+        978,
+        225,
+        1194,
+        424
+      ],
+      "padded_box": [
+        945,
+        195,
+        1226,
+        453
+      ],
+      "reasoning": "The image shows 6 permanent teeth visible in the upper right region of the frame. There is no evidence of dental caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.9345
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7915710806846619,
+      "box": [
+        51,
+        52,
+        256,
+        237
+      ],
+      "padded_box": [
+        20,
+        24,
+        286,
+        264
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is no evidence of dental caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.934
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7804189920425415,
+      "box": [
+        89,
+        209,
+        312,
+        422
+      ],
+      "padded_box": [
+        55,
+        177,
+        345,
+        453
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;No;Not Caries",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9643
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.596206545829773,
+      "box": [
+        945,
+        374,
+        1114,
+        514
+      ],
+      "padded_box": [
+        919,
+        353,
+        1139,
+        535
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. Final Answer: The visible dentition appears healthy with no signs of caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 5,
+      "iou_with_gt": 0.9006
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.5778067111968994,
+      "box": [
+        173,
+        371,
+        351,
+        520
+      ],
+      "padded_box": [
+        146,
+        348,
+        377,
+        542
+      ],
+      "reasoning": "The image shows 3 permanent teeth visible in the upper right region of the frame. There is no evidence of dental caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.957
+    }
+  ],
+  "matched": {
+    "tp": 6,
+    "fp": 0,
+    "fn": 0
+  }
+}

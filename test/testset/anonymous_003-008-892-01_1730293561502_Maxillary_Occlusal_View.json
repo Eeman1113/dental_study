@@ -1,0 +1,90 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-892-01_1730293561502_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      51,
+      853,
+      362,
+      1137
+    ],
+    [
+      1329,
+      914,
+      1619,
+      1192
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8258377313613892,
+      "box": [
+        1310,
+        907,
+        1636,
+        1213
+      ],
+      "padded_box": [
+        1261,
+        861,
+        1661,
+        1245
+      ],
+      "reasoning": "The image shows a close-up view of a molar tooth with visible decay. There is a dark, irregular lesion present on the occlusal (chewing) surface of the tooth. This appears to be evidence of dental caries. I am moderately confident in this assessment based on the visual appearance of the lesion.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8082
+    },
+    {
+      "index": 1,
+      "cls": "D",
+      "confidence": 0.6896281242370605,
+      "box": [
+        37,
+        842,
+        376,
+        1155
+      ],
+      "padded_box": [
+        0,
+        795,
+        426,
+        1201
+      ],
+      "reasoning": "The image shows multiple teeth with visible decay. There is evidence of dental caries (tooth decay) on the surfaces of several teeth, appearing as dark brown/black discolourations and possibly cavitated lesions. I am moderately confident this represents caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8324
+    },
+    {
+      "index": 2,
+      "cls": "D",
+      "confidence": 0.4946634769439697,
+      "box": [
+        116,
+        654,
+        432,
+        930
+      ],
+      "padded_box": [
+        68,
+        612,
+        479,
+        971
+      ],
+      "reasoning": "The image shows close-ups of teeth with visible enamel surfaces and some interproximal areas. There is a small dark shadow or discoloration visible on the mesial aspect of the lower right second molar. This could potentially represent early caries, but further evaluation would be needed to confirm. I am moderately confident this represents potential caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 0
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1424-01_1733984735840_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      186,
+      1158,
+      608,
+      1580
+    ],
+    [
+      120,
+      1492,
+      605,
+      1894
+    ],
+    [
+      1966,
+      1472,
+      2452,
+      1790
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.918727457523346,
+      "box": [
+        136,
+        1142,
+        646,
+        1594
+      ],
+      "padded_box": [
+        59,
+        1074,
+        722,
+        1661
+      ],
+      "reasoning": "The image shows a primary caries lesion in the lower right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7725
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.44209808111190796,
+      "box": [
+        81,
+        1497,
+        620,
+        1917
+      ],
+      "padded_box": [
+        0,
+        1434,
+        700,
+        1980
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. There is no evidence of dental caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8415
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 1
+  }
+}

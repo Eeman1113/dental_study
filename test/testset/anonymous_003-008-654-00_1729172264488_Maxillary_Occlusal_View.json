@@ -1,0 +1,158 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-654-00_1729172264488_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      149,
+      424,
+      393,
+      618
+    ],
+    [
+      95,
+      565,
+      361,
+      724
+    ],
+    [
+      48,
+      663,
+      332,
+      910
+    ],
+    [
+      1185,
+      522,
+      1434,
+      673
+    ],
+    [
+      1230,
+      644,
+      1442,
+      777
+    ],
+    [
+      1230,
+      761,
+      1493,
+      977
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8225097060203552,
+      "box": [
+        1226,
+        744,
+        1500,
+        985
+      ],
+      "padded_box": [
+        1184,
+        707,
+        1541,
+        1021
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There is a small, dark spot visible on the occlusal (chewing) surface of one of the upper molars. This appears to be a potential area of concern. Yes, it looks like caries and I am moderately confident based on the visual appearance of the dark spot.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 5,
+      "iou_with_gt": 0.8603
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.63715660572052,
+      "box": [
+        89,
+        556,
+        363,
+        725
+      ],
+      "padded_box": [
+        47,
+        530,
+        404,
+        750
+      ],
+      "reasoning": "The image shows a close-up view of teeth, specifically the occlusal surfaces where they meet. There appears to be a small dark spot or shadow on one of the upper teeth. This could potentially represent early dental caries (tooth decay). I am moderately confident this is an area of concern that warrants further evaluation by a dentist.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9134
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.5484328269958496,
+      "box": [
+        132,
+        405,
+        405,
+        625
+      ],
+      "padded_box": [
+        91,
+        372,
+        445,
+        658
+      ],
+      "reasoning": "The image shows close-up views of several teeth, including the upper right lateral incisor and the lower left canine. The teeth appear generally healthy with intact enamel surfaces. There is no obvious evidence of dental caries (tooth decay) visible in this cropped view. I am not confident that there are no hidden lesions.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7881
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.4151899814605713,
+      "box": [
+        30,
+        662,
+        335,
+        926
+      ],
+      "padded_box": [
+        0,
+        622,
+        380,
+        965
+      ],
+      "reasoning": "The image shows multiple teeth with visible enamel surfaces. There appears to be some discoloration or staining on the occlusal (chewing) surfaces of several teeth. Yes, there is evidence of dental caries (tooth decay). I am moderately confident in this assessment based on the visual appearance of dark shadows within the enamel structure.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8712
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.285587877035141,
+      "box": [
+        1218,
+        639,
+        1452,
+        784
+      ],
+      "padded_box": [
+        1182,
+        617,
+        1487,
+        805
+      ],
+      "reasoning": "The image shows close-up views of teeth, including the occlusal (biting) surfaces and possibly some axial surfaces. There appears to be a small dark spot or irregularity on one of the visible tooth surfaces. It is difficult to determine the exact nature of this feature without additional context or higher resolution imaging. Based on the visual information alone, it is impossible to definitively confirm if this represents dental caries (tooth decay). The appearance could potentially be due to various factors like enamel hypoplasia, a small restoration remnant, or other non-carious lesions. Therefore, I cannot confidently state that it looks like caries.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.831
+    }
+  ],
+  "matched": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 1
+  }
+}

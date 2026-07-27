@@ -1,0 +1,180 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_339_01_1728020284845_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      413,
+      20,
+      729,
+      276
+    ],
+    [
+      439,
+      267,
+      797,
+      541
+    ],
+    [
+      1936,
+      158,
+      2211,
+      397
+    ],
+    [
+      1846,
+      337,
+      2192,
+      667
+    ],
+    [
+      1797,
+      595,
+      2069,
+      823
+    ],
+    [
+      539,
+      518,
+      809,
+      720
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8151564002037048,
+      "box": [
+        1933,
+        142,
+        2234,
+        405
+      ],
+      "padded_box": [
+        1887,
+        102,
+        2279,
+        444
+      ],
+      "reasoning": "The image shows a primary caries lesion with a permanent caries lesion below it. I can identify 2 regions of concern. Final Answer: The final answer is \"\\nSurface marking: Primary caries\\nLocation: Mid right region of the image\\nConfidence: High\"",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8302
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.8099938631057739,
+      "box": [
+        419,
+        8,
+        734,
+        272
+      ],
+      "padded_box": [
+        371,
+        0,
+        781,
+        311
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.909
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.8021219372749329,
+      "box": [
+        439,
+        250,
+        799,
+        551
+      ],
+      "padded_box": [
+        385,
+        204,
+        853,
+        596
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.9052
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7933483719825745,
+      "box": [
+        1841,
+        351,
+        2189,
+        674
+      ],
+      "padded_box": [
+        1788,
+        302,
+        2241,
+        722
+      ],
+      "reasoning": "The image shows a primary caries lesion with a permanent caries lesion. I can identify 2 regions of concern. Final Answer: The final answer is \"\\nSurface enamel caries; High confidence.\"",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.917
+    },
+    {
+      "index": 4,
+      "cls": "d",
+      "confidence": 0.6587430238723755,
+      "box": [
+        538,
+        508,
+        805,
+        735
+      ],
+      "padded_box": [
+        497,
+        473,
+        845,
+        769
+      ],
+      "reasoning": "A single permanent upper right region of a mouth with normal appearing enamel. No evidence of dental caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 5,
+      "iou_with_gt": 0.8749
+    },
+    {
+      "index": 5,
+      "cls": "d",
+      "confidence": 0.46993738412857056,
+      "box": [
+        1805,
+        588,
+        2060,
+        836
+      ],
+      "padded_box": [
+        1766,
+        550,
+        2098,
+        873
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.8663
+    }
+  ],
+  "matched": {
+    "tp": 6,
+    "fp": 0,
+    "fn": 0
+  }
+}

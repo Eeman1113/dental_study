@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-008-935-00_1730724141122_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      62,
+      465,
+      275,
+      660
+    ],
+    [
+      1082,
+      529,
+      1328,
+      699
+    ],
+    [
+      12,
+      622,
+      282,
+      819
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.9275614619255066,
+      "box": [
+        1095,
+        506,
+        1325,
+        703
+      ],
+      "padded_box": [
+        1060,
+        476,
+        1341,
+        732
+      ],
+      "reasoning": "A primary caries lesion is visible in the upper left region of the image. Yes, I am moderately confident this represents dental caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8141
+    },
+    {
+      "index": 1,
+      "cls": "D",
+      "confidence": 0.8981759548187256,
+      "box": [
+        49,
+        460,
+        294,
+        672
+      ],
+      "padded_box": [
+        12,
+        428,
+        330,
+        703
+      ],
+      "reasoning": "The image shows primary caries lesions in the lower right region of the image. Yes, this appears to be dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7997
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.4707298278808594,
+      "box": [
+        4,
+        608,
+        285,
+        833
+      ],
+      "padded_box": [
+        0,
+        574,
+        327,
+        866
+      ],
+      "reasoning": "A primary caries lesion is visible in the upper left region of the image. Yes, this appears to be dental caries. I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8413
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

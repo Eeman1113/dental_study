@@ -1,0 +1,68 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1301-00_1733385797447_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      1956,
+      108,
+      2360,
+      480
+    ],
+    [
+      502,
+      1199,
+      914,
+      1543
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7501294016838074,
+      "box": [
+        1931,
+        95,
+        2384,
+        528
+      ],
+      "padded_box": [
+        1863,
+        30,
+        2451,
+        592
+      ],
+      "reasoning": "The image shows a close-up view of several teeth, likely premolars or molars, with visible enamel texture and some minor variations in translucency. There is no obvious sign of dental caries (tooth decay) such as cavitation, dark shadows within the enamel, or significant brown/black discoloration on the surfaces shown. Based on this image alone, it does not appear to show evidence of active dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7662
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.5132350921630859,
+      "box": [
+        11,
+        117,
+        497,
+        563
+      ],
+      "padded_box": [
+        0,
+        50,
+        569,
+        629
+      ],
+      "reasoning": "The image shows multiple teeth with white, opaque material visible on the surfaces. There is also some pink tissue visible, likely representing gum or mucosa. There is no clear evidence of dental caries (tooth decay) in this specific view. The white material appears to be related to the tooth structure itself or possibly a filling/restoration, rather than a cavity lesion. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 1,
+    "fn": 1
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-009-1194-00_1732775915152_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.5826444029808044,
+      "box": [
+        122,
+        235,
+        559,
+        622
+      ],
+      "padded_box": [
+        56,
+        176,
+        624,
+        680
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. The lower molar is partially visible at the bottom edge. There appears to be some slight shadowing or texture variation on the occlusal (chewing) surface of the upper molars, but no clear signs of active caries like cavitation or dark discoloration are immediately apparent in this cropped view. Based on this limited view, it does not appear to show definite evidence of dental caries. Confidence is moderate as a full examination would be needed for certainty.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.3251284658908844,
+      "box": [
+        200,
+        544,
+        691,
+        1004
+      ],
+      "padded_box": [
+        126,
+        475,
+        764,
+        1073
+      ],
+      "reasoning": "The image shows a close-up view of the occlusal (biting) surfaces of several teeth, likely premolars or molars. The crowns of the teeth appear white and generally healthy. There is a small dark spot visible on the occlusal surface of the upper tooth in the center of the image. Yes, it looks like caries (tooth decay). I am moderately confident this is caries due to the distinct dark spot on the tooth surface.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.26779720187187195,
+      "box": [
+        2174,
+        362,
+        2648,
+        802
+      ],
+      "padded_box": [
+        2102,
+        296,
+        2719,
+        868
+      ],
+      "reasoning": "The image shows multiple teeth with white enamel surfaces. There is no visible evidence of dental caries (tooth decay). I am not confident in this assessment as the image quality may be limited.",
+      "mg_verdict": "reject",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 0,
+    "fp": 3,
+    "fn": 0
+  }
+}

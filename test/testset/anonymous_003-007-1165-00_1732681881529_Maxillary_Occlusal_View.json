@@ -1,0 +1,46 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1165-00_1732681881529_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      75,
+      1448,
+      501,
+      1737
+    ],
+    [
+      73,
+      1227,
+      578,
+      1597
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.5653091669082642,
+      "box": [
+        104,
+        1229,
+        590,
+        1610
+      ],
+      "padded_box": [
+        31,
+        1171,
+        662,
+        1667
+      ],
+      "reasoning": "The image shows a close-up view of teeth with visible plaque buildup and some discoloration on the surfaces. There is no clear evidence of cavitated lesions or dark shadows indicative of active dental caries in this specific crop. Based on this limited view, it does not appear to show definite signs of dental caries. Confidence level: Low.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8828
+    }
+  ],
+  "matched": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 1
+  }
+}

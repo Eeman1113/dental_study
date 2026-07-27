@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_004-008-1465-01_1734100929758_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      165,
+      277,
+      370,
+      479
+    ],
+    [
+      138,
+      110,
+      313,
+      300
+    ],
+    [
+      1082,
+      231,
+      1296,
+      445
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8058696389198303,
+      "box": [
+        162,
+        266,
+        371,
+        472
+      ],
+      "padded_box": [
+        130,
+        235,
+        402,
+        502
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in cross-section with normal enamel structure. There is one region of concern: a small dark spot within the dentin of the upper right region of the image. I can identify one region of concern. Final Answer: The final answer is \"\\nOne region of concern: a small dark spot within the dentin of the upper right region of the image.\\n\\nReasoning: There is a localized discoloration in the dentin that appears as a small dark spot. Marking this area as caries with moderate confidence.\"",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8985
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7859008312225342,
+      "box": [
+        1080,
+        232,
+        1299,
+        434
+      ],
+      "padded_box": [
+        1047,
+        201,
+        1331,
+        464
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. 0;Normal alignment;High confidence",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.9236
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7267367839813232,
+      "box": [
+        133,
+        113,
+        315,
+        289
+      ],
+      "padded_box": [
+        105,
+        86,
+        342,
+        315
+      ],
+      "reasoning": "The image shows 3 permanent teeth visible in the upper right region of the frame. The enamel appears intact with no discoloration or shadowing that would indicate decay. Final Answer: The visible dentition appears healthy with no signs of caries. I am moderately confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8932
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

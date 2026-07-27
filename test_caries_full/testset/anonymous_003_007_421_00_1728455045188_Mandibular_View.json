@@ -1,0 +1,124 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_421_00_1728455045188_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      72,
+      23,
+      326,
+      258
+    ],
+    [
+      122,
+      255,
+      437,
+      511
+    ],
+    [
+      1482,
+      68,
+      1670,
+      296
+    ],
+    [
+      1411,
+      291,
+      1685,
+      535
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.8224676847457886,
+      "box": [
+        109,
+        239,
+        444,
+        537
+      ],
+      "padded_box": [
+        58,
+        194,
+        494,
+        581
+      ],
+      "reasoning": "The image shows 6 intact primary teeth visible in the upper right region of the frame. I can identify no regions of concern such as cavitation or discoloration. Final Answer: The image displays 6 primary teeth. There is no evidence of dental caries; I am very confident in this assessment.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8078
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.7853198051452637,
+      "box": [
+        1463,
+        64,
+        1685,
+        301
+      ],
+      "padded_box": [
+        1429,
+        28,
+        1718,
+        336
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in cross-section with normal appearing enamel. I can identify no carious lesions. Final Answer: The image displays 4 permanent teeth in cross-section with intact enamel. There is no evidence of dental caries.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.8147
+    },
+    {
+      "index": 2,
+      "cls": "d",
+      "confidence": 0.7848321199417114,
+      "box": [
+        1397,
+        272,
+        1698,
+        547
+      ],
+      "padded_box": [
+        1351,
+        230,
+        1743,
+        588
+      ],
+      "reasoning": "The image shows 6 permanent upper teeth in occlusion with normal alignment and intact enamel. I can identify one region of concern which is a primary caries lesion. Final Answer: The visible dentition appears healthy with no signs of decay. Marking one primary caries lesion. Reason: One primary caries lesion identified.",
+      "mg_verdict": "reject",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.8077
+    },
+    {
+      "index": 3,
+      "cls": "d",
+      "confidence": 0.7022212743759155,
+      "box": [
+        58,
+        13,
+        331,
+        282
+      ],
+      "padded_box": [
+        17,
+        0,
+        371,
+        322
+      ],
+      "reasoning": "The image shows 4 permanent teeth visible in the upper right region of the frame. I can identify one primary caries lesion (permanent). I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.8128
+    }
+  ],
+  "matched": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 0
+  }
+}

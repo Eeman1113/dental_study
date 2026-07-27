@@ -1,0 +1,102 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-1282-01_1733296511775_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      127,
+      81,
+      507,
+      449
+    ],
+    [
+      182,
+      399,
+      586,
+      781
+    ],
+    [
+      1942,
+      64,
+      2290,
+      420
+    ],
+    [
+      1863,
+      383,
+      2252,
+      722
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.6438038349151611,
+      "box": [
+        163,
+        382,
+        603,
+        778
+      ],
+      "padded_box": [
+        97,
+        322,
+        669,
+        837
+      ],
+      "reasoning": "The image shows 6 permanent upper teeth with intact enamel and no discoloration. I can identify 2 regions of concern for dental caries. My confidence is not high.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8727
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.6175788640975952,
+      "box": [
+        1841,
+        357,
+        2265,
+        734
+      ],
+      "padded_box": [
+        1777,
+        300,
+        2310,
+        790
+      ],
+      "reasoning": "The image shows 6 permanent upper teeth with intact enamel and no discoloration. I can identify one region of concern - primary caries; the reason for concern is primary caries; the degree of concern is low.",
+      "mg_verdict": "uncertain",
+      "tp_fp": "TP",
+      "gt_index": 3,
+      "iou_with_gt": 0.825
+    },
+    {
+      "index": 2,
+      "cls": "D",
+      "confidence": 0.3353320062160492,
+      "box": [
+        281,
+        679,
+        696,
+        1057
+      ],
+      "padded_box": [
+        218,
+        622,
+        758,
+        1113
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the upper left region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "FP",
+      "gt_index": null,
+      "iou_with_gt": 0
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 2
+  }
+}

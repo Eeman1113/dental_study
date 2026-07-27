@@ -1,0 +1,96 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003-007-847-01_1730184498927_Mandibular_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      529,
+      927,
+      849,
+      1318
+    ],
+    [
+      2076,
+      613,
+      2454,
+      1000
+    ],
+    [
+      2034,
+      927,
+      2336,
+      1293
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "D",
+      "confidence": 0.9364704489707947,
+      "box": [
+        2003,
+        911,
+        2356,
+        1316
+      ],
+      "padded_box": [
+        1950,
+        850,
+        2408,
+        1376
+      ],
+      "reasoning": "A permanent caries lesion is visible in the mid right region of the image. I am moderately confident this represents primary caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 2,
+      "iou_with_gt": 0.7731
+    },
+    {
+      "index": 1,
+      "cls": "D",
+      "confidence": 0.9210574626922607,
+      "box": [
+        501,
+        910,
+        871,
+        1337
+      ],
+      "padded_box": [
+        445,
+        845,
+        926,
+        1401
+      ],
+      "reasoning": "A permanent caries lesion is visible in the mid right region of the image. I am moderately confident this represents primary caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.7919
+    },
+    {
+      "index": 2,
+      "cls": "D",
+      "confidence": 0.9052229523658752,
+      "box": [
+        2054,
+        596,
+        2483,
+        1014
+      ],
+      "padded_box": [
+        1989,
+        533,
+        2547,
+        1076
+      ],
+      "reasoning": "The image shows a primary caries lesion (tooth decay) in the mid right region of the image. I am moderately confident this is caries.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 1,
+      "iou_with_gt": 0.8158
+    }
+  ],
+  "matched": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "image": "/Users/eemanmajumder/code_shit/daath/yolo_split/images/test/anonymous_003_007_423_00_1728457856133_Maxillary_Occlusal_View.jpg",
+  "gt_boxes_xyxy": [
+    [
+      200,
+      793,
+      617,
+      1073
+    ],
+    [
+      92,
+      956,
+      614,
+      1373
+    ],
+    [
+      48,
+      1301,
+      539,
+      1548
+    ],
+    [
+      2228,
+      1081,
+      2709,
+      1440
+    ],
+    [
+      2214,
+      1368,
+      2628,
+      1593
+    ]
+  ],
+  "detections": [
+    {
+      "index": 0,
+      "cls": "d",
+      "confidence": 0.7831106185913086,
+      "box": [
+        200,
+        749,
+        618,
+        1057
+      ],
+      "padded_box": [
+        137,
+        702,
+        680,
+        1103
+      ],
+      "reasoning": "A primary caries lesion is visible in the mid right region of the image. I can identify this with high confidence.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 0,
+      "iou_with_gt": 0.813
+    },
+    {
+      "index": 1,
+      "cls": "d",
+      "confidence": 0.6654523611068726,
+      "box": [
+        2193,
+        1354,
+        2628,
+        1611
+      ],
+      "padded_box": [
+        2127,
+        1315,
+        2693,
+        1636
+      ],
+      "reasoning": "The image shows a primary caries lesion with a permanent discoloration in the mid right region of the image. Yes, it appears to be dental caries; I am moderately confident in this assessment.",
+      "mg_verdict": "confirm",
+      "tp_fp": "TP",
+      "gt_index": 4,
+      "iou_with_gt": 0.8332
+    }
+  ],
+  "matched": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 3
+  }
+}
