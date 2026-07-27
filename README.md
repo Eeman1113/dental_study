@@ -7,8 +7,6 @@ A two-stage detector for dental caries on intraoral photographs:
 
 This repo also ships a **LoRA fine-tune of MedGemma** on the same dataset (labels re-cast as VLM instruction data with grounded reasoning traces), the merged/quantized GGUF weights ready for Ollama, and a full 332-image test-set evaluation comparing YOLO alone, YOLO + base MedGemma, and YOLO + fine-tuned MedGemma.
 
-> ⚠️ **Medical data.** The `yolo_split/`, `test/testset/`, and `test_caries_full/testset/` directories contain anonymized intraoral photographs. Anonymized ≠ consented. If you fork or redistribute, verify the source dataset's terms.
-
 ---
 
 ## Headline result on the held-out test set (332 images, 850 GT lesions)
